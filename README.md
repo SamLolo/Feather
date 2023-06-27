@@ -19,14 +19,15 @@ Recommended ways to download the modpack:
 The files for each minecraft version are contained in their own branch respectively. This branch "*latest*" will always be the highest minecraft version supported, which is currently **1.20.1**. The modpacks are stored using [Packwiz](https://github.com/packwiz/packwiz), which is a command-line based tool used for managing modpacks. If you plan to update or alter the modpack yourself, you should familarise yourself with their [wiki](https://packwiz.infra.link/tutorials/creating/getting-started/) first!
 
 For each minecraft version, you should see the following files:
-- client
+- [Client](Client/)
   - *Contains the curseforge and modrinth packwiz folders for the modpack*
     - *For exporting to Curseforge, use the curseforge packwiz!*
     - *For exporting to Modrinth, use the modrinth packwiz!*
-- server **(Coming Soon!)**
-- scripts
+- [Server](Server/) **(Coming Soon!)**
+  - *Contains the packwiz folders used for creating the supporting server files. Similar format to the client folder!*
+- [Scripts](Scripts/)
   - *Contains a collection of tools and scripts written to help with managing the modpack*
 
 ## Issues & Suggestions
-[![](https://dcbadge.vercel.app/api/server/McB4eXxkqB)](https://discord.gg/McB4eXxkqB)
+[![Discord](https://img.shields.io/discord/991287498661707846?style=for-the-badge&logo=discord&logoColor=%235865F2&label=Join%20the%20discord!&labelColor=%23696969&color=%235865F2)](https://discord.gg/McB4eXxkqB)
 
