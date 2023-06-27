@@ -1,0 +1,83 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fast"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "simple"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				axolotl = true
+				cow = true
+				chest_minecart = true
+				fox = true
+				pig = true
+				slime = true
+				skeleton = true
+				bat = true
+				area_effect_cloud = true
+				rabbit = true
+				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				player = true
+				item = true
+				wolf = true
+				villager = true
+				salmon = true
+				zombie_villager = true
+				glow_squid = true
+				witch = true
+				cod = true
+				glow_item_frame = false
+				squid = true
+				spider = true
+				creeper = true
+				enderman = true
+				dolphin = true
+				experience_orb = true
+				arrow = true
+				fishing_bobber = true
+				lightning_bolt = true
+				goat = true
+				horse = true
+				donkey = true
+				boat = true
+				chest_boat = true
+				tropical_fish = true
+				pufferfish = true
+				llama = true
+				trident = true
+				turtle = true
+				iron_golem = true
+				cat = true
+				husk = true
+				wandering_trader = true
+				trader_llama = true
+				cave_spider = true
+				pillager = true
+				frog = true
+				egg = true
+				parrot = true
+				llama_spit = true
+				painting = true
+				skeleton_horse = true
+				leash_knot = true
+				ocelot = true
+

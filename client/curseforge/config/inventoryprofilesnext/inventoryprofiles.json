@@ -1,0 +1,26 @@
+{
+    "ModSettings": {
+        "always_include_hotbar": true,
+        "highlight_foused_items": false,
+        "highlight_foused_items_foreground": false,
+        "enable_auto_refill": false,
+        "enable_updates_check": false,
+        "highlight_clicking_slot": false,
+        "restock_hotbar": true,
+        "move_all_at_cursor": false,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "enable_inventory_editor_button": false,
+        "continuous_crafting_saved_value": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_allow_pickup_into_empty": true,
+        "locked_slots_empty_hotbar_as_semi_locked": false
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": true,
+        "container_swipe_moving_items": false
+    }
+}

@@ -1,0 +1,13 @@
+name = "Collective"
+filename = "collective-1.20.1-6.62.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/EbteiHrL/collective-1.20.1-6.62.jar"
+hash-format = "sha1"
+hash = "041da824f60c20246d66262022b51cc5f8ebb2b2"
+
+[update]
+[update.modrinth]
+mod-id = "e0M1UDsY"
+version = "EbteiHrL"

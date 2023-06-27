@@ -1,0 +1,13 @@
+name = "Horse Stats Vanilla (Fabric)"
+filename = "horse-stats-vanilla-4.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa1a1f3dc6c620572db527cb067ea743df0af907"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4587364
+project-id = 351393

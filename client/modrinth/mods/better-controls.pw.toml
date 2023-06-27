@@ -1,0 +1,13 @@
+name = "Better Controls"
+filename = "BetterControls-Fabric-1.20+v1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2b2cb9fdd984d5ecb5d28bb12d6aec58f30660f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4590939
+project-id = 413259

@@ -1,0 +1,13 @@
+name = "Client Tweaks"
+filename = "clienttweaks-fabric-1.20-11.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vPNqo58Q/versions/L3su862e/clienttweaks-fabric-1.20-11.0.0.jar"
+hash-format = "sha1"
+hash = "d305a6377a9851cc44b676610fce5ec727d3a2e9"
+
+[update]
+[update.modrinth]
+mod-id = "vPNqo58Q"
+version = "L3su862e"

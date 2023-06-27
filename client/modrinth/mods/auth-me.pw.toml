@@ -1,0 +1,13 @@
+name = "Auth Me"
+filename = "authme-7.0.1+1.20.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yjgIrBjZ/versions/TyXRb1be/authme-7.0.1%2B1.20.jar"
+hash-format = "sha1"
+hash = "b61e03cd948d296e0e0dc811397e3c3317801e64"
+
+[update]
+[update.modrinth]
+mod-id = "yjgIrBjZ"
+version = "TyXRb1be"

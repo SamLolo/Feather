@@ -1,0 +1,13 @@
+name = "Clear Skies"
+filename = "clear-skies-fabric-mc119-2.0.96.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1f3cf1b19fff0c1606e6e4c3d39aeb57b8e6ffcc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4166583
+project-id = 332523

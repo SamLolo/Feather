@@ -1,0 +1,13 @@
+name = "Compact Help Command"
+filename = "compacthelpcommand-1.20.1-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XdiGl7ZL/versions/hqVgkw1I/compacthelpcommand-1.20.1-2.3.jar"
+hash-format = "sha1"
+hash = "d49fa538facf85b583d7bd9d99563ff05c1785b4"
+
+[update]
+[update.modrinth]
+mod-id = "XdiGl7ZL"
+version = "hqVgkw1I"

@@ -1,0 +1,13 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-fabric-mc1.20-2.25.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21ae6dd81324543e77c10bbb2b928320d71b6750"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4581243
+project-id = 60089

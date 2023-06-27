@@ -1,0 +1,13 @@
+name = "Make Bubbles Pop [Forge/Fabric/Quilt]"
+filename = "make_bubbles_pop-0.1.1-1.19.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c99fb8e67700f81374961704d595ec1b9a95caca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4444693
+project-id = 605235

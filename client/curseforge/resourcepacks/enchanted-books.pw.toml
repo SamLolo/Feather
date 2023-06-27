@@ -1,0 +1,13 @@
+name = "Enchanted Books"
+filename = "Enchanted Books v0.9.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07ecd6a91403151c27b95a053efa0e30c0c2a150"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4599498
+project-id = 538478

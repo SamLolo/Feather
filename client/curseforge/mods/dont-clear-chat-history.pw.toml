@@ -1,0 +1,13 @@
+name = "Don't Clear Chat History"
+filename = "dcch-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f2775f49ec071af6d84f9ebf6150f03e42c76aad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4598156
+project-id = 404400

@@ -1,0 +1,13 @@
+name = "Enchanted Weapons"
+filename = "Enchanted Weapons v2.6.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b33ea619d5806b4efd16160a2897d67561b1c38"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4599508
+project-id = 387040

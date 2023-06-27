@@ -14,3 +14,19 @@ Recommended ways to download the modpack:
     - Supports *Windows*, *Mac*, *Linux (x86 & ARM)*, *Steam Deck*
     - To install from **Modrinth**: follow [this tutorial](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher)
     - To install from **Curseforge/Other Formats**: follow [this tutorial](https://prismlauncher.org/wiki/getting-started/download-modpacks/)
+
+## How To Use The Repository
+The files for each minecraft version are contained in their own branch respectively. This branch "*latest*" will always be the highest minecraft version supported, which is currently **1.20.1**. The modpacks are stored using [Packwiz](https://github.com/packwiz/packwiz), which is a command-line based tool used for managing modpacks. If you plan to update or alter the modpack yourself, you should familarise yourself with their [wiki](https://packwiz.infra.link/tutorials/creating/getting-started/) first!
+
+For each minecraft version, you should see the following files:
+- client
+  - *Contains the curseforge and modrinth packwiz folders for the modpack*
+    - *For exporting to Curseforge, use the curseforge packwiz!*
+    - *For exporting to Modrinth, use the modrinth packwiz!*
+- server **(Coming Soon!)**
+- scripts
+  - *Contains a collection of tools and scripts written to help with managing the modpack*
+
+## Issues & Suggestions
+[![](https://dcbadge.vercel.app/api/server/McB4eXxkqB)](https://discord.gg/McB4eXxkqB)
+
