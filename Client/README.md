@@ -1,5 +1,6 @@
 # Client Files
 The 2 folders are Packwiz format saves of the modpack. These can be used to update and alter the modpack if you know what you're doing. If you'd like to learn more about Packwiz as a tool, you can visit their [github](https://github.com/packwiz/packwiz)!
+
 *Please note: we will not be able to provide support for those trying to update the pack themselves. If you don't know what you're doing, it's best to wait for the official releases on Curseforge and Modrinth!*
 
 ## Curseforge
