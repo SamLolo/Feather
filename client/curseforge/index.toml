@@ -894,11 +894,6 @@ hash = "9ba47392a35985c0850dea12ee5fd29994d368a0ff0ad0a9c0331b69e351b77f"
 metafile = true
 
 [[files]]
-file = "mods/balm-fabric.pw.toml"
-hash = "9be6a9214aabdea3357e9e76d92ee507fa71370269b69e62edc720f3d4a33c47"
-metafile = true
-
-[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "5c806ef03d1a276ceba463b2c316d7b5033ead471ca78c798a1182c1cf93fd2b"
 metafile = true
@@ -980,17 +975,12 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough.pw.toml"
-hash = "cd05b78ea8049d2c40e1cef61884202d54280afbd37f4f4e20d853e30d02327d"
+hash = "83490115c60d8516b38636135035192a61ed28b9ba229f77496844496c2f3f06"
 metafile = true
 
 [[files]]
 file = "mods/client-side-noteblocks.pw.toml"
 hash = "a128c0b7bb1b09e802df9d3567fca1df19f5f0e8138b2b39cd64ea5c159b6869"
-metafile = true
-
-[[files]]
-file = "mods/client-tweaks-fabric.pw.toml"
-hash = "4ddcbf39831573562364d24dd3202a8b6771fbade932b0f58b817dc03483d5f0"
 metafile = true
 
 [[files]]
@@ -1080,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/fadeless.pw.toml"
-hash = "bd5311680997fada18e6492a91770fdc0762c718b3109820d67c1b019c2f1bf8"
+hash = "07a47e267bea1fdf72011e12b96521c08a8cf95078d1276b6ca655d0e183e432"
 metafile = true
 
 [[files]]
@@ -1161,11 +1151,6 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "b851e1670040af1d3b1684bf524fa5b61740e99ddfc10ea5c2c46afbde62f7f8"
-metafile = true
-
-[[files]]
-file = "mods/lazydfu.pw.toml"
-hash = "e75515de6f60227e731affe8077018bd68d8556ebd62032a5e5bd5217b28d44f"
 metafile = true
 
 [[files]]
@@ -1300,7 +1285,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "545ced53894d6f262c54de26c1c2aa2db744a8930233cdfd9df927f2393108a4"
+hash = "045bf131371b0a6a2e5cb2c3aab3a6cce0d43eb37af7a15a40ba0103b5915337"
 metafile = true
 
 [[files]]
@@ -1311,6 +1296,11 @@ metafile = true
 [[files]]
 file = "mods/slight-gui-modifications.pw.toml"
 hash = "266fc2da693d8a920a6a3ecfbf24b3dfee06af825c3d026b5c625d15256441c0"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "a084a7fe0bf42654bdff1a2a79f9406a1cb2395eb5f9fb81445f4597b4d8c89e"
 metafile = true
 
 [[files]]
@@ -1354,8 +1344,9 @@ hash = "bbbcf529b4c35f04e733922ca06dde4aac8d97a556e4396da25d99e2d079c0c9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Authentic+Shadows_1.20.zip"
-hash = "4edb3a2ca4a458c2fc064948665be0a8730163c0d275f496794257aa77e58139"
+file = "resourcepacks/authentic-shadows.pw.toml"
+hash = "bc17e8021f6c95fe294dfd6d4182beb4f2f3e7be16d925c04be04f6328e5cbdd"
+metafile = true
 
 [[files]]
 file = "resourcepacks/default-dark-mode.pw.toml"

@@ -885,7 +885,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "5ade0167c12aa00d6cced218514e6a6531c7c7773a4c1cb79b14a2bc484075dd"
+hash = "f238e1f28f18e58f737116b13dab9716ca38b2dd84242e802d60419cc71ed737"
 metafile = true
 
 [[files]]
@@ -896,11 +896,6 @@ metafile = true
 [[files]]
 file = "mods/badpackets.pw.toml"
 hash = "cbf5544ba86d4d10262fff9c53af6c9ef05bb92d329bb02f891a5aaf3ca94631"
-metafile = true
-
-[[files]]
-file = "mods/balm-fabric.pw.toml"
-hash = "9be6a9214aabdea3357e9e76d92ee507fa71370269b69e62edc720f3d4a33c47"
 metafile = true
 
 [[files]]
@@ -975,12 +970,12 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "bed84ea542648fc65b622c84a0b9cb645b057005f29358c46afb03bd03200d9f"
+hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
 metafile = true
 
 [[files]]
 file = "mods/clear-skies.pw.toml"
-hash = "e7d1820bbc37773d99c426d45d4813155341b00e2de74ac3f474c4329dc7316b"
+hash = "a55ff973abfd437cfe5e319ac41e2084094c0a0a84275ab887c8989751015f2e"
 metafile = true
 
 [[files]]
@@ -990,17 +985,12 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough.pw.toml"
-hash = "cd05b78ea8049d2c40e1cef61884202d54280afbd37f4f4e20d853e30d02327d"
+hash = "e97a10a4c948f7b4c4aa8b94f25680e4055e6a5ac04e0ce6db5feb897985b4dd"
 metafile = true
 
 [[files]]
-file = "mods/client-side-noteblocks.pw.toml"
-hash = "a128c0b7bb1b09e802df9d3567fca1df19f5f0e8138b2b39cd64ea5c159b6869"
-metafile = true
-
-[[files]]
-file = "mods/client-tweaks.pw.toml"
-hash = "2a564a466dfec0e9020d1e46c9c7d730511beb25681ad76c2e6160fda591b680"
+file = "mods/clientsidenoteblocks.pw.toml"
+hash = "a78479993633f294e2ce372838b67c68e1cb6df73e1f8bf3faafe6690ef12e96"
 metafile = true
 
 [[files]]
@@ -1105,7 +1095,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastopenlinksandfolders.pw.toml"
-hash = "8a2498e02882121efeac1e1836e93ecaa06370828117295a589163de4008c46f"
+hash = "ff54403726ef6349d2b0d9fc9588e5923aff79c0756820f3d4aa2c4c9dd8e2d8"
 metafile = true
 
 [[files]]
@@ -1174,18 +1164,13 @@ hash = "409d820a08baf91ace8443e3abb9ef8914083b053e1e24cb989419aaef8b3f5d"
 metafile = true
 
 [[files]]
-file = "mods/lazydfu.pw.toml"
-hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
-metafile = true
-
-[[files]]
 file = "mods/libipn.pw.toml"
 hash = "b7d04fcd38f84af79e1733f2f4912df51f40dbd5d196f5d6bbadce586b52136b"
 metafile = true
 
 [[files]]
 file = "mods/light-overlay.pw.toml"
-hash = "887b2aae3cecc73d7ab4aa2676f52429fc4785f0c0462adf3b2344811b6839b6"
+hash = "c9ee46aee098ea5b32c46b028b7bc3ee7138f3e5c92bee8515a2f2152cbb6506"
 metafile = true
 
 [[files]]
@@ -1310,7 +1295,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "d0bb678867006b092ce328666e1816652b93c13c6d62f520ffe3a212ae396fdb"
+hash = "eb3076c85b4619d40ebf21801aac4620ef359855a46c2a62bb685e66939e3ccd"
 metafile = true
 
 [[files]]
@@ -1360,16 +1345,13 @@ metafile = true
 
 [[files]]
 file = "mods/yosbr.pw.toml"
-hash = "bbbcf529b4c35f04e733922ca06dde4aac8d97a556e4396da25d99e2d079c0c9"
+hash = "6f6334f336a876088431df70e2bba6ac52ca2ddeb73a4880ce88d6954b09af00"
 metafile = true
 
 [[files]]
-file = "resourcepacks/Authentic+Shadows_1.20.zip"
-hash = "4edb3a2ca4a458c2fc064948665be0a8730163c0d275f496794257aa77e58139"
-
-[[files]]
-file = "resourcepacks/SmoothFont_1.19.X.zip"
-hash = "ac027934735343b8ef8044d94d89621acd368addb3cee52f7d38697996ecc96d"
+file = "resourcepacks/authentic-shadows.pw.toml"
+hash = "c327a189d9145dff0b8df1704173fc20a91b2f804c3d6346d7b3201ded0ad04c"
+metafile = true
 
 [[files]]
 file = "resourcepacks/default-dark-mode.pw.toml"
@@ -1399,6 +1381,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
 hash = "c660f09f4cfd7413f901f72f89986dfb75197fa24038964ce1e47f4b5e376325"
+metafile = true
+
+[[files]]
+file = "resourcepacks/smooth-font.pw.toml"
+hash = "544912bcb187f741350ca39f7ba1d2cecf8a0d8169706ac2198b619cc7708007"
 metafile = true
 
 [[files]]

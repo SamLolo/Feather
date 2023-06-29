@@ -1,13 +1,13 @@
 name = "ClickThrough"
-filename = "clickthrough-1.19.3-fabric0.68.1-0.4.jar"
+filename = "clickthrough-1.20-fabric0.83.0-0.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c160eb30eb70b1cd1323a919ac56920c7973dbd3"
+hash = "7462fece71369b98cdaad880b95518e45499d829"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4153350
+file-id = 4613767
 project-id = 405262

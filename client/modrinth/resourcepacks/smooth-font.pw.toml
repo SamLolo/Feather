@@ -1,0 +1,13 @@
+name = "Smooth Font [1.20]"
+filename = "SmoothFont_1.19.X.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce053e246b97c4f0092e9e54110dae700bf65736"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3942874
+project-id = 616555
