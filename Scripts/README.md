@@ -1,5 +1,5 @@
 # Helper Scripts & Tools
-**Note: This is currently empty, however I plan to add to this as the project progresses**
+**Note: This is currently empty, however I plan to add to this as the project progresses!**
 
 Here you will find any helper scripts and tools used when creating the modpack!
 
