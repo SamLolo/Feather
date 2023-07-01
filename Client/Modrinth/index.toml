@@ -1009,11 +1009,6 @@ hash = "16cff7144211962a3b7c701c368b92a63add20b3226f91fa74894a1704d7d2f0"
 metafile = true
 
 [[files]]
-file = "mods/connectivity.pw.toml"
-hash = "7320ac084406c4b7b23856d511700c356f59966a878857b04d0ef3f061054482"
-metafile = true
-
-[[files]]
 file = "mods/continuity.pw.toml"
 hash = "8e73f68cbcbff53b6a00c30f371fc34a63c2ac2240af4792008d67dce74fb507"
 metafile = true
@@ -1359,26 +1354,6 @@ hash = "1de5f2bf9632a9bfb2576a95711155fb72d4dc9825d767615465fe58cd6bd588"
 metafile = true
 
 [[files]]
-file = "resourcepacks/enchanted-books.pw.toml"
-hash = "1d4c24318780db9dc316699b95ed87430683f492941670474abafd93f7694bc3"
-metafile = true
-
-[[files]]
-file = "resourcepacks/enchanted-tools.pw.toml"
-hash = "c2efdc6cb6fd40536fffd51ae353999fc63239f300cd64c2eaae6610eca15e1d"
-metafile = true
-
-[[files]]
-file = "resourcepacks/enchanted-weapons-slim-version.pw.toml"
-hash = "1b3ae7bc5aeb1b548a2969cf79e4528fb25779c062bce2db1e6c5278a8cfab48"
-metafile = true
-
-[[files]]
-file = "resourcepacks/enchanted-weapons.pw.toml"
-hash = "a761d02f43170583971271137638fb1f62691a1702602ef0662c4d0fe5b023b6"
-metafile = true
-
-[[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
 hash = "c660f09f4cfd7413f901f72f89986dfb75197fa24038964ce1e47f4b5e376325"
 metafile = true
@@ -1386,9 +1361,4 @@ metafile = true
 [[files]]
 file = "resourcepacks/smooth-font.pw.toml"
 hash = "544912bcb187f741350ca39f7ba1d2cecf8a0d8169706ac2198b619cc7708007"
-metafile = true
-
-[[files]]
-file = "resourcepacks/water-improved.pw.toml"
-hash = "d3cfd34010bf3adfada6d92d6df6acd71f467ff5bd159eb672c882d3200206a4"
 metafile = true
