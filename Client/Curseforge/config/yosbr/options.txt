@@ -1,5 +1,6 @@
-version:3120
+version:3465
 autoJump:false
+operatorItemsTab:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -25,6 +26,10 @@ fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
+glintSpeed:0.5
+glintStrength:0.75
+damageTiltStrength:1.0
+highContrast:false
 gamma:1.0
 renderDistance:16
 simulationDistance:12
@@ -33,12 +38,12 @@ guiScale:3
 particles:0
 maxFps:260
 graphicsMode:1
-ao:2
+ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","charmonium/journeyman","file/Authentic+Shadows_1.19+.zip","file/Water+Improved.zip","minecraft/supporteatinganimation","file/EmbellishedStone-1.19-1.0.0.zip","file/Default-Dark-Mode-1.19-v1.3.3.zip","file/Enchanted Books v0.6.zip","file/Enchanted Weapons sv0.6.zip","file/Enchanted Tools v2.7.zip","file/Enchanted Weapons v2.4.zip","file/SmoothFont_1.19.X.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","fabric","file/Water+Improved.zip","minecraft:supporteatinganimation","file/SmoothFont_1.19.X.zip","file/Enchanted Weapons v2.6.zip","file/Enchanted Weapons sv0.8.zip","file/Enchanted Tools v3.0.zip","file/Enchanted Books v0.9.zip","file/Default-Dark-Mode-1.20-2023.6.0.zip","file/Authentic Shadows_1.20.zip"]
+incompatibleResourcePacks:["file/SmoothFont_1.19.X.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -52,12 +57,12 @@ advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
-heldItemTooltips:true
 chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
+notificationDisplayTime:1.0
 mipmapLevels:4
 useNativeTransport:true
 mainHand:"right"
@@ -75,8 +80,11 @@ hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-chatPreview:1
 onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+debugifyTelemetry:0
+telemetryOptInExtra:false
+onboardAccessibility:false
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
 key_key.forward:key.keyboard.w
@@ -133,9 +141,7 @@ key_key.camerautils.third_person_camera_2_settings:key.keyboard.unknown
 key_key.camerautils.third_person_settings:key.keyboard.unknown
 key_key.camerautils.zoom_settings:key.keyboard.unknown
 key_key.camerautils.zoom_animation_settings:key.keyboard.unknown
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
-key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
+key_key.clickthrough.toggle:key.keyboard.f9
 key_key.durabilityviewer.showhide:key.keyboard.v
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.gamma_utils.gamma_toggle:key.keyboard.g
@@ -144,14 +150,14 @@ key_key.gamma_utils.decrease_gamma:key.keyboard.down
 key_key.gamma_utils.max_gamma:key.keyboard.unknown
 key_key.gamma_utils.min_gamma:key.keyboard.unknown
 key_key.gamma_utils.night_vision_toggle:key.keyboard.h
-key_inventorytabs.key.next_tab:key.keyboard.grave.accent
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_presencefootsteps.settings.key:key.keyboard.unknown
+key_key.openNotes:key.keyboard.n
+key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.push_to_talk:key.keyboard.caps.lock
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.m
-key_key.disable_voice_chat:key.keyboard.n
+key_key.disable_voice_chat:key.keyboard.period
 key_key.hide_icons:key.keyboard.unknown
 key_key.voice_chat:key.keyboard.y
 key_key.voice_chat_settings:key.keyboard.unknown
@@ -166,6 +172,7 @@ key_key.waila.show_recipe_output:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_key.craftpresence.config_keycode.name:key.keyboard.unknown
 soundCategory_master:0.75821596
 soundCategory_music:0.10093897
 soundCategory_record:1.0

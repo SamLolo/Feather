@@ -2,7 +2,7 @@
   "clickthrough.config.sneaktodye": {
     "key": "Sneak to dye signs",
     "toolTip": "clickthrough.config.tt.sneaktodye",
-    "value": false,
+    "value": true,
     "defaultValue": true
   },
   "clickthrough.config.ignore.3": {
@@ -34,5 +34,18 @@
     "toolTip": "clickthrough.config.tt.ignore.2",
     "value": "",
     "defaultValue": ""
+  },
+  "clickthrough.config.switchonattack": {
+    "options": [
+      "clickthrough.config.switchonattack.never",
+      "clickthrough.config.switchonattack.first",
+      "clickthrough.config.switchonattack.always"
+    ],
+    "key": "Reroute left button as well",
+    "toolTip": "clickthrough.config.tt.switchonattack",
+    "value": 0,
+    "defaultValue": 0,
+    "minValue": 0,
+    "maxValue": 2
   }
 }

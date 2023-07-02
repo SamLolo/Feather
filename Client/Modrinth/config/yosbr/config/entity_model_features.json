@@ -1,0 +1,10 @@
+{
+  "printModelCreationInfoToLog": false,
+  "printAllMaths": false,
+  "renderCustomModelsGreen": false,
+  "vanillaModelRenderMode": "Off",
+  "mathFunctionChoice": "JavaMath",
+  "tryForceEmfModels": true,
+  "printModdedMappingHelp": false,
+  "attemptToCopyVanillaModelIntoMissingModelPart": true
+}

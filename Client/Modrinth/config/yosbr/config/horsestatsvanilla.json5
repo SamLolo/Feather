@@ -1,7 +1,12 @@
 {
-	"useColors": true,
+	"showValue": true,
 	"showMaxMin": true,
-	"enableTooltip": true,
+	"enableTooltip": false,
+	"valueUp": false,
+	"useColors": true,
+	"goodColor": -16731136,
+	"neutralColor": -12171706,
+	"badColor": -65536,
 	"goodHorseJumpValue": 4.0,
 	"badHorseJumpValue": 2.5,
 	"goodHorseSpeedValue": 11.0,
@@ -9,20 +14,5 @@
 	"goodHorseHeartsValue": 25.0,
 	"badHorseHeartsValue": 20.0,
 	"goodStrengthValue": 9.0,
-	"badStrengthValue": 6.0,
-	"goodColor": {
-		"red": 0,
-		"green": 180,
-		"blue": 0
-	},
-	"neutralColor": {
-		"red": 70,
-		"green": 70,
-		"blue": 70
-	},
-	"badColor": {
-		"red": 255,
-		"green": 0,
-		"blue": 0
-	}
+	"badStrengthValue": 6.0
 }

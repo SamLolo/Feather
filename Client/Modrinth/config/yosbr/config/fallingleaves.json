@@ -4,8 +4,9 @@
   "enabled": true,
   "leafSize": 5,
   "leafLifespan": 200,
-  "leafSpawnRate": 10,
+  "leafSpawnRate": 6,
   "coniferLeafSpawnRate": 0,
+  "snowflakeSpawnRate": 15,
   "dropFromPlayerPlacedBlocks": true,
   "leavesOnBlockHit": true,
   "minimumFreeSpaceBelow": 1,
@@ -48,6 +49,10 @@
       "isConiferBlock": true
     },
     "minecraft:mangrove_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "minecraft:cherry_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     }
