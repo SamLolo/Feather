@@ -925,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "8772e9624f75bc138a9dcc41fd6569056061517e007a875b5acedb892d22ab9f"
+hash = "6f4b7e267811112a7d5283ad01b561bf03b18b7aac242dd25d8c899adec5cfec"
 metafile = true
 
 [[files]]
@@ -964,11 +964,6 @@ hash = "4c712d7ad6d2ddb130b845c3b2c660be7cb7795db21be00b130443730719305e"
 metafile = true
 
 [[files]]
-file = "mods/carpet.pw.toml"
-hash = "095a93b4f0b4e2b8fadf8359bc145cbdd83be3c5bf23432e9a5f4e54d60de5b4"
-metafile = true
-
-[[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "44e2cc695c040b7bbca462165099fa3c56a98aa8f01104bb067dc850b65f6d02"
 metafile = true
@@ -985,7 +980,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough.pw.toml"
-hash = "e97a10a4c948f7b4c4aa8b94f25680e4055e6a5ac04e0ce6db5feb897985b4dd"
+hash = "7703705832bac583d57f9c7c4abf04a669273f3bbf047fb8b333b52e9f5bb3ed"
 metafile = true
 
 [[files]]
@@ -1031,6 +1026,16 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "dd45b08011417dd062568cbb230369a29aff617066c7108cf4a240ccdd9a030b"
+metafile = true
+
+[[files]]
+file = "mods/dripsounds-fabric.pw.toml"
+hash = "6992619452254eac894dbaaaff722c4dfa3d3576405f1b3c4d9782fe98aaf7e1"
+metafile = true
+
+[[files]]
+file = "mods/durabilityviewer.pw.toml"
+hash = "dd14faa78d5204f09aa6e2edc27953927f72c0ebb7e8deb81ba3fe4fa734b9f5"
 metafile = true
 
 [[files]]
@@ -1120,7 +1125,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "f9ac3135cbfed6f7dd40506f71fcbe4ede2aab70e92b2845e5af688cf91ed7cb"
+hash = "5945376058eb508f9a049134ed66dbc70c861d80d043441e03b10fa4338dc1e0"
 metafile = true
 
 [[files]]
@@ -1254,6 +1259,11 @@ hash = "15bbdb7f98ae7148b79b69408488dd03016ac89fe647b5396417a8ba4f968df0"
 metafile = true
 
 [[files]]
+file = "mods/notes.pw.toml"
+hash = "7db8b87b606e288c4fefe7d3e4da5bc39ef0f9a1596822ff9f3e28b86ed39d1c"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "0241aaf8419884f43f529223b52e274712b109557e065846b953ab91953f2cb7"
 metafile = true
@@ -1290,7 +1300,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "eb3076c85b4619d40ebf21801aac4620ef359855a46c2a62bb685e66939e3ccd"
+hash = "e322a7ff1a300edcd29320206634eed36eab9a8b06e4e9142d163d89da341bb4"
 metafile = true
 
 [[files]]
@@ -1326,6 +1336,11 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "9b3fd0e07219491269f7977d4b42c3c4c9769f1c99cf1531e612265157ed7071"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "9f6d01028472394a8c3120f1e2a0229d09c77069bdca793159fecc6074aae394"
 metafile = true
 
 [[files]]

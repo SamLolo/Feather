@@ -1,0 +1,13 @@
+name = "Drip Sounds (Fabric)"
+filename = "DripSounds-1.19.4-0.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0ec2a4722337bdcb668b6e37c43ec35bc2e0c617"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4579522
+project-id = 448311

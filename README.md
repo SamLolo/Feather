@@ -3,6 +3,7 @@ A lightweight fabric modded client packed full of vanilla-like features and perf
 
 [![](https://cf.way2muchnoise.eu/full_530772_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
 [![](https://cf.way2muchnoise.eu/versions/530772.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
+
 ## Downloads
 [![](https://cf.way2muchnoise.eu/title/530772.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client/files)
 
@@ -17,7 +18,7 @@ Recommended ways to download the modpack:
 3) [MultiMC](https://multimc.org/)
     - Supports *Windows*, *Mac*, *Linux*
     - To install the modpack, have a look at this [general tutorial](https://apexminecrafthosting.com/how-to-play-mods-with-multi-mc/)
-4) [Minecraft Launcher](https://www.minecraft.net/en-us/download) **[Coming Soon!]**
+4) [Minecraft Launcher](https://www.minecraft.net/en-us/download)
     - Supports *Windows*, *Mac*, *Linux*
     - For install instructions, have a look at this [documentation](https://github.com/SamLolo/Feather/tree/latest/USING-GITHUB-RELEASES.md)
 

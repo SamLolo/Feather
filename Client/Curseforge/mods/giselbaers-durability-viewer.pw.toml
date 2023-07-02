@@ -1,0 +1,13 @@
+name = "Giselbaer's Durability Viewer"
+filename = "durabilityviewer-1.20-fabric0.83.0-1.10.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c1014cb01880a99f3eb098334e3ba2de486c114"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4615429
+project-id = 262146

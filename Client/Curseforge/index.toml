@@ -915,7 +915,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "4dde631d3d98a5b31e321e54a11967f796ecc8cf1bd68c9c5bc4cc607bbba884"
+hash = "20aa2bd62a81cfeeda5507921ccce149575285a5567591e5a2a4da3dc8d9d23d"
 metafile = true
 
 [[files]]
@@ -954,11 +954,6 @@ hash = "507e08d6d797ba89b1934e94d25b0bfa6143a9576af3412aa91615e3bfae4d8d"
 metafile = true
 
 [[files]]
-file = "mods/carpet.pw.toml"
-hash = "5bc0b5ae28bc698d2c50671e86f090930f4a71c2588ed0f6883695950458c24d"
-metafile = true
-
-[[files]]
 file = "mods/cit-resewn.pw.toml"
 hash = "bed84ea542648fc65b622c84a0b9cb645b057005f29358c46afb03bd03200d9f"
 metafile = true
@@ -975,7 +970,7 @@ metafile = true
 
 [[files]]
 file = "mods/clickthrough.pw.toml"
-hash = "83490115c60d8516b38636135035192a61ed28b9ba229f77496844496c2f3f06"
+hash = "5a55bbd7ec5cef6fdc47f8fff05ff3e871aff29b6945580cb70e9d540d711b8f"
 metafile = true
 
 [[files]]
@@ -1004,11 +999,6 @@ hash = "7320ac084406c4b7b23856d511700c356f59966a878857b04d0ef3f061054482"
 metafile = true
 
 [[files]]
-file = "mods/continuity.pw.toml"
-hash = "2b23faaea45e753e3f8c9da4a64580cbe82e3e29eaadf3be76f414a681424441"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "37dbe5db8e3e61d53a00b8613d9256e8cad353cfdad8fd5d70352f9f5a4d2dfe"
 metafile = true
@@ -1026,6 +1016,11 @@ metafile = true
 [[files]]
 file = "mods/dont-clear-chat-history.pw.toml"
 hash = "adac795eded35e517993a8bdbd26bff061c5eea7f7252c6656c2e3d01ada30c8"
+metafile = true
+
+[[files]]
+file = "mods/dripsounds-fabric.pw.toml"
+hash = "989be22a02ab5267995a3ac0f8dfd831bbfaf6d4083301921b8617b9e454543e"
 metafile = true
 
 [[files]]
@@ -1099,6 +1094,11 @@ hash = "a89b1cbe002a2bff88bb1ce78fee1139f9580695dc3bd6c913d0b6c5054c75c4"
 metafile = true
 
 [[files]]
+file = "mods/giselbaers-durability-viewer.pw.toml"
+hash = "322a337d283fef21ed9d0e1e7098aaa41f5613049b90a2a0c3693f2369788ffb"
+metafile = true
+
+[[files]]
 file = "mods/held-item-info.pw.toml"
 hash = "2ede0d086231769f4c489a95487817ea535febcad3f9ce3f5a63fa8beaa884cd"
 metafile = true
@@ -1115,7 +1115,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "2b2faf8313ba26229364e1aa9293986f207df96ccc93d77863fe35adc0d7662a"
+hash = "c67b8d7447b02ef48f6bb100e02fe3f855e5779a18959872e74c30af2decb50a"
 metafile = true
 
 [[files]]
@@ -1249,6 +1249,11 @@ hash = "f13cd411d017440ee22407cc05866276c8ff31a6b163df07d12168bd95619bdb"
 metafile = true
 
 [[files]]
+file = "mods/notes.pw.toml"
+hash = "7db8b87b606e288c4fefe7d3e4da5bc39ef0f9a1596822ff9f3e28b86ed39d1c"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "995f5dbffe2e92dc3a1de0540b30acd937de9c0a6851b1ed5b36cdb3bc0c184e"
 metafile = true
@@ -1285,7 +1290,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "045bf131371b0a6a2e5cb2c3aab3a6cce0d43eb37af7a15a40ba0103b5915337"
+hash = "b6b2fe5740b1db89bb6b9058e5637b3b5dc21c280fa34daec6377c3e5fef6a79"
 metafile = true
 
 [[files]]
@@ -1326,6 +1331,11 @@ metafile = true
 [[files]]
 file = "mods/visuality.pw.toml"
 hash = "e27d63cc5f98c0c63d35454fdabe36c0e6ca4f7df7a227eaef6ed6fd08683787"
+metafile = true
+
+[[files]]
+file = "mods/waveycapes.pw.toml"
+hash = "8e4b39d333f55202bed4fa8b53428467f200f2fe45d8e8087cb79b3cd9d6916e"
 metafile = true
 
 [[files]]
