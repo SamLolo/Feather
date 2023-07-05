@@ -1,13 +1,13 @@
 name = "Feather"
 author = "SamLolo"
-version = "v2.1-beta"
+version = "v2.1"
 description = "A lightweight fabric modded client packed full of vanilla-like features and performance improvements that will make your minecraft experience that little bit better!"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f96ac996e9f885b67244e24a91eb636d407d001c11c878b2b2d5469de47ccc17"
+hash = "83c3ec358e75fe65c194b5846280a2e84dbb04a1e9ca1440ef5737b182354eec"
 
 [versions]
 fabric = "0.14.21"
