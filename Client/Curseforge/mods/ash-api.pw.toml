@@ -1,0 +1,13 @@
+name = "Ash API"
+filename = "ash_api-fabric-3.0.2+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "349651ce1d440231aca8c7bf8c6a32f58db26b79"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4653715
+project-id = 838498
