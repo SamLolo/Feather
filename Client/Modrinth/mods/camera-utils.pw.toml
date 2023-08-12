@@ -1,13 +1,13 @@
 name = "Camera Utils"
-filename = "camerautils-1.20.1-1.0.4.jar"
+filename = "camerautils-1.20.1-1.0.5.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rrwQMaWQ/versions/UDbaSacp/camerautils-1.20.1-1.0.4.jar"
+url = "https://cdn.modrinth.com/data/rrwQMaWQ/versions/Hlt5l77f/camerautils-1.20.1-1.0.5.jar"
 hash-format = "sha1"
-hash = "a2c1d8a20efed135d433b42b75027ad2c2b5abb5"
+hash = "3e237840b44f1d6042b1afe5939800b0b818311a"
 
 [update]
 [update.modrinth]
 mod-id = "rrwQMaWQ"
-version = "UDbaSacp"
+version = "Hlt5l77f"
