@@ -4,6 +4,9 @@ A lightweight fabric modded client packed full of vanilla-like features and perf
 [![](https://cf.way2muchnoise.eu/full_530772_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
 [![](https://cf.way2muchnoise.eu/versions/530772.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
 
+[![Modrinth](https://img.shields.io/modrinth/dt/BHSdOzJg?logo=modrinth&color=darkgreen&label=Modrinth%20Downloads&style=flat)](https://modrinth.com/modpack/feather)
+[![Modrinth Version](https://img.shields.io/modrinth/v/BHSdOzJg?logo=modrinth&label=Latest%20Version&color=darkgreen)](https://modrinth.com/modpack/feather/versions)
+
 ## Downloads
 [![](https://cf.way2muchnoise.eu/title/530772.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client/files)
 
