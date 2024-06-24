@@ -1,58 +1,55 @@
 name: Update | Pipeline
+
 on:
   workflow_dispatch:
 
 jobs:
 
-  parse-current-modpacks:
-    name: Parse current modpacks to a list
-
+  parse-modpacks:
+    name: Parse modpacks to a list
     runs-on: ubuntu-latest
 
     permissions:
       contents: read
 
-
     outputs:
-      modpack_folders: ${{ steps.list_modpacks.outputs.modpack_folders }}
+      modpack-folders: ${{ steps.list-modpacks.outputs.modpack-folders }}
     
     steps:
 
       - name: Check Out Git Repository
         uses: actions/checkout@v4
 
-
       - name: List Modpacks
-        id: list_modpacks
+        id: list-modpacks
         run: |
           modpackFolders=()
-          for folder in *; do
-            if [ -d "$folder" ]; then
-              if [ -e "$folder/pack.toml" ]; then
-                modpackFolders+=("$folder")
-              fi
+          while IFS= read -r -d '' folder; do
+            if [ -e "$folder/pack.toml" ]; then
+              modpackFolders+=("$folder")
             fi
-          done
-          
-          echo "modpack_folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
-
-      - name: Current detected modpacks
+          done < <(find client/ -type d -print0)
+            
+          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
+  
+      - name: Print detected modpacks
         run: |
-          echo "::notice ::⚙ Current detected modpacks: ${{ steps.list_modpacks.outputs.modpack_folders }}"
+          echo "::notice ::⚙ Detected modpacks: ${{ steps.list-modpacks.outputs.modpack-folders }}"
+
 
   update_mods:
     name: Update Mods
     runs-on: ubuntu-latest
 
     needs:
-      - parse-current-modpacks
+      - parse-modpacks
   
-    if: ${{ (needs.parse-current-modpacks.outputs.modpack_folders) != '[]' }}
+    if: ${{ (needs.parse-modpacks.outputs.modpack-folders) != '[]' }}
 
     strategy:
       fail-fast: false
       matrix:
-        modpack: ${{ fromJson(needs.parse-current-modpacks.outputs.modpack_folders) }}
+        modpack: ${{ fromJson(needs.parse-modpacks.outputs.modpack-folders) }}
 
     defaults:
       run:

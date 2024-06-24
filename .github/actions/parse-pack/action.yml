@@ -4,8 +4,7 @@ description: 'Parses a modpacks pack file'
 inputs:
   modpack:
     description: 'Path to the modpack directory'
-    required: false
-    default: '.'
+    required: true
   pack-file:
     description: 'Path to the pack config file'
     required: false

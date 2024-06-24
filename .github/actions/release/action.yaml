@@ -1,5 +1,6 @@
 name: 'Release Modpack From A Release | Action'
 description: 'This automatically downloads the newest release and description and uploads it to vendors!'
+
 inputs:
   loader:
     description: "Current Modpack Loader"
@@ -26,11 +27,6 @@ inputs:
   CURSEFORGE_ID:
     required: false
     description: "ID used to uploading modpack to Curseforge"
-
-  modpack:
-    description: "Modpack directory"
-    required: false
-    default: .
 
   release-tag:
     description: "Tag for the release"
@@ -103,7 +99,7 @@ runs:
       - name: Print Modrinth upload status
         if: steps.modrinth.outcome == 'success'
         run: |
-          echo "::notice ::☀ Modpack ${{ inputs.modpack }} has been uploaded to Modrinth with ${{ inputs.MODRINTH_ID }}"
+          echo "::notice ::☀ Modpack has been uploaded to Modrinth with ${{ inputs.MODRINTH_ID }}"
         shell: bash
 
       - name: Publish to CurseForge
@@ -123,6 +119,6 @@ runs:
       - name: Print Curseforge upload status
         if: steps.curseforge.outcome == 'success'
         run: |
-          echo "::notice ::☀ Modpack ${{ inputs.modpack }} has been uploaded to Curseforge with ${{ inputs.CURSEFORGE_ID }}"
+          echo "::notice ::☀ Modpack has been uploaded to Curseforge with ${{ inputs.CURSEFORGE_ID }}"
         shell: bash
 

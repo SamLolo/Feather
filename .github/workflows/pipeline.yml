@@ -8,19 +8,17 @@ on:
 env:
   pack-file: 'pack.toml'
   default-release-modrinth: 'true'
-  default-release-curseforge: 'false'
+  default-release-curseforge: 'true'
 
 
 jobs:
 
-  parse-current-modpacks:
-    name: Parse current modpacks to a list
-
+  parse-modpacks:
+    name: Parse modpacks to a list
     runs-on: ubuntu-latest
 
     permissions:
       contents: read
-
 
     outputs:
       modpack-folders: ${{ steps.list-modpacks.outputs.modpack-folders }}
@@ -34,32 +32,31 @@ jobs:
         id: list-modpacks
         run: |
           modpackFolders=()
-          for folder in *; do
-            if [ -d "$folder" ]; then
-              if [ -e "$folder/${{ env.pack-file }}" ]; then
-                modpackFolders+=("$folder")
-              fi
+          while IFS= read -r -d '' folder; do
+            if [ -e "$folder/pack.toml" ]; then
+              modpackFolders+=("$folder")
             fi
-          done
-          
+          done < <(find client/ -type d -print0)
+            
           echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
-
-
-      - name: Current detected modpacks
+  
+  
+      - name: Print detected modpacks
         run: |
-          echo "::notice ::⚙ Current detected modpacks: ${{ steps.list-modpacks.outputs.modpack-folders }}"
+          echo "::notice ::⚙ Detected modpacks: ${{ steps.list-modpacks.outputs.modpack-folders }}"
+
 
   release-please:
 
     needs:
-      - parse-current-modpacks
+      - parse-modpacks
   
-    if: ${{ (needs.parse-current-modpacks.outputs.modpack-folders) != '[]' }}
+    if: ${{ (needs.parse-modpacks.outputs.modpack-folders) != '[]' }}
 
     strategy:
       fail-fast: false
       matrix:
-        modpack: ${{ fromJson(needs.parse-current-modpacks.outputs.modpack-folders) }}
+        modpack: ${{ fromJson(needs.parse-modpacks.outputs.modpack-folders) }}
 
     name: Handle Releases
 
@@ -122,12 +119,14 @@ jobs:
         uses: WyriHaximus/github-action-get-previous-tag@v1
         if: ${{ steps.release-please.outputs.releases_created }}
 
+
       - name: Parse Pack File
         id: parse
-        uses: ./.github/actions/parse
+        uses: ./.github/actions/parse-pack
         with:
           modpack: ${{ matrix.modpack }}
         if: ${{ steps.release-please.outputs.releases_created }}
+
 
       - name: Set Mod Vendors
         id: set-mod-vendors
@@ -143,8 +142,8 @@ jobs:
         with:
           modpack: ${{ matrix.modpack }}
           release-tag: ${{ steps.tag.outputs.tag }}
-          build-modrinth: ${{ env.default-release-modrinth }}
-          build-curse: ${{ env.default-release-curseforge }}
+          build-modrinth: ${{ (env.default-release-modrinth) && (contains(matrix.modpack, 'modrinth')) }}
+          build-curse: ${{ (env.default-release-curseforge) && (contains(matrix.modpack, 'curseforge')) }}
         if: ${{ steps.release-please.outputs.releases_created }}
 
 
@@ -156,8 +155,8 @@ jobs:
           release-tag: ${{ steps.tag.outputs.tag }}
           loader: ${{ steps.parse.outputs.loader }}
           game-version: ${{ steps.parse.outputs.game-version }}
-          upload-modrinth: ${{ steps.set-mod-vendors.outputs.modrinth }}
-          upload-curse: ${{ steps.set-mod-vendors.outputs.curseforge }}
+          upload-modrinth: ${{ (steps.set-mod-vendors.outputs.modrinth) && (contains(matrix.modpack, 'modrinth')) }}
+          upload-curse: ${{ (steps.set-mod-vendors.outputs.curseforge) && (contains(matrix.modpack, 'curseforge')) }}
           MODRINTH_ID: ${{ secrets.MODRINTH_ID }}
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
           CURSEFORGE_ID: ${{ secrets.CURSEFORGE_ID }}
