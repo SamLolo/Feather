@@ -1,0 +1,13 @@
+name = "Eating Animation"
+filename = "eating-animation-1.21+1.9.71.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rUgZvGzi/versions/ZHBjruid/eating-animation-1.21%2B1.9.71.jar"
+hash-format = "sha1"
+hash = "5302327f1c563094a4cb4ce163451e252a955257"
+
+[update]
+[update.modrinth]
+mod-id = "rUgZvGzi"
+version = "ZHBjruid"

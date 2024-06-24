@@ -1,0 +1,13 @@
+name = "Loading Backgrounds - Loading Images"
+filename = "loadingbackgrounds-2.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/quMLCyp9/versions/qLLvJODj/loadingbackgrounds-2.0.1.zip"
+hash-format = "sha1"
+hash = "70150caaed51e41b815a69df4f80031c12265fc3"
+
+[update]
+[update.modrinth]
+mod-id = "quMLCyp9"
+version = "qLLvJODj"

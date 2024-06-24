@@ -1,0 +1,13 @@
+name = "Yeetus Experimentus"
+filename = "yeetusexperimentus-fabric-87.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HaaH232J/versions/b7C4gGUr/yeetusexperimentus-fabric-87.0.0.jar"
+hash-format = "sha1"
+hash = "a10cc99fe28fc339d3a5a3a056845d8ed0f8a3b0"
+
+[update]
+[update.modrinth]
+mod-id = "HaaH232J"
+version = "b7C4gGUr"

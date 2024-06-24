@@ -1,0 +1,13 @@
+name = "Update Edition"
+filename = "TrickyTrials.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/yVPiBVoR/TrickyTrials.zip"
+hash-format = "sha1"
+hash = "75da96f838fa61d6a2aeea6725ad0f3e23cb680c"
+
+[update]
+[update.modrinth]
+mod-id = "2OpJ6qTh"
+version = "yVPiBVoR"

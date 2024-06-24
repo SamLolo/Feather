@@ -1,0 +1,13 @@
+name = "Blur+ (Fabric)"
+filename = "blur-4.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NK39zBp2/versions/4stUfJpY/blur-4.1.0.jar"
+hash-format = "sha1"
+hash = "3dda0f743ff1a1b401dd522778d97cfdc6738ee1"
+
+[update]
+[update.modrinth]
+mod-id = "NK39zBp2"
+version = "4stUfJpY"

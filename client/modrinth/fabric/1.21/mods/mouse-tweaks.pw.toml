@@ -1,0 +1,13 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-fabric-mc1.21-2.26.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar"
+hash-format = "sha1"
+hash = "ee81af33a5606ef2cd057e075833d7c69836c210"
+
+[update]
+[update.modrinth]
+mod-id = "aC3cM3Vq"
+version = "ylmBQ38A"

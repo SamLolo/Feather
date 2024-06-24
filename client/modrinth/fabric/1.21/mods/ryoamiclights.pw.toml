@@ -1,0 +1,13 @@
+name = "RyoamicLights"
+filename = "RyoamicLights-fabric-0.2.8+mc1.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/reCfnRvJ/versions/cWVKZOIE/RyoamicLights-fabric-0.2.8%2Bmc1.21.jar"
+hash-format = "sha1"
+hash = "7e40fcb06b9486912782209cb3a030ee593b7482"
+
+[update]
+[update.modrinth]
+mod-id = "reCfnRvJ"
+version = "cWVKZOIE"
