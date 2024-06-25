@@ -50,6 +50,6 @@ runs:
     
     - name: Output detected loader and game version.
       run: |
-        echo "The detected loader for '${{ inputs.directory }}' is '{{ steps.parse.outputs.loader }}'"
+        echo "The detected loader for '${{ inputs.directory }}' is '${{ steps.parse.outputs.loader }}'"
         echo "The detected game version for '${{ inputs.directory }}'' is '${{ steps.parse.outputs.game-version }}'"
       shell: bash
