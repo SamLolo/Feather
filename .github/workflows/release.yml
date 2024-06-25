@@ -125,4 +125,4 @@ jobs:
         id: parse-pack
         uses: ./.github/actions/parse
         with:
-          modpack: ${{ matrix.modpack }}
+          directory: ${{ matrix.modpack }}
