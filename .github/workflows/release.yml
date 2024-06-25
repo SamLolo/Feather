@@ -38,7 +38,7 @@ jobs:
       - name: Read Master JSON File
         id: read-json
         run: |
-          ls
+          echo ls
           content=`cat ./main/pack.json`
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
