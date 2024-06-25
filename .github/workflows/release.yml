@@ -23,14 +23,14 @@ jobs:
     outputs:
       curseforge: ${{ steps.set-vendors.outputs.curseforge }}
       modrinth: ${{ steps.set-vendors.outputs.modrinth }}
-      release-tag: ${{ steps.read-properties.outputs.release }}
+      release-tag: ${{ steps.read-json.outputs.result.release }}
     
     steps:
 
       - name: Check Out Git Repository
         uses: actions/checkout@v4
-
         
+      
       - name: Set Mod Vendors
         id: set-vendors
         run: |
@@ -39,19 +39,20 @@ jobs:
         shell: bash
 
 
-      - name: Read Master JSON File
+      - name: Read Release Tag
+        uses: actions/github-script@v6
         id: read-json
-        run: |
-          content=`cat ./main/pack.json`
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          echo `content="${content//$'\r'/'%0D'}"`
-
-        
-      - name: Read Properties From JSON File
-        id: read-properties
-        run: |
-          echo "release=${{ fromJson(steps.read-json.outputs.content).release }}"
+        with:
+          script: |
+            try {
+              const fs = require('fs');
+              const jsonString = fs.readFileSync('./main/pack.json', 'utf8');
+              var properties = JSON.parse(jsonString);
+              return properties;
+            } catch(err) {
+              core.error("Error while reading or parsing the JSON");
+              core.setFailed(err);
+            }
 
 
   parse-modpacks:
