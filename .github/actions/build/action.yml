@@ -1,22 +1,33 @@
-name: 'Build Modpack Action | Action'
+name: 'Build Modpack | Action'
 description: 'Uses packwiz to build the modpack!'
 
 inputs:
-  modpack:
+  directory:
     description: "Path to the modpack directory"
     required: true
-  release-tag:
-    description: "The release tag for the modpack upload"
+  version:
+    description: "The modpack version"
     required: true
+  loader:
+    description: "The modpack loader for the current pack. Used to rename the pack."
+    required: true
+  mc-version:
+    description: "The minecraft version the current pack is being built for."
+    required: true
+  release-tag:
+    description: "The release tag for the current file under Github releases"
+    required: false
+    default: 'release'
+  
   build-modrinth: 
     description: "Whether or not to build the modpack if it's a Modrinth release"
     required: false
     default: 'false'
-  build-curseforge:
+  build-curse:
     description: "Whether or not to build the modpack if it's a Curseforge release"
     required: false
     default: 'false'
-    
+  
 
 runs:
   using: "composite"
@@ -24,50 +35,66 @@ runs:
   steps:
 
     - name: Check Out Git Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         ref: 'main'
 
-    - name: Install nix
-      uses: cachix/install-nix-action@v22
+
+    - name: Build Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: 'stable'
+        check-latest: true
+      run: go version
+
+
+    - name: Build Packwiz
+      run: go install github.com/packwiz/packwiz@latest
+      shell: bash
+
+
+    - name: Move to Modpack Directory
+      run: cd ${{ inputs.directory }}
+
 
     - name: Build Modrinth Modpack
-      run: |
-        nix develop --command packwiz modrinth export
-        echo "::notice ::⚙ Modpack ${{ inputs.modpack }} has been exported as .mrpack"
-      shell: bash
-      working-directory: ${{ inputs.modpack }}
       if: ${{ inputs.build-modrinth == 'true' }}
+      run: |
+        packwiz modrinth export
+        mv Feather-${{ inputs.version }}.mrpack Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack
+        echo "Modrinth pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack'"
+      shell: bash
+      working-directory: ${{ inputs.directory }}
+
 
     - name: Upload Modrinth Modpack to GitHub Releases
+      if: ${{ inputs.build-modrinth == 'true' }}
       run: |
-        gh release upload ${{ inputs.release-tag }} *.mrpack \
-          --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
-          --clobber
-        echo "::notice ::☀ Modpack ${{ inputs.modpack }} has been uploaded to GitHub Releases as a .mrpack"
+        gh release upload ${{ inputs.release-tag }} *.mrpack --clobber
+        echo "Modpack ${{ inputs.directory }} has been uploaded to GitHub Releases"
       shell: bash
       env:
         GITHUB_TOKEN: ${{ github.token }}
-      working-directory: ${{ inputs.modpack }}
-      if: ${{ inputs.build-modrinth == 'true' }}
+      working-directory: ${{ inputs.directory }}
+
 
     - name: Build Curseforge Modpack
+      if: ${{ inputs.build-curse == 'true' }}
       run: |
-        nix develop --command packwiz curseforge export
-        echo "::notice ::⚙ Modpack ${{ inputs.modpack }} has been exported as .zip"
+        packwiz curseforge export
+        mv Feather-${{ inputs.version }}.zip Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip
+        echo "Curseforge pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip'"
       shell: bash
-      working-directory: ${{ inputs.modpack }}
-      if: ${{ inputs.build-curseforge == 'true' }}
+      working-directory: ${{ inputs.directory }}
+
 
     - name: Upload Curseforge Modpack to GitHub Releases
+      if: ${{ inputs.build-curse == 'true' }}
       run: |
-        gh release upload ${{ inputs.release-tag }} *.zip \
-          --repo ${{ github.repository_owner }}/${{ github.event.repository.name }} \
-          --clobber
-        echo "::notice ::☀ Modpack ${{ inputs.modpack }} has been uploaded to GitHub Releases as a .zip"
+        gh release upload ${{ inputs.release-tag }} *.zip --clobber
+        echo "Modpack ${{ inputs.directory }} has been uploaded to GitHub Releases"
       shell: bash
       env:
         GITHUB_TOKEN: ${{ github.token }}
-      working-directory: ${{ inputs.modpack }}
-      if: ${{ inputs.build-curseforge == 'true' }}
+      working-directory: ${{ inputs.directory }}

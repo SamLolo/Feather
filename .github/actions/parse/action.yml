@@ -2,7 +2,7 @@ name: 'Parse Modpack | Action'
 description: 'Parses a modpacks pack file'
 
 inputs:
-  modpack:
+  directory:
     description: 'Path to the modpack directory'
     required: true
   pack-file:
@@ -24,7 +24,7 @@ runs:
   steps:
 
     - name: Check Out Git Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
 
     - name: Parse the pack.toml
@@ -43,7 +43,7 @@ runs:
         echo "loader=$LOADER" >> $GITHUB_ENV
         echo "game-version=$GAME_VERSION" >> $GITHUB_ENV
 
-        echo "::notice ::⚙ The detected loader for ${{ inputs.modpack }} is $LOADER"
-        echo "::notice ::⚙ The detected game version for ${{ inputs.modpack }} is $GAME_VERSION"
+        echo "The detected loader for ${{ inputs.directory }} is $LOADER"
+        echo "The detected game version for ${{ inputs.directory }} is $GAME_VERSION"
       shell: bash
-      working-directory: ${{ inputs.modpack }}
+      working-directory: ${{ inputs.directory }}

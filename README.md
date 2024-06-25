@@ -1,87 +1,40 @@
-<div align="center">
-  <img src="https://github.com/jh-devv/mc-modpack-kit/assets/122896463/003f8682-7e4f-4797-bdc8-2610a5d505de" alt="Logo">
-</div>
+# Feather | Lightweight Vanilla+ Client
+A lightweight fabric modded client packed full of vanilla-like features and performance improvements that will make your minecraft experience that little bit better! 
 
-<p align="center">Streamline the Minecraft Modpack Release Process with GitHub Actions!</p>
+[![](https://cf.way2muchnoise.eu/full_530772_downloads.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
+[![](https://cf.way2muchnoise.eu/versions/530772.svg)](https://www.curseforge.com/minecraft/modpacks/feather-client)
 
-<p align="center">
-  <a href="https://github.com/badges/shields/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github&style=for-the-badge" alt="Use this template"></a>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=fff&style=for-the-badge" alt="GitHub Actions Badge">
-  <img src="https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=fff&style=for-the-badge" alt="Minecraft Badge">
-</p>
+[![Modrinth](https://img.shields.io/modrinth/dt/BHSdOzJg?logo=modrinth&color=darkgreen&label=Modrinth%20Downloads&style=flat)](https://modrinth.com/modpack/feather)
+[![Modrinth Version](https://img.shields.io/modrinth/v/BHSdOzJg?logo=modrinth&label=Latest%20Version&color=darkgreen)](https://modrinth.com/modpack/feather/versions)
 
----
+## Downloads
+Recommended ways to download the modpack:
+1) [Curseforge Launcher](https://www.curseforge.com/download/app)
+    - Supports *Windows*, *Mac*
+    - For instructions on how to install, join our [discord](https://discord.gg/493bcRvQSA) or follow [this tutorial](https://support.curseforge.com/en/support/solutions/articles/9000196984-installing-modpacks)
+2) [Prism Launcher](https://prismlauncher.org/)
+    - Supports *Windows*, *Mac*, *Linux*, *Steam Deck*
+    - To install from **Modrinth**: follow [this tutorial](https://docs.modrinth.com/docs/modpacks/playing_modpacks/#multimc-and-prism-launcher)
+    - To install from **Curseforge/Other Formats**: follow [this tutorial](https://prismlauncher.org/wiki/getting-started/download-modpacks/)
+3) [MultiMC](https://multimc.org/)
+    - Supports *Windows*, *Mac*, *Linux*
+    - To install the modpack, have a look at this [general tutorial](https://apexminecrafthosting.com/how-to-play-mods-with-multi-mc/)
 
-**mc-modpack-kit** is a GitHub Actions workflow template designed to simplify the release process of Minecraft modpacks using a structured monorepo approach. It automates essential tasks such as versioning, modpack building, and publishing on platforms like Modrinth and CurseForge. 
+## How To Use The Repository
+The files for each minecraft version are contained in their own branch respectively. This branch "*latest*" will always be the highest minecraft version supported, which is currently **1.21**. The modpacks are stored using [Packwiz](https://github.com/packwiz/packwiz), which is a command-line based tool used for managing modpacks. If you plan to update or alter the modpack yourself, you should familarise yourself with their [wiki](https://packwiz.infra.link/tutorials/creating/getting-started/) first!
 
-It also includes an `nix flake` for you fellow nix enjoyers! The actions also use it!
+For each minecraft version, you should see the following files:
+- [Client](client/)
+  - Contains the curseforge and modrinth packwiz folders for the modpack
+    - *For more info on which packwiz to use, have a read of [this](Client/README.md)!*
+- [Server](server/) **(Coming Soon!)**
+  - Contains the packwiz folders used for creating the supporting server files. Similar format to the client folder!
 
-### Key Features
+Releases are available on Github for those that want to customise the pack inside the Modrinth or Curseforge launchers. Note, support will not be provided for broken instances related to modifications. To suggest a permanent addition or change, join the Discord using the link below!
 
-1. **Monorepo Structure**
+## Issues & Suggestions
+[![Discord](https://img.shields.io/discord/991287498661707846?style=for-the-badge&logo=discord&logoColor=%235865F2&label=Join%20the%20discord!&labelColor=%23696969&color=%235865F2)](https://discord.gg/McB4eXxkqB)
 
-   Embrace the power of organization with a monorepo-style architecture. Each subdirectory represents a different modpack version or loader type, streamlining your management of multiple modpack variations within a single repository.
+Issues can be addressed by either oppening a [github issue](https://github.com/SamLolo/Feather/issues/new/choose) or by opening a support ticket on our [Discord](https://discord.gg/McB4eXxkqB) in *#support*! When submitting an issue that involves a crash, please submit the crash-log alongside the description of the issues as this speeds up how quickly I can get back to you!
 
-   Example subdirectories:
-   - `fabric/`: Fabric loader version.
-   - `forge/`: Forge loader version.
-
-   You can create more just by initializing packwiz in the said directory of your choosing.
-
-2. **Automated Releases**
-
-   Experience effortless version control with Release Please, which generates changelogs and handles version releases automatically, in sync with your pull requests. Maintain clarity with Conventional Commit Messages.
-
-   Examples:
-    - `feat(modpack/<mod>): <description>` for adding new features, configurations or content.
-    - `chore(modpack/<mod>): <description>` for routine maintenance tasks or cleanups.
-    - `update(modpack/<mod>): update <mod>` for updating mods to newer versions.
-    - `mod(modpack/<mod>): add <mod>` for introducing new mods to the modpack.
-       
-4. **Mod Updates**
-
-   Update your mods effortlessly by utilizing the `update.yml` workflow located in `.github/workflows/update.yml`. This action efficiently updates all mods across all subdirectories.
-
-### Getting Started
-
-1. **Fork the Repository**
-
-   Start by forking this repository to your GitHub account.
-
-2. **Set Up Secrets and Permissions**
-
-   - Navigate to "Settings" -> "Secrets" and add the following secrets:
-     - `MODRINTH_TOKEN`, `MODRINTH_ID` for Modrinth authentication.
-     - `CURSEFORGE_TOKEN`, `CURSEFORGE_ID` for CurseForge authentication.
-   - Enable "Allow GitHub Actions to create and approve pull requests" under "Settings" -> "Actions" -> "General" -> "Workflow permissions".
-
-3. **Initialize Your Modpack**
-
-   - Generate a `pack.toml` file using `packwiz` (installation instructions [here](https://packwiz.infra.link/installation/)) within a modpack folder.
-   - Begin by running `packwiz init`, preferably within the `main` directory.
-  
-4. **Set a release channel**
-   - By default this template uses the `beta (0.1.0)` channel, you can switch it to `release (1.0.0)` when you are ready!
-   - This can be done via executing `.github/workflows/bump-version-release.yml`!
-
-5. **You are good to go!**
-   - You can now merge the release PR that release please has made, sit back and enjoy a cup of coffee! ☕ ^-^
-
-### Troubleshooting and Support
-
-If you encounter any issues or need assistance, consult the [Issues](https://github.com/jh-devv/mc-modpack-kit/issues) page or reach out via my GitHub profile.
-
-### License
-
-This project is licensed under the [CC0 1.0 Universal License](LICENSE).
-
-### Acknowledgments
-
-- This project makes effective use of GitHub Actions and various tools to automate the modpack release process.
-- A heartfelt ❤️ thank you to [Rafii](https://github.com/Rafii2198) for helping with this!
-- Special thanks to the GitHub community for their contributions and support.
-
----
-
-Contributions, feedback, and improvements are warmly welcomed! Let's propel this project forward together! 🚀
+Suggestions can be made either using the [issues](https://github.com/SamLolo/Feather/issues) with the **enhancement** tag applied or by dropping a message on our Discord! You can also leave a comment on the curseforge page if you fancy! If you want the implement the proposed changes yourself first, you can fork the project and submit a pull request with your updated version to be considered! If I like it, it may just be merged and released to Curseforge and Modrinth!
