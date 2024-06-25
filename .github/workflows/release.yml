@@ -38,13 +38,14 @@ jobs:
       - name: Read Master JSON File
         id: read-json
         run: |
-          content=`cat main/pack.json`
+          ls
+          content=`cat ./main/pack.json`
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
           echo "::set-output name=content::$content"
         shell: bash
-        working-directory: "./"
+        working-directory: "."
 
         
       - name: Read Properties From JSON File
