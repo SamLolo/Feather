@@ -25,7 +25,9 @@ runs:
 
     - name: Check Out Git Repository
       uses: actions/checkout@v4
-
+      with:
+        fetch-depth: 0
+        ref: 'main'
 
     - name: Parse the pack.toml
       id: parse
@@ -50,3 +52,4 @@ runs:
       run: |
         echo "The detected loader for '${{ inputs.directory }}' is '{{ steps.parse.outputs.loader }}'"
         echo "The detected game version for '${{ inputs.directory }}'' is '${{ steps.parse.outputs.game-version }}'"
+      shell: bash
