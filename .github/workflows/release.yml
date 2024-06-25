@@ -26,7 +26,11 @@ jobs:
       release-tag: ${{ steps.read-properties.outputs.release }}
     
     steps:
-      
+
+      - name: Check Out Git Repository
+        uses: actions/checkout@v4
+
+        
       - name: Set Mod Vendors
         id: set-vendors
         run: |
@@ -38,14 +42,11 @@ jobs:
       - name: Read Master JSON File
         id: read-json
         run: |
-          echo `ls`
           content=`cat ./main/pack.json`
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
           echo "::set-output name=content::$content"
-        shell: bash
-        working-directory: "."
 
         
       - name: Read Properties From JSON File
