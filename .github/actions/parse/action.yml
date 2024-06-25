@@ -32,18 +32,21 @@ runs:
       run: |
         loaders=("fabric" "forge" "quilt" "neoforge")
         for loader in "${loaders[@]}"; do
-          if [[ $(<"${{ inputs.pack-file }}") == *"$loader ="* ]]; then
-            LOADER="$loader" && break
+          if [[ ${{ inputs.directory }} == *"$loader"* ]]; then
+            LOADER="$loader"
+            break
           fi
         done
-
-        [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.pack-file }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
+        [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.directory }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
 
         GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
-        echo "loader=$LOADER" >> $GITHUB_ENV
-        echo "game-version=$GAME_VERSION" >> $GITHUB_ENV
-
-        echo "The detected loader for ${{ inputs.directory }} is $LOADER"
-        echo "The detected game version for ${{ inputs.directory }} is $GAME_VERSION"
+        echo "loader=$LOADER"
+        echo "game-version=$GAME_VERSION"
       shell: bash
       working-directory: ${{ inputs.directory }}
+
+    
+    - name: Output detected loader and game version.
+      run: |
+        echo "The detected loader for '${{ inputs.directory }}' is '{{ steps.parse.outputs.loader }}'"
+        echo "The detected game version for '${{ inputs.directory }}'' is '${{ steps.parse.outputs.game-version }}'"
