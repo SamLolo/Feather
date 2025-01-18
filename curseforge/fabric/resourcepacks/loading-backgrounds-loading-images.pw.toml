@@ -1,0 +1,13 @@
+name = "Loading Backgrounds - Default Images"
+filename = "loadingbackgrounds-2.0.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70150caaed51e41b815a69df4f80031c12265fc3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4642175
+project-id = 886331

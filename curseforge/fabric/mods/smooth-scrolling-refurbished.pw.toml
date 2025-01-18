@@ -1,0 +1,13 @@
+name = "Smooth Scrolling Refurbished"
+filename = "SmoothScrollingRefurbished+1.21-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "357bc636280fde788787ac58030d45295b8ef3ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5427020
+project-id = 968684

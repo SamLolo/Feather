@@ -1,0 +1,13 @@
+name = "Continuity"
+filename = "continuity-3.0.0-beta.5+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16d31a39e85dc10cdff4e06198a1bb26b4b82427"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5425853
+project-id = 531351

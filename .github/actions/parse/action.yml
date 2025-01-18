@@ -1,5 +1,5 @@
-name: 'Parse Modpack | Action'
-description: 'Parses a modpacks pack file'
+name: 'Parse Modpack Folder'
+description: 'Parses a modpacks pack file to get required information'
 
 inputs:
   directory:
@@ -13,10 +13,13 @@ inputs:
 outputs:
   loader:
     description: 'Detected mod loader'
-    value: ${{ steps.parse.outputs.loader }}
+    value: ${{ steps.parse-loader.outputs.loader }}
   game-version:
     description: 'Detected game version'
-    value: ${{ steps.parse.outputs.game-version }}
+    value: ${{ steps.parse-mc.outputs.game-version }}
+  pack-version:
+    description: 'Detected pack version'
+    value: ${{ steps.parse-version.outputs.pack-version }}
 
 runs:
   using: 'composite'
@@ -29,8 +32,9 @@ runs:
         fetch-depth: 0
         ref: 'main'
 
-    - name: Parse the pack.toml
-      id: parse
+
+    - name: Get the loader type
+      id: parse-loader
       run: |
         loaders=("fabric" "forge" "quilt" "neoforge")
         for loader in "${loaders[@]}"; do
@@ -39,17 +43,26 @@ runs:
             break
           fi
         done
-        [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.directory }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
 
-        GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
+        [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.directory }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
         echo "loader=$LOADER"
-        echo "game-version=$GAME_VERSION"
       shell: bash
       working-directory: ${{ inputs.directory }}
 
     
-    - name: Output detected loader and game version.
+    - name: Get the minecraft version
+      id: parse-mc
       run: |
-        echo "The detected loader for '${{ inputs.directory }}' is '${{ steps.parse.outputs.loader }}'"
-        echo "The detected game version for '${{ inputs.directory }}'' is '${{ steps.parse.outputs.game-version }}'"
+        GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
+        echo "game-version=$GAME_VERSION"
       shell: bash
+      working-directory: ${{ inputs.directory }}
+
+
+    - name: Get the modpack version
+      id: parse-version
+      run: |
+        PACK_VERSION=$(grep -oP 'version = "\K[^"]+' "${{ inputs.pack-file }}")
+        echo "pack-version=$PACK_VERSION"
+      shell: bash
+      working-directory: ${{ inputs.directory }}

@@ -1,0 +1,13 @@
+name = "ObsidianUI"
+filename = "ObsidianUI-fabric-0.2.7+mc1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "735d9faf5572b48fefd6b82736031af256194c9c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5475671
+project-id = 684718

@@ -1,0 +1,13 @@
+name = "Better Command Block UI"
+filename = "bettercommandblockui-0.5.2-1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f16ed1f3b13e775c590dd3680d910c7c8a43994e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5427988
+project-id = 661892

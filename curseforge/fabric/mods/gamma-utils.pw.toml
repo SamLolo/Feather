@@ -1,0 +1,13 @@
+name = "Gamma Utils (Fullbright)"
+filename = "Gamma-Utils-1.9.20-mc1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c76302cf0503c3b74dfa696a6352e55820205844"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5424872
+project-id = 492295

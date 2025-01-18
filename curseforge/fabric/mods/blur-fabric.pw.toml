@@ -1,0 +1,13 @@
+name = "Blur+"
+filename = "blur-4.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3dda0f743ff1a1b401dd522778d97cfdc6738ee1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5437369
+project-id = 393563
