@@ -16,8 +16,7 @@ inputs:
     required: true
   release-tag:
     description: "The release tag for the current file under Github releases"
-    required: false
-    default: 'release'
+    required: true
   
   build-modrinth: 
     description: "Whether or not to build the modpack if it's a Modrinth release"
