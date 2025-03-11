@@ -1,13 +1,13 @@
 name = "Camera Utils"
-filename = "camerautils-1.20.1-1.0.5.jar"
+filename = "camerautils-1.20.2-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3e237840b44f1d6042b1afe5939800b0b818311a"
+hash = "8f9232dac1e629a44b149fc0134889a1b7bcdd45"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4691825
+file-id = 4762101
 project-id = 510234

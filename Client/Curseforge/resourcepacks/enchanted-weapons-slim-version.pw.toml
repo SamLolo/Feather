@@ -1,13 +1,13 @@
-name = "Enchanted Weapons Slim Version"
-filename = "Enchanted Weapons sv0.8.zip"
+name = "miles's Enchanted Weapons Slim Version"
+filename = "miles's Enchanted Weapons sv0.9.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "01cf49d8be343428915e249091bda3397c374d6d"
+hash = "6fa3b6fc931bfbc13de2aa8503a9ff6ac0dadd8a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4599505
+file-id = 4748535
 project-id = 525652

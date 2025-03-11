@@ -1,13 +1,13 @@
-name = "Enchanted Tools"
-filename = "Enchanted Tools v3.0.1.zip"
+name = "miles's Enchanted Tools"
+filename = "miles's Enchanted Tools v3.1.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1d8e7af69f753fbdfe15fd7f9cf82c745cf91c29"
+hash = "b14b630886ec8d1582575e50f9bb7a5d225a3384"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4644255
+file-id = 4748534
 project-id = 413810

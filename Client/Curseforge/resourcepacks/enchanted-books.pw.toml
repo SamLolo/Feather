@@ -1,13 +1,13 @@
-name = "Enchanted Books"
-filename = "Enchanted Books v0.9.zip"
+name = "miles's Enchanted Books"
+filename = "miles's Enchanted Books v1.1.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "07ecd6a91403151c27b95a053efa0e30c0c2a150"
+hash = "566b1e95cfbc8c230f6100aff6101898bf07db85"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4599498
+file-id = 4748532
 project-id = 538478

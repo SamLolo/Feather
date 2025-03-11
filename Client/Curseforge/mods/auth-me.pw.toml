@@ -1,13 +1,13 @@
 name = "Auth Me"
-filename = "authme-7.0.1+1.20.jar"
+filename = "authme-7.0.2+1.20.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b61e03cd948d296e0e0dc811397e3c3317801e64"
+hash = "5e430805cf3dfd79fc5f0995f97604edac1491cd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4577842
+file-id = 4629826
 project-id = 356643
