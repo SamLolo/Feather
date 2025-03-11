@@ -103,7 +103,7 @@ jobs:
 
       - name: Get Version
         id: get-version
-        run: echo "version=$(cat VERSION)" >> $GITHUB_OUTPUT
+        run: echo "version=$(cat version.txt)" >> $GITHUB_OUTPUT
 
       - name: Create Release
         run: |
