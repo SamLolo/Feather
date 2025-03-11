@@ -1,0 +1,13 @@
+name = "Lighty"
+filename = "lighty-fabric-3.0.0-beta.3+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af66252291c678fee81e2770f6b7d61fe20a35f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5425043
+project-id = 986380

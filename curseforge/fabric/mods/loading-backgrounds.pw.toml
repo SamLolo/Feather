@@ -1,0 +1,13 @@
+name = "Loading Backgrounds"
+filename = "loadingbackgrounds-fabric-1.21-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "450285e47df2c04b153fa09df5cbf3273fe97e0a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5430451
+project-id = 882539

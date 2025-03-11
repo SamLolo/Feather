@@ -1,0 +1,28 @@
+name: Distribute Release
+run-name: Modpack uploaded to Curseforge & Modrinth
+
+on:
+  release:
+    types: [published]
+
+jobs:
+
+  set-vendors:
+    name: Setup workflow environment
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    outputs:
+      curseforge: ${{ steps.set-vendors.outputs.curseforge }}
+      modrinth: ${{ steps.set-vendors.outputs.modrinth }}
+    
+    steps:
+        
+      - name: Check vendor credentials
+        id: set-vendors
+        run: |
+          [[ ! -z "${{ secrets.CURSEFORGE_TOKEN }}" && ! -z "${{ secrets.CURSEFORGE_ID }}" ]] && echo "curseforge=true" >> $GITHUB_OUTPUT || echo "curseforge=false" >> $GITHUB_OUTPUT
+          [[ ! -z "${{ secrets.MODRINTH_TOKEN }}" && ! -z "${{ secrets.MODRINTH_ID }}" ]] && echo "modrinth=true" >> $GITHUB_OUTPUT || echo "modrinth=false" >> $GITHUB_OUTPUT
+        shell: bash

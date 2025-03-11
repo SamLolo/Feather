@@ -1,0 +1,12 @@
+name = "Feather"
+version = "V3.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "83522f69696881812baa10628904846d54b880db5c30dc4a59525aa35d283bf3"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.21"

@@ -1,0 +1,22 @@
+{
+  "uncap_menu_frame_rate": true,
+  "idle": {
+    "condition": "none"
+  },
+  "states": {
+    "hovered": {
+      "frame_rate_target": -1
+    },
+    "unfocused": {
+      "frame_rate_target": 30,
+      "volume_multipliers": {
+        "master": 0.0
+      }
+    },
+    "abandoned": {
+      "frame_rate_target": 30,
+      "graphics_state": "reduced",
+      "run_garbage_collector": true
+    }
+  }
+}

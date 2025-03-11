@@ -1,0 +1,13 @@
+name = "cat_jam"
+filename = "cat_jam-fabric-mc1.21-1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f90b705e273f45a3db93f023f6694172c464b00b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5424032
+project-id = 859716

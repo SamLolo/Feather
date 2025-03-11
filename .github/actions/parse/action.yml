@@ -1,0 +1,68 @@
+name: 'Parse Modpack Folder'
+description: 'Parses a modpacks pack file to get required information'
+
+inputs:
+  directory:
+    description: 'Path to the modpack directory'
+    required: true
+  pack-file:
+    description: 'Path to the pack config file'
+    required: false
+    default: 'pack.toml'
+
+outputs:
+  loader:
+    description: 'Detected mod loader'
+    value: ${{ steps.parse-loader.outputs.loader }}
+  game-version:
+    description: 'Detected game version'
+    value: ${{ steps.parse-mc.outputs.game-version }}
+  pack-version:
+    description: 'Detected pack version'
+    value: ${{ steps.parse-version.outputs.pack-version }}
+
+runs:
+  using: 'composite'
+
+  steps:
+
+    - name: Check Out Git Repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        ref: 'main'
+
+
+    - name: Get the loader type
+      id: parse-loader
+      run: |
+        loaders=("fabric" "forge" "quilt" "neoforge")
+        for loader in "${loaders[@]}"; do
+          if [[ ${{ inputs.directory }} == *"$loader"* ]]; then
+            LOADER="$loader"
+            break
+          fi
+        done
+
+        [[ -z "$LOADER" ]] && { echo "::error file=${{ inputs.directory }}::No match found for loaders in ${{ inputs.pack-file }}" && exit 1; }
+        echo "loader=$LOADER"
+      shell: bash
+      working-directory: ${{ inputs.directory }}
+
+    
+    - name: Get the minecraft version
+      id: parse-mc
+      run: |
+        GAME_VERSION=$(grep -oP 'minecraft = "\K[^"]+' "${{ inputs.pack-file }}")
+        echo "game-version=$GAME_VERSION"
+      shell: bash
+      working-directory: ${{ inputs.directory }}
+
+
+    - name: Get the modpack version
+      id: parse-version
+      run: |
+        PACK_VERSION=$(grep -oP 'version = "\K[^"]+' "${{ inputs.pack-file }}")
+        echo "pack-version=$PACK_VERSION"
+      shell: bash
+      working-directory: ${{ inputs.directory }}

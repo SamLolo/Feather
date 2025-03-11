@@ -1,0 +1,187 @@
+name: Modpack Release
+run-name: Modpack Release by @${{ github.actor }}
+
+on:
+  pull_request:
+    types:
+      - closed
+
+env:
+  pack-file: 'pack.toml'
+  default-release-modrinth: 'true'
+  default-release-curseforge: 'true'
+
+  
+jobs:
+
+  verify-pr:
+    name: Verify Pull Request
+    runs-on: ubuntu-latest
+    
+    steps:
+
+    - name: Check PR merged into main
+      if: ${{ github.event.pull_request.merged != true }}
+      uses: actions/github-script@v6
+      with:
+        script: |
+            core.setFailed('PR not merged!')
+    
+    - name: Check PR had release label
+      if: ${{ contains(github.event.pull_request.labels.*.name, 'release') != true }}
+      uses: actions/github-script@v6
+      with:
+        script: |
+            core.setFailed('PR missing release label!')
+
+
+  get-modpacks:
+    name: Parse modpacks to a list
+    runs-on: ubuntu-latest
+
+    needs:
+      - verify-pr
+
+    permissions:
+      contents: read
+
+    outputs:
+      curseforge-packs: ${{ steps.list-curse.outputs.modpack-folders }}
+      modrinth-packs: ${{ steps.list-modrinth.outputs.modpack-folders }}
+    
+    steps:
+
+      - name: Check Out Git Repository
+        uses: actions/checkout@v4
+
+      - name: List Curseforge Modpacks
+        id: list-curse
+        run: |
+          modpackFolders=()
+          while IFS= read -r -d '' folder; do
+            if [ -e "$folder/pack.toml" ]; then
+              modpackFolders+=("$folder")
+            fi
+          done < <(find curseforge/ -type d -print0)
+            
+          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
+        
+      - name: List Modrinth Modpacks
+        id: list-modrinth
+        run: |
+          modpackFolders=()
+          while IFS= read -r -d '' folder; do
+            if [ -e "$folder/pack.toml" ]; then
+              modpackFolders+=("$folder")
+            fi
+          done < <(find modrinth/ -type d -print0)
+            
+          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
+  
+      - name: Print detected modpacks
+        run: |
+          echo "::notice:: Detected modpacks: \n   Curseforge: ${{ steps.list-curse.outputs.modpack-folders }}\n   Modrinth: ${{ steps.list-modrinth.outputs.modpack-folders }}"
+
+  
+  create-release:
+    name: Create a new release
+    runs-on: ubuntu-latest
+
+    needs:
+      - verify-pr
+      - get-modpacks
+
+    if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' && (needs.get-modpacks.outputs.curseforge-packs) != '[]'}}
+
+    permissions:
+      contents: read
+
+    outputs:
+      release-tag: V${{steps.get-version.outputs.version}}
+
+    steps:
+
+      - name: Get Version
+        id: get-version
+        run: echo "version=$(cat VERSION)" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        run: |
+          gh release create V${{steps.get-version.outputs.version}} --draft
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+
+
+  build-curseforge:
+    name: Build and add modpack files for Curseforge
+    runs-on: ubuntu-latest
+
+    needs:
+      - get-modpacks
+      - create-release
+  
+    if: ${{ (needs.get-modpacks.outputs.curseforge-packs) != '[]' }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        modpack: ${{ fromJson(needs.get-modpacks.outputs.curseforge-packs) }}
+
+    permissions:
+      contents: read
+
+    steps:
+
+      - name: Parse Pack File
+        id: parse-pack
+        uses: ./.github/actions/parse
+        with:
+          directory: ${{ matrix.modpack }}
+
+      - name: Build Modpack
+        uses: ./.github/actions/build
+        with:
+          directory: ${{matrix.modpack}}
+          version: ${{steps.parse-pack.outputs.pack-version}}
+          loader: ${{steps.parse-pack.outputs.loader}}
+          mc-version: ${{steps.parse-pack.outputs.game-version}}
+          release-tag: ${{needs.create-release.outputs.release-tag}}
+          build-curseforge: 'true'
+
+
+  build-modrinth:
+    name: Build and add modpack files for Modrinth
+    runs-on: ubuntu-latest
+
+    needs:
+      - get-modpacks
+      - create-release
+  
+    if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        modpack: ${{ fromJson(needs.get-modpacks.outputs.modrinth-packs) }}
+
+    permissions:
+      contents: read
+
+    steps:
+
+      - name: Parse Pack File
+        id: parse-pack
+        uses: ./.github/actions/parse
+        with:
+          directory: ${{ matrix.modpack }}
+
+      - name: Build Modpack
+        uses: ./.github/actions/build
+        with:
+          directory: ${{matrix.modpack}}
+          version: ${{steps.parse-pack.outputs.pack-version}}
+          loader: ${{steps.parse-pack.outputs.loader}}
+          mc-version: ${{steps.parse-pack.outputs.game-version}}
+          release-tag: ${{needs.create-release.outputs.release-tag}}
+          build-modrinth: 'true'

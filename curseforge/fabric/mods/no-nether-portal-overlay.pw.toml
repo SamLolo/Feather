@@ -1,0 +1,13 @@
+name = "No Nether Portal Overlay"
+filename = "no-nether-portal-overlay-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53ceaf77fc1250c510f14d80921ae775286cd1a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5426337
+project-id = 486338

@@ -1,0 +1,105 @@
+toggleEffectsStatus = true
+colorMode = "Effect"
+toggleMovementStatus = false
+toggleEquipmentStatus = true
+
+[uiConfig]
+toggleSimpleHUDEnhanced = true
+textColor = 16777215
+textBackground = false
+textScale = 85
+textAlignment = "Left"
+
+[statusElements]
+Xcords = 0
+Ycords = 0
+toggleLightLevel = false
+toggleBiome = true
+togglePlayerName = false
+togglePing = false
+toggleTPS = false
+toggleServerName = false
+toggleServerAddress = false
+
+[statusElements.coordinates]
+toggleCoordinates = true
+toggleDirection = true
+toggleOffset = true
+toggleNetherCoordinateConversion = true
+toggleChunkCoordinates = false
+toggleSubChunkCoordinates = false
+
+[statusElements.fps]
+toggleFPS = true
+toggleColourFPS = false
+
+[statusElements.playerSpeed]
+togglePlayerSpeed = false
+togglePlayerVerticalSpeed = false
+
+[statusElements.gameTime]
+toggleGameTime = false
+toggleGameTime24Hour = false
+toggleGameDayCounter = false
+
+[statusElements.systemTime]
+toggleSystemTime = false
+textScale = 100
+textBackground = false
+toggleSystemTime24Hour = false
+
+[effectsStatus]
+backgroundColor = -2147483648
+beneficialForegroundColor = -2130706433
+harmfulForegroundColor = -2130706433
+neutralForegroundColor = -2130706433
+
+[movementStatus]
+toggleMovementStatus = false
+textScale = 100
+movementStatusLocationX = 0
+movementStatusLocationY = 90
+
+[movementStatus.movementTypes]
+toggleSprintStatus = true
+toggleSneakStatus = true
+toggleFlyingStatus = true
+toggleSwimmingStatus = true
+
+[paperDoll]
+togglePaperDoll = true
+textScale = 100
+paperDollLocationX = 100
+paperDollLocationY = 0
+
+[equipmentStatus]
+showCount = false
+showNonTools = false
+textScale = 100
+equipmentOrientation = "Horizontal"
+equipmentAlignment = "Left"
+equipmentStatusLocationX = 100
+equipmentStatusLocationY = 0
+
+[equipmentStatus.Durability]
+showDurability = true
+showTotalCount = false
+showDurabilityAsPercentage = false
+showColour = true
+showDurabilityAsBar = false
+
+[equipmentStatus.Durability.slots]
+Head = true
+Body = true
+Legs = true
+Boots = true
+OffHand = true
+MainHand = true
+
+[equipmentStatus.slots]
+Head = true
+Body = true
+Legs = true
+Boots = true
+OffHand = false
+MainHand = true

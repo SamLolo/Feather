@@ -1,0 +1,13 @@
+name = "Chat Reporting Helper"
+filename = "Chat Reporting Helper.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "508069909d158716212cc11211ab88077412dcce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5416062
+project-id = 855981

@@ -1,0 +1,13 @@
+name = "Bad Horse Fix"
+filename = "Bad-Horse-Fix-2.0.0-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae2d3a33d43ae83fc29647cd06c52ad9359f3ca2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5301613
+project-id = 999835

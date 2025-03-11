@@ -1,0 +1,13 @@
+name = "Enchant Icons"
+filename = "enchant icons 1.21 v1.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6vhHOIKw/versions/L6NvKcZN/enchant%20icons%201.21%20v1.3.zip"
+hash-format = "sha1"
+hash = "f6f810c40d178b636b36a24bce40e91be9afe8ce"
+
+[update]
+[update.modrinth]
+mod-id = "6vhHOIKw"
+version = "L6NvKcZN"

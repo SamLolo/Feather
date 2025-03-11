@@ -1,0 +1,13 @@
+name = "Environmental Water"
+filename = "Environmental Water 1.20.2-1.21.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "caa7f1a0f67b17b719781aa400f1a3f59970cec0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5456633
+project-id = 813415
