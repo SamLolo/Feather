@@ -1,0 +1,13 @@
+name = "Polytone"
+filename = "polytone-1.21-3.3.1-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3qAYkBMB/versions/jejyOnPy/polytone-1.21-3.3.1-fabric.jar"
+hash-format = "sha512"
+hash = "cab648bd3d1bf99c66f5bc7d0b8f0e72d2e3927785a8d884aedd6e13a001b4a3f6c9310fb2aa575c4af676c939ff0f10da3fe46ceb092185e26875d9ff9640a2"
+
+[update]
+[update.modrinth]
+mod-id = "3qAYkBMB"
+version = "jejyOnPy"
