@@ -747,11 +747,6 @@ hash = "5a49d7865acf1d3fc7cfc5e0dbac5c4de803356725d9e3b4e5f583006e0a762f"
 metafile = true
 
 [[files]]
-file = "mods/smoke-signals.pw.toml"
-hash = "599167fa5483d5cde3c708f06bf1cefb2fa1d56bd1e05e95c2ff5ebb95c2a4b9"
-metafile = true
-
-[[files]]
 file = "mods/smooth-scrolling-refurbished.pw.toml"
 hash = "e5c3fb8f3c9f357b7c2e938a193dc2a200e6d601f3253b577c95ef22c928bc2f"
 metafile = true
