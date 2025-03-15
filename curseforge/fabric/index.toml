@@ -328,6 +328,11 @@ hash = "9c51c528f84059dc15aa095568e3bd6d8a22fc4e6feb8583a5f8a467d25253e1"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "39792a11da59cebc770f3918dd0ad53637bcbd206dc19bfa6709392bfd2d1830"
+metafile = true
+
+[[files]]
 file = "mods/auth-me.pw.toml"
 hash = "c30f2d1e4270aaf62f9c7bc879cad438f05df1181ce965894914017150ac23b3"
 metafile = true
@@ -614,16 +619,6 @@ hash = "0191de8b5aac65716d214e59ef8eaa0d725ff422a9b35287b4340e36309f0f2b"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "6db19103c04d1473334638e541fce644a2f7a70dcfab5b252ebace92aec24eb6"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-professions-jep.pw.toml"
-hash = "25d2b42a6867709654d6951e833732564fddb9a6918d15981a0338f13dd4be11"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "f7c9c1bee75968286a4fb6a765f7cd0505fac90cac30a896f76215c1e6d4d8bd"
 metafile = true
@@ -766,6 +761,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "addc2d9bb42e495eb1464b17f5cfb9e7f284d9a76d37d8ef0d9943ae30f0a756"
+metafile = true
+
+[[files]]
+file = "mods/roughly-enough-items.pw.toml"
+hash = "a01882a8a94bcf77e68f3d03d8a1d3098de9b63ee455d7ee0ee300bc8974b2c7"
 metafile = true
 
 [[files]]
