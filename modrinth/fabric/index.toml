@@ -1,6 +1,302 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/yosbr/config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/yosbr/config/NoChatReports.json"
+hash = "6b31dab36910d585153757b7bcd4b3affb5cd83a67167cce251658c8b67354da"
+
+[[files]]
+file = "config/yosbr/config/animatica.properties"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yosbr/config/appleskin.json5"
+hash = "c81b19e17a00febb252706a37bc5e3feff454d85b095ea9d5b0d7ae99a417d4a"
+
+[[files]]
+file = "config/yosbr/config/autorelog.json"
+hash = "568aea188b56328bc81d46cab5bd54744bfaf305f753c31a6e027a6dd950b92e"
+
+[[files]]
+file = "config/yosbr/config/betterCommandBlockUI.properties"
+hash = "a48aa829d38d7ca308884f66063bdb8b6cfeab50620fbb4ba94022e43f4f4b14"
+
+[[files]]
+file = "config/yosbr/config/betterf3.json"
+hash = "7690173c47bd1a29e344504ce6064283e09a02bde5fa700586fb3d3d06a097a7"
+
+[[files]]
+file = "config/yosbr/config/betterstats.json"
+hash = "d062f231911cbbeafda1048d4955ddda9e3ac08b280fc27c5e3df2e0b97b24a4"
+
+[[files]]
+file = "config/yosbr/config/betterthirdperson.json5"
+hash = "151cb9f1ab722aa7026701e482e77cb13eeef2ce7c77cfbac997f719a81b1dbb"
+
+[[files]]
+file = "config/yosbr/config/blur.json"
+hash = "050a1f74f8335b0942d8439b14c73a143de1601cec10b183020978c9535e1eba"
+
+[[files]]
+file = "config/yosbr/config/bobby.conf"
+hash = "0026d3164349547bab1e3906bf001ffd1603ed640d234d8719a27603f4f0cd2b"
+
+[[files]]
+file = "config/yosbr/config/camerautils/camerautils.properties"
+hash = "3d1b9c8ea7b47b525c19ffe1fdfa67219b278a624f844c95e01f62af0aa289c8"
+
+[[files]]
+file = "config/yosbr/config/chatpatches.json"
+hash = "b0c5e8f89bf6a9f27bef5080da78b1cda9ef0a0629402867d1d219243b185aba"
+
+[[files]]
+file = "config/yosbr/config/clientsidenoteblocks.json"
+hash = "009b6f7f69ed240c38d1a70ef7370f2c21a0b81c3254f689534debfbeeacf616"
+
+[[files]]
+file = "config/yosbr/config/concentration.json"
+hash = "d5b574951774c5cab441fe4fadf6d8a2068d94eade834d3c446d2099347ecbc7"
+
+[[files]]
+file = "config/yosbr/config/continuity.json"
+hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
+
+[[files]]
+file = "config/yosbr/config/craftpresence.json"
+hash = "63fb2ed3b626623e32245a3f042fde96e50f8ceb06760824f9e4a867bf9586da"
+
+[[files]]
+file = "config/yosbr/config/cullleaves.json"
+hash = "6596cbe9453cc9cf69b4addfb02fe9d1501ffc9254ac047d9cd7a23bc6ce7dcc"
+
+[[files]]
+file = "config/yosbr/config/debugify.json"
+hash = "a59b806142e37102572685dc4359dbd9526f30dfa8c2c22d3b45b12c70d7a500"
+
+[[files]]
+file = "config/yosbr/config/dynamic_fps.json"
+hash = "0ab31df43d51d49caab4af93f7b80a4874cdb6f6e538ed0addd62dfb7e24e3bc"
+
+[[files]]
+file = "config/yosbr/config/enchantedtooltips/config.json5"
+hash = "6045b2cc72e21545d735623ea14390747df82159d07f116d8547b4417841c96e"
+
+[[files]]
+file = "config/yosbr/config/enchantedtooltips/enchants.json5"
+hash = "3537f1695e2097ed3d2bb61b586b44d9dcc3c9d666c4f08efaafd30ebdfb91d2"
+
+[[files]]
+file = "config/yosbr/config/enhanced_bes.properties"
+hash = "5bcd8e44e464f6ce050ecdfed98336b08e4db9673d6473fc33f24d6238dfca9a"
+
+[[files]]
+file = "config/yosbr/config/entity_model_features.json"
+hash = "0103610444b018e2af9c622a4750df5dcc8fc020ff5b80b497345c689325023a"
+
+[[files]]
+file = "config/yosbr/config/entity_texture_features.json"
+hash = "73f537b03c983b5536053b48e3e0a21ebd1514c8804795fe6bd219461bbeaf94"
+
+[[files]]
+file = "config/yosbr/config/entityculling.json"
+hash = "47949ea3883de194b5cd393cd20fe5be269eded3181d75b2345d5b8e158c3d1f"
+
+[[files]]
+file = "config/yosbr/config/fabrishot.properties"
+hash = "4729a884a54915833cebb65320acc78642e193f33c2bfc559437361d32d7f3ba"
+
+[[files]]
+file = "config/yosbr/config/fallingleaves.json"
+hash = "bf7d3438869e2dce024a69a3cc5f5ae6c5e60a5337505061f55a7714b5079c7b"
+
+[[files]]
+file = "config/yosbr/config/feytweaks.json"
+hash = "5ccc254de771cba697dada7b3c32bf48c2ec12d3b9970d6fa0539f46c0b6d5d0"
+
+[[files]]
+file = "config/yosbr/config/gamma_utils.json5"
+hash = "efcc86a78384511fa02a71dfa0e8fc4ca107ba12e7ac85982b85be075dfbda5c"
+
+[[files]]
+file = "config/yosbr/config/held-item-info.json"
+hash = "e5e6c08e1c023207d7b97369f2a2a6246a556ff1c790dea5557b295860f0c136"
+
+[[files]]
+file = "config/yosbr/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "47c208182561996afae1f33f47529657f9dc894ecca982475c61d4d47094ee7b"
+
+[[files]]
+file = "config/yosbr/config/inventoryprofilesnext/villager-trading-config.json"
+hash = "f29718046d40f2d1e613d59b38c32161b710542ac708816263f1727927b029a3"
+
+[[files]]
+file = "config/yosbr/config/jade/hide-blocks.json"
+hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
+
+[[files]]
+file = "config/yosbr/config/jade/hide-entities.json"
+hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
+
+[[files]]
+file = "config/yosbr/config/jade/jade.json"
+hash = "715ab1b8f8b7dffcf51a2dde94fcb67e80578a189d783ed1356355ecfe78dc79"
+
+[[files]]
+file = "config/yosbr/config/jade/plugins.json"
+hash = "65ca4a1377094d74fccfa2417512150e561a028566df7fc7e2ecf309d9dc8f25"
+
+[[files]]
+file = "config/yosbr/config/jade/sort-order.json"
+hash = "c502ee311117ae1450eda6e42f6907b9d62048c5377801442f8dabc4fe2b7426"
+
+[[files]]
+file = "config/yosbr/config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/yosbr/config/jei/ingredient-list-mod-sort-order.ini"
+hash = "859930e5e77f33badddd34c5ad6d220330e6e997793eabe12280fff73d604228"
+
+[[files]]
+file = "config/yosbr/config/jei/ingredient-list-type-sort-order.ini"
+hash = "5064fb08f3a4af3321de4746ac60fe83ac464732b684a38c68d97ad2c4bce440"
+
+[[files]]
+file = "config/yosbr/config/jei/jei-client.ini"
+hash = "ae69c703794888aa73eb0d53bf61e8f611922bdff4464011838b362ae23f4680"
+
+[[files]]
+file = "config/yosbr/config/jei/jei-colors.ini"
+hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
+
+[[files]]
+file = "config/yosbr/config/jei/jei-debug.ini"
+hash = "fed5a1f6e741725e0946ec0c3f753994ffed14bb7bcbef81e77e1bb960495e31"
+
+[[files]]
+file = "config/yosbr/config/jei/jei-mod-id-format.ini"
+hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
+
+[[files]]
+file = "config/yosbr/config/jei/recipe-category-sort-order.ini"
+hash = "f55952d310ddb4d904241962b30be9e2717ba72f93fc87bfea821a68caa9d10f"
+
+[[files]]
+file = "config/yosbr/config/lighty/base.config"
+hash = "bc8e9db59c1c40f46f86678966490d25c5fe0e62991a292d98431417c8fdcd7c"
+
+[[files]]
+file = "config/yosbr/config/modelfix-client.json"
+hash = "b55936928438ab49ebc8086579cd2218faf14d777fd15ec6eee895dbcadb667d"
+
+[[files]]
+file = "config/yosbr/config/modernfix-mixins.properties"
+hash = "b67b0bb43dd7254cbe1a639f9123934766df033ade2d83110e9b9a728780511d"
+
+[[files]]
+file = "config/yosbr/config/modmenu.json"
+hash = "f910685b3b2856f4f1a7540a9867c5a965dac69f550300b7120d51fc7e8a2ade"
+
+[[files]]
+file = "config/yosbr/config/moreculling.toml"
+hash = "f84816a71ab3037b68143c1bbccda97b9b0f335c0fb179340be216f89210d302"
+
+[[files]]
+file = "config/yosbr/config/no_nether_portal_overlay.json"
+hash = "4629008374656b0b1141bec3779a32cb7835679fda907eae07e813c216584b3d"
+
+[[files]]
+file = "config/yosbr/config/notenoughanimations.json"
+hash = "f734f35399f949a79b29328d6d0398027a5e5c4f5ffa15f35a44c8054b54da34"
+
+[[files]]
+file = "config/yosbr/config/peek/peek.properties"
+hash = "8d5dcca82996c67c63dc6d7a28baa1eb172002dd1c42131036e4e83a2209f064"
+
+[[files]]
+file = "config/yosbr/config/petowner.json"
+hash = "f9ae634a8d926decb16d47b18096f7cc57a6e8f1da9e047a7e6e76ca18d5e139"
+
+[[files]]
+file = "config/yosbr/config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/yosbr/config/presencefootsteps/userconfig.json"
+hash = "455381dc7f7a45e8f72fb574edac56d87ce1936e924d5a3d5eeb2c76414ae83d"
+
+[[files]]
+file = "config/yosbr/config/puzzle.json"
+hash = "0846eede858c12e9b1052de67e8242cea33a6e6d3ae33b8c03bff0b17199478c"
+
+[[files]]
+file = "config/yosbr/config/ryoamiclights.toml"
+hash = "c1ad8ae1729457fa6ae93d846888a5fde2cb5f16205a8ff8f4289fa97e6679f9"
+
+[[files]]
+file = "config/yosbr/config/simplehudenhanced.toml"
+hash = "15061def8f18abe568e66203beebf38f92b30e7caec5569ee49215213e969beb"
+
+[[files]]
+file = "config/yosbr/config/skinlayers.json"
+hash = "91dda7ff0e6d52d1d99d8196cd5f5e3d165075c194e19344fa8a034ef39b6a4c"
+
+[[files]]
+file = "config/yosbr/config/sodium-extra-options.json"
+hash = "58dceaa45b03c4d4828f869c21bc46f883b05b4dfd60b67d3fc68587d7d5a806"
+
+[[files]]
+file = "config/yosbr/config/sodium-options.json"
+hash = "6edc2c42f650b3c8c5399708420d8ec4c7b76cd76d778f78e969f80e5383c73f"
+
+[[files]]
+file = "config/yosbr/config/sound_physics_remastered/allowed_sounds.properties"
+hash = "36bf5c1e8db037f262cbafe9addaa359c146baf5c57a76953cc3c77890066fd9"
+
+[[files]]
+file = "config/yosbr/config/sound_physics_remastered/occlusion.properties"
+hash = "5515e2d22aee13e5ce2f9cf37e840018020c668e8073b2336e77ea7a4f567936"
+
+[[files]]
+file = "config/yosbr/config/sound_physics_remastered/reflectivity.properties"
+hash = "d1778cf97a1811a10ad4d2e19cdd75800f1981fb4150266301b6c12d96c4431e"
+
+[[files]]
+file = "config/yosbr/config/sound_physics_remastered/soundphysics.properties"
+hash = "c9e79968413b6d27a548872869c347d8006b29878cb05210c9b24b4be5efe45a"
+
+[[files]]
+file = "config/yosbr/config/suggestion-tweaker.json5"
+hash = "0ea371ce7ee40eab9d0b7ee3249aa1c9a84c9159032b0d3ce8d4916da0dbe514"
+
+[[files]]
+file = "config/yosbr/config/voicechat/translations.properties"
+hash = "b8215b84232be41438ffb7c7304b57b0677c9cad49b717db59900872080adf20"
+
+[[files]]
+file = "config/yosbr/config/voicechat/voicechat-client.properties"
+hash = "0fa7e79e5eb79d56cc0708c0691e98308a69cf869d7039b88682ca7db3b8b1d2"
+
+[[files]]
+file = "config/yosbr/config/voicechat/voicechat-server.properties"
+hash = "700c480cf1ee6850df8f5dd419e3f1443f19986bf33a3b060c52592c08734843"
+
+[[files]]
+file = "config/yosbr/config/voicechat/voicechat-volumes.properties"
+hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
+
+[[files]]
+file = "config/yosbr/config/world-host.json5"
+hash = "a28471b267bfbe8071a7df55c9d2a3544828d5b0370eb2d53a726a071a33a915"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "1d83c3992a432a0059360c9a7df51199e694ecf2a898f993a67721d14b8986cf"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "81f72955e64568bc01f7a22015c32706badfb52ec7f094b392b0a8722aef837e"
 metafile = true
@@ -256,8 +552,8 @@ hash = "18f74c79c9e7278a30de44021997df48ce2f4f292181f5ad7712e4fb4fd6f8bc"
 metafile = true
 
 [[files]]
-file = "mods/improved-sign-editing.pw.toml"
-hash = "ef0e756fc3a22772281511f651fd533c546d7bd5c7f9ee424e68880ef3725f0d"
+file = "mods/improved-signs.pw.toml"
+hash = "92e960d07c664d175957433d6f1ddc2d7cd24a7315162b2359df28c6c0a305ac"
 metafile = true
 
 [[files]]
