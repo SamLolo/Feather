@@ -552,11 +552,6 @@ hash = "18f74c79c9e7278a30de44021997df48ce2f4f292181f5ad7712e4fb4fd6f8bc"
 metafile = true
 
 [[files]]
-file = "mods/improved-signs.pw.toml"
-hash = "92e960d07c664d175957433d6f1ddc2d7cd24a7315162b2359df28c6c0a305ac"
-metafile = true
-
-[[files]]
 file = "mods/indium.pw.toml"
 hash = "a36870bfbbd57ea241255c6573a4d129509f5e50dbdcaf12d3a78c57f864bbde"
 metafile = true
