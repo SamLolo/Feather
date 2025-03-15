@@ -71,11 +71,6 @@ hash = "c455d55e736f90f6a09701594dee2342e91c77b7f230f0ff73090d7ead339629"
 metafile = true
 
 [[files]]
-file = "mods/calcmod.pw.toml"
-hash = "eeec057d3fb7f0c076d271a1c3608b67d88895e59a18bb9b5a5fe604b65fc6e6"
-metafile = true
-
-[[files]]
 file = "mods/camera-utils.pw.toml"
 hash = "04216720eaddb608269bac67bcae55eb7751d5ce6120ef0f7384cc8e5dde4e4a"
 metafile = true

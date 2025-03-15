@@ -386,11 +386,6 @@ file = "mods/calcmod-1.3.2+fabric.1.21.jar"
 hash = "a48d8e90735f7f5c7ab71a4ee62aad8df3c1d801ebd157aaa75300aa4e018eb8"
 
 [[files]]
-file = "mods/calcmod.pw.toml"
-hash = "745d07aff2e46a1f973d56e3aa52a6b85368cd4d2ea317b67be8bbce6ada3b9d"
-metafile = true
-
-[[files]]
 file = "mods/camera-utils.pw.toml"
 hash = "327f01d1e66494e52cea7325d9ce966f5c70b4170063b56e9aee9097ba4fbe84"
 metafile = true
