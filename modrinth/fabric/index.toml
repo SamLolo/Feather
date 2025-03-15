@@ -166,11 +166,6 @@ hash = "bd02cc1b0ee4feea5c920bc2b3858ddb3c3d98ece259507169956fdabb54b759"
 metafile = true
 
 [[files]]
-file = "mods/enhancedbookwriting.pw.toml"
-hash = "e2abb4ff365cb73aa4fe72047b213db7629527afe26aac3adc44bc4d3f279823"
-metafile = true
-
-[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "6e046a0ced37b978d8bf74aa48653822489348c2e65d33e40b93be55763c983f"
 metafile = true
