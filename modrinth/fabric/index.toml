@@ -328,7 +328,7 @@ metafile = true
 
 [[files]]
 file = "mods/bad-horse-fix.pw.toml"
-hash = "aa1c65ea2ef7134048c656e65bb12c60a8e3350076664facde7c40bfa068c9b6"
+hash = "0fbeb544fb73c9ac29911bbe94131c3129c8be33b0a965bfbcb739be01fbfaa2"
 metafile = true
 
 [[files]]
@@ -338,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "5218c5a5c0fce210780f20406252a168dedab7617147b34344cb44ff79e3602b"
+hash = "7af283ca94e8d0d24a7c5b5fd43c0b5c4bc4300c00754ae40dfb0b5d44ea6a17"
 metafile = true
 
 [[files]]
@@ -403,7 +403,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "a5ac1fd939338cc2f6f87c2d632432fdc25e96c8c5fc0db17fec939024229a3c"
+hash = "e94bd41a54a72723e283df0c6a870c7baef0fa38ee9099842470f9fd10fc7e70"
 metafile = true
 
 [[files]]
@@ -413,12 +413,12 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "0f24f7bd2057b70b6816de4e66922b64f8b6635dc603e40cc45d62646dc7221d"
+hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "a37e35c49d9f88554fa1372660055e86ca6b6120cba95698e21edae1613e1843"
+hash = "46cbb181784c7b89d829496c224ceac34f6f0abb949be33a83a80265739b74df"
 metafile = true
 
 [[files]]
@@ -428,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "1617432c0e79c9f530a5c74e816906ec330987b6ad998bc280ae0eedd98abe6e"
+hash = "b20a663f4a41fd0f21c80b40f8f930a9a986705293d6b7670cee4d19d2d3530d"
 metafile = true
 
 [[files]]
@@ -448,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "1c2e8832d700504346754746e30cbc3eb3719f9ca8d067e9424f02cba5a0e7c9"
+hash = "94665772ade91e3d40e76dabfb972d2355f02cb2f3de7f9a75093e14bb7d5936"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "01e471af0769f08cb24a53df4971f01a05370f19a8221d62bd2b1aee0f1ccab1"
+hash = "72ba59908f362d1e954bf0dd79d190e72b31ac1ce221471317902c6c60956e06"
 metafile = true
 
 [[files]]
@@ -483,7 +483,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "07620e0acf742955b2f10e73244e1828836dd8737ea6142c7c4cd03243a78b7e"
+hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
 metafile = true
 
 [[files]]
@@ -508,7 +508,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "9b561d57bf92aa8005e567e4bb95a2b65c8ed9c3ab30de09ea6c7e66f2e4d2da"
+hash = "8945ea290647fec8b91c24bd81821ee1d73d84a968d23260dbee24ceb951db4d"
 metafile = true
 
 [[files]]
@@ -533,12 +533,12 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "b17bee03069990a9cdca5ae129b03d1bb21e2fdc58abffb4ba8177a19e57990d"
+hash = "d4ebde657a2201455a13405b549eb06a272171eaf399ff1c9928a5df96600283"
 metafile = true
 
 [[files]]
 file = "mods/gamma-utils.pw.toml"
-hash = "a19c366e9ccb8a97994aba441b858028730b011be90d29d3284a937682fcee06"
+hash = "c2245e1cb76e99f627c7a0d2eebb0afa07e12ca22a2c131bcf5e18a75e893269"
 metafile = true
 
 [[files]]
@@ -548,7 +548,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "18f74c79c9e7278a30de44021997df48ce2f4f292181f5ad7712e4fb4fd6f8bc"
+hash = "a8f5d734693741ac07444701c7e93729f5424ed0cf8fc398b2be1062d2c4aeee"
 metafile = true
 
 [[files]]
@@ -558,12 +558,12 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "5a59acd65515e32d8fc517a78419ddd2d80a2871af463b5da4070f7a1e39f008"
+hash = "17a048c8381bc2992b794777020e1a3321ef6664403914e0f0c0d221e36b7891"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "e16a6442391c1989dccdcbe100e13063a043caef70b13ab4e37a11a7861cb497"
+hash = "5284f6d141a990f4ea021c12b851e07102f5cb22743cf7b33be6ad2eb4c8d3f5"
 metafile = true
 
 [[files]]
@@ -803,7 +803,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
-hash = "1c0ac312f7caa6bf7fc59002b9841617b17dad0d6e47dbdcaa97cca365a1ea91"
+hash = "e439eec55400be4a7d2b7434239a1a04e769c65a8e3749857dbdcb272656a610"
 metafile = true
 
 [[files]]
@@ -818,12 +818,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/environmental-water.pw.toml"
-hash = "d9f3430ca960113ecb82572806b5fb14e8cb13a7cbbab2ccc6c1edff0fa1c78b"
+hash = "e8c593753d303b6c1ed544622d65752b1477795f066d81f438422bc5423e2e14"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
-hash = "0870e3d09cf18837377fdf57856a02c8c226fb77aac6c6e7ece26a16688a4a85"
+hash = "8c602ce7585fa682923bd847fb5b6dfa560ce80ba7a7879007809bb4db4b740a"
 metafile = true
 
 [[files]]

@@ -1,13 +1,13 @@
 name = "RyoamicLights"
-filename = "RyoamicLights-fabric-0.2.9+mc1.21.jar"
+filename = "RyoamicLights-fabric-0.2.11+mc1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6732f9fd8991b5f532ec693b647d3a3eefec890f"
+hash = "d0d7a4639b289ecc25d04ff91bad4ca9885dc645"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5475693
+file-id = 5643027
 project-id = 913587
