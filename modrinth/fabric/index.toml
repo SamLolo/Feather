@@ -31,11 +31,6 @@ hash = "3efb5df489cdac5c07964f7d2d6bcb8f0464f76e55b4397ed85f9e378fa1a784"
 metafile = true
 
 [[files]]
-file = "mods/autorelog.pw.toml"
-hash = "af1b87ed28af7a1cb8d2527a8a9247ee2d3feebbe41862940e19b4427af85f79"
-metafile = true
-
-[[files]]
 file = "mods/bad-horse-fix.pw.toml"
 hash = "aa1c65ea2ef7134048c656e65bb12c60a8e3350076664facde7c40bfa068c9b6"
 metafile = true

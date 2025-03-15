@@ -342,11 +342,6 @@ file = "mods/autorelog-0.1.1+1.21.jar"
 hash = "4ba2648f8254c0aa26172b8ca625152324aec837e90b8ad4c6c2b2fcb99c615c"
 
 [[files]]
-file = "mods/autorelog.pw.toml"
-hash = "af1b87ed28af7a1cb8d2527a8a9247ee2d3feebbe41862940e19b4427af85f79"
-metafile = true
-
-[[files]]
 file = "mods/bad-horse-fix.pw.toml"
 hash = "cada1345a402715b9c2d8027b8039e8effd36abcbdf3c5330bd7f11cebf681ea"
 metafile = true
