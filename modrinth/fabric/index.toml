@@ -412,11 +412,6 @@ hash = "e94bd41a54a72723e283df0c6a870c7baef0fa38ee9099842470f9fd10fc7e70"
 metafile = true
 
 [[files]]
-file = "mods/concentration.pw.toml"
-hash = "eb5a2d23b6e8cee2bbea0bfa9980b7cc4270097d228f9bd3049f9d58b84a284b"
-metafile = true
-
-[[files]]
 file = "mods/continuity.pw.toml"
 hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
@@ -439,6 +434,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "b2e98992d952456f37ec040b2a3abfcc6f2bd4a6b9406d5dbe04a85c920ce582"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "7797b4dcd9c68b4555caf2629b0bff76f234ae04e8b42956e95ce2c65807049e"
 metafile = true
 
 [[files]]
