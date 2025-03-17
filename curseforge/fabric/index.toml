@@ -542,6 +542,11 @@ hash = "ea759975efce2f0cc64ba5e00744e112d26328d1cd398d74094e0426670cba74"
 metafile = true
 
 [[files]]
+file = "mods/fog-overrides.pw.toml"
+hash = "9c28df8f444afc2303ecf53db81bbd3f033ae6a769b1030bdaabc733e4943cb9"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "c156d40da49ebb42e6f11343e39d7afe38c95d85744f8ad18b50bdebf28ad389"
 metafile = true
