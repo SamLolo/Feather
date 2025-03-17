@@ -428,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "9c0bd9d64147f7e7e8b358a7bbbb390fa24d5ae051c1879dbc6c504035c70bdc"
+hash = "3ead7b553d53f829916e533a25d9d6d1e52faa9b312582470b68843cf1cc9924"
 metafile = true
 
 [[files]]
@@ -548,7 +548,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "c156d40da49ebb42e6f11343e39d7afe38c95d85744f8ad18b50bdebf28ad389"
+hash = "fcbd3e38337188c0286a43902899bcc340804a5feba238a409099662139d6520"
 metafile = true
 
 [[files]]
@@ -563,7 +563,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "9b1bf37119f30737d86ffe8859c525aeeecc031db54acf4d6d88e4cd89c3df84"
+hash = "da017d71a59bd93121a2995257f3f48f5d232ebb5767ff1beda86f5a59aa8563"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "91e262082bcf0b91a80f66f22700805ea8efa7dfe3a1c320a1bde86af2b29873"
+hash = "c9a745683965df8b1de34a50a5d001ad3e2fa21eda55f9d052ae62495e282d69"
 metafile = true
 
 [[files]]
@@ -797,6 +797,11 @@ hash = "000ebd05edd1a24e137f45b043114af05db68d846b3a4428cc01ec422c303cdc"
 metafile = true
 
 [[files]]
+file = "mods/unilib.pw.toml"
+hash = "8805f378719483ade0dbc81f59ad7939b1f39678bfe42c555cf5622ba8dbebd2"
+metafile = true
+
+[[files]]
 file = "mods/waveycapes.pw.toml"
 hash = "839dffc1af1c38f7a84f64175dc0ea177db214ca696325e8e00a95ab41a85280"
 metafile = true
@@ -808,7 +813,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "345c1312f11e927c688068bb09b5d55f1ff51a70ad74ca0a4e93aeb60bc46f3f"
+hash = "9c507e34364bcdcdddb44802226c35f5ac05597a0b6f31c819d9a2331a45b11f"
 metafile = true
 
 [[files]]

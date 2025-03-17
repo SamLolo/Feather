@@ -1,13 +1,13 @@
 name = "Feather"
 author = "SamLolo"
-version = "3.1"
+version = "V3.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9995cf2bad6661c57099d4de68edb5e5eb028da6b8be893e4247a55b349dedea"
+hash = "d4e865cf187e0acbb7c89876f50d595736529c71f2b54f761133ac542f3f61d0"
 
 [versions]
-fabric = "0.16.9"
+fabric = "0.16.10"
 minecraft = "1.21"
