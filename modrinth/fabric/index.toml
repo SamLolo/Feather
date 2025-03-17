@@ -397,6 +397,11 @@ hash = "620fe398577788448c11971a1b5a471780acfa3f9423652f0961c9490a84d8ec"
 metafile = true
 
 [[files]]
+file = "mods/cit-resewn.pw.toml"
+hash = "6d511d91e17e09d36b0b0c7065b07eb604146bc9f3df0fbc932948aaf33aa440"
+metafile = true
+
+[[files]]
 file = "mods/clientsidenoteblocks.pw.toml"
 hash = "c3b0a2189e0e4b274d9e223b662bf3575dd436cfd979ad3e97f0754c6450739a"
 metafile = true
