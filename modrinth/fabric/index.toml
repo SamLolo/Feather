@@ -592,6 +592,11 @@ hash = "7c6239fe970cd45a1f680493b9fceef6870afcfd2de72086bfef3f765bd3c4c6"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "cec885fcaeede117597c4619de2f122d40e3b633be5d4449d77037e8d290b50e"
+metafile = true
+
+[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "ef20ce84613504cc5db9a3c405a27cdaca28863c7b03f9328fd8431b664c359b"
 metafile = true
@@ -739,11 +744,6 @@ metafile = true
 [[files]]
 file = "mods/rrls.pw.toml"
 hash = "2b36d7182dd84b76e529770f82fe3418e7a6913cc1e34c6d333956821c38c910"
-metafile = true
-
-[[files]]
-file = "mods/ryoamiclights.pw.toml"
-hash = "ea10b64e72890a0b0fac51f24c33c33ecee7e1fbe4c5d1ce7df053f65c004ba9"
 metafile = true
 
 [[files]]
