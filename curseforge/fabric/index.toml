@@ -337,6 +337,11 @@ hash = "10bb014e9a60669ff02e8f981dda35ef252c81285d020ac183027915d3c233b1"
 metafile = true
 
 [[files]]
+file = "mods/better-ping-display-fabric.pw.toml"
+hash = "a75af1e70cdfc77b9158600cfc6583b8deeb4c7541b940df2386203ec972cbd6"
+metafile = true
+
+[[files]]
 file = "mods/better-stats.pw.toml"
 hash = "b1a8983a29fea4e5e0f369455016c9a70b9a227d9840774489c992fb5d48489a"
 metafile = true
@@ -439,6 +444,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "1cb1d21f5ce255ae19f3a091243a15941a6d3fde34715241a88941d7b2581505"
+metafile = true
+
+[[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "319b757fcefbea557c7c17b8c33f8164277a129bdf4d537303a777e601f9e457"
 metafile = true
 
 [[files]]
@@ -772,8 +782,18 @@ hash = "dcd3df0fdb74a2d90eed69124b1bea9bb56244affb1e1f445e16a87066463dff"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "c702e025298d58a90705f502abad07bb03e1dcc22733c95e1379665aa149918e"
+metafile = true
+
+[[files]]
 file = "mods/tcdcommons.pw.toml"
 hash = "000ebd05edd1a24e137f45b043114af05db68d846b3a4428cc01ec422c303cdc"
+metafile = true
+
+[[files]]
+file = "mods/waveycapes.pw.toml"
+hash = "839dffc1af1c38f7a84f64175dc0ea177db214ca696325e8e00a95ab41a85280"
 metafile = true
 
 [[files]]
