@@ -1,13 +1,14 @@
 name = "UniLib"
-filename = "UniLib-1.0.5+0.0.8-flint.jar"
+filename = "UniLib-1.0.5+1.21.1-fabric.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
-hash = "0d00ca05f6db333f1ac42aa671df4136a095b2aa"
+hash = "59cac967293c7e26cef4ad6e0ea9a5fd30c965ed"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6088195
+file-id = 6087902
 project-id = 1056812

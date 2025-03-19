@@ -428,7 +428,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "3ead7b553d53f829916e533a25d9d6d1e52faa9b312582470b68843cf1cc9924"
+hash = "92d3197522cd61db9658a6aa36efe6e68b1227395a0163a443a8f7054e378f88"
 metafile = true
 
 [[files]]
@@ -598,7 +598,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "47bf222a7768b26b132df7a67eeca8547b7036d5c804000c166c1ec82945b014"
+hash = "0c296900a19fa458820b467246a7a69ea5e4b5849a5a411171dcc6e96432408f"
 metafile = true
 
 [[files]]
@@ -798,7 +798,7 @@ metafile = true
 
 [[files]]
 file = "mods/unilib.pw.toml"
-hash = "8805f378719483ade0dbc81f59ad7939b1f39678bfe42c555cf5622ba8dbebd2"
+hash = "e1f175749e5acc90ac2a866d54ab2bfc1aa2e099e35949447ba7a4fecd6a7dca"
 metafile = true
 
 [[files]]
