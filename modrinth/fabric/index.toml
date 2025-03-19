@@ -802,6 +802,11 @@ hash = "cf2c07cb7d1637541d163948891a9b3df2aabf6d562e963ee33a99fbb9871e4d"
 metafile = true
 
 [[files]]
+file = "mods/unilib.pw.toml"
+hash = "b596c60d06c7645dce40b16e49eb8ea18c92d09a656cdfce6000e0ff2c8eeae7"
+metafile = true
+
+[[files]]
 file = "mods/wavey-capes.pw.toml"
 hash = "60ba171051a6d49059d0049417f4413886b30e3939669c3351522aa01b17284a"
 metafile = true
