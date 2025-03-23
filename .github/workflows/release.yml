@@ -94,20 +94,30 @@ jobs:
     if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' && (needs.get-modpacks.outputs.curseforge-packs) != '[]'}}
 
     permissions:
-      contents: read
+      contents: write
 
     outputs:
       release-tag: V${{steps.get-version.outputs.version}}
 
     steps:
 
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: Get Version
         id: get-version
         run: echo "version=$(cat version.txt)" >> $GITHUB_OUTPUT
 
+      - name: Generate Changelog
+        id: git-cliff
+        uses: orhun/git-cliff-action@main
+        with:
+          config: cliff.toml
+          args: -u --tag V${{steps.get-version.outputs.version}} --strip all --github-repo ${{ github.repository }}
+
       - name: Create Release
         run: |
-          gh release create V${{steps.get-version.outputs.version}} --draft
+          gh release create V${{steps.get-version.outputs.version}} --draft --title "Feather V${{steps.get-version.outputs.version}} for MC 1.x.x" --notes ${{steps.git-cliff.outputs.content}}
         shell: bash
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -129,7 +139,7 @@ jobs:
         modpack: ${{ fromJson(needs.get-modpacks.outputs.curseforge-packs) }}
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
 
@@ -166,7 +176,7 @@ jobs:
         modpack: ${{ fromJson(needs.get-modpacks.outputs.modrinth-packs) }}
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
 
