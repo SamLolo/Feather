@@ -307,6 +307,11 @@ hash = "cdc6274305b261087764409f7a7e747e4421afe2fe391b07916ed5fccfca4062"
 metafile = true
 
 [[files]]
+file = "mods/anvians-lib.pw.toml"
+hash = "d97dc0b5c54f25233be142b9341d46c149f68ab98f9062934c5354708f299c85"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "9ce55dc09b4b2a28b39ae47d146cfe5399dfc74666d9ae53811bdef4058b3491"
 metafile = true
@@ -657,6 +662,11 @@ hash = "c2fe9a1900ceb3a6014ccb83344aa4ab5ddf65c8bf660044469c3c90c7ed9010"
 metafile = true
 
 [[files]]
+file = "mods/morebeeinfo.pw.toml"
+hash = "525591767417842447902add4b1d2abd141c1d5cebf7c3e21866a77d9ee0ed8f"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "3cd8155341a4233955ff9892a3b7b5da6dc6d8d892863b2f544328f2731f7f03"
 metafile = true
@@ -702,11 +712,6 @@ hash = "b5b40e88faaa593751d4dd7d2979b89f4e8d572135c072106a82ae5757c46070"
 metafile = true
 
 [[files]]
-file = "mods/peek.pw.toml"
-hash = "cb01de114df7524c0112c4dbc4da75d7cdf32483968bdcef8331dda48af2bcc5"
-metafile = true
-
-[[files]]
 file = "mods/pet-owner.pw.toml"
 hash = "012a720388b154a1d43a0f5fd88c2281fef037a1c88fa8799278b11fc9a79afa"
 metafile = true
@@ -744,6 +749,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "6202ef67a31c6bd0679d03549959729603508f716d153d9e358099b05ac8fae8"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "edb5e8cd6d88b6c757730d2309faf11a6690a59d2cfdec7f020bb28b3b921ca3"
 metafile = true
 
 [[files]]
