@@ -847,6 +847,11 @@ hash = "ff85d06569c47f70c8fdd3ca44d80b3e19dff6e12e854a4bc8fd4ee09ec82940"
 metafile = true
 
 [[files]]
+file = "resourcepacks/better-leaves.pw.toml"
+hash = "767a7395ce84c5affc26fcc2cf8266e88c15c12baf9587fa92627ef2d2024a7d"
+metafile = true
+
+[[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "e439eec55400be4a7d2b7434239a1a04e769c65a8e3749857dbdcb272656a610"
 metafile = true
@@ -874,4 +879,29 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/loading-backgrounds-loading-images.pw.toml"
+hash = "4472d287532ead65b7b0e089bc21449116c182536a702122b1cd9e31931c380a"
+metafile = true
+
+[[files]]
+file = "resourcepacks/low-on-fire.pw.toml"
+hash = "0af8190d415b105a7a2b9e1ec360ec0d7ec85e06bbc0616e0f23092bf0f61d79"
+metafile = true
+
+[[files]]
+file = "resourcepacks/slightly-improved-font.pw.toml"
+hash = "841804ccbe93cc1c68a1565ec47bb0c56e8e42b56e3d6caf4ef5d2fdf30342a7"
+metafile = true
+
+[[files]]
+file = "resourcepacks/translations-for-sodium.pw.toml"
+hash = "d76d51b3d5d7b992b8cd9a70d3badf2f2b3267358da20601c0b3efa9abb62eac"
+metafile = true
+
+[[files]]
+file = "resourcepacks/update-edition.pw.toml"
+hash = "eadbf13984dd1b79d30f2b6293be5a85bbd74869e28453c40242d77028701fd6"
 metafile = true
