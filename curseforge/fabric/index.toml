@@ -418,7 +418,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "166eb6d53d1857518c55f44c85705a93cc16530d22c5ea5501efe3b08fd01a66"
+hash = "977a409c979c04d4033d3c844a80329ea67f23c5e9c71e121c728f0053369057"
 metafile = true
 
 [[files]]
@@ -813,7 +813,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "9c507e34364bcdcdddb44802226c35f5ac05597a0b6f31c819d9a2331a45b11f"
+hash = "94be9343c0b3d008d0f3101bbef9760a4dc319609bdc625cad0420c0b55de2c3"
 metafile = true
 
 [[files]]
