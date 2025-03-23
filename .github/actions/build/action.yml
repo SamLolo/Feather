@@ -61,8 +61,8 @@ runs:
       if: ${{ inputs.build-modrinth == 'true' }}
       run: |
         packwiz modrinth export
-        mv Feather-${{ inputs.version }}.mrpack Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack
-        echo "Modrinth pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack'"
+        mv Feather-${{ inputs.version }}.mrpack Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-V${{ inputs.version }}.mrpack
+        echo "Modrinth pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-V${{ inputs.version }}.mrpack'"
       shell: bash
       working-directory: ${{ inputs.directory }}
 
@@ -82,8 +82,8 @@ runs:
       if: ${{ inputs.build-curse == 'true' }}
       run: |
         packwiz curseforge export
-        mv Feather-${{ inputs.version }}.zip Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip
-        echo "Curseforge pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip'"
+        mv Feather-${{ inputs.version }}.zip Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-V${{ inputs.version }}.zip
+        echo "Curseforge pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-V${{ inputs.version }}.zip'"
       shell: bash
       working-directory: ${{ inputs.directory }}
 
