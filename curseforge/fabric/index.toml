@@ -837,6 +837,11 @@ hash = "bbbcf529b4c35f04e733922ca06dde4aac8d97a556e4396da25d99e2d079c0c9"
 metafile = true
 
 [[files]]
+file = "resourcepacks/better-flame-particles.pw.toml"
+hash = "1ac031dbb7456abcec05e4b7f2c2c1fe5b1b5a61ac8b0c807f53400212ec1beb"
+metafile = true
+
+[[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
 hash = "cfac97d8763aa519af568ab4d25e56301d87453d76cc2e39883268d78d318ce8"
 metafile = true
