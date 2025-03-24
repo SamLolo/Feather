@@ -17,10 +17,6 @@ file = "config/yosbr/config/appleskin.json5"
 hash = "c81b19e17a00febb252706a37bc5e3feff454d85b095ea9d5b0d7ae99a417d4a"
 
 [[files]]
-file = "config/yosbr/config/autorelog.json"
-hash = "568aea188b56328bc81d46cab5bd54744bfaf305f753c31a6e027a6dd950b92e"
-
-[[files]]
 file = "config/yosbr/config/betterCommandBlockUI.properties"
 hash = "a48aa829d38d7ca308884f66063bdb8b6cfeab50620fbb4ba94022e43f4f4b14"
 
@@ -55,10 +51,6 @@ hash = "b0c5e8f89bf6a9f27bef5080da78b1cda9ef0a0629402867d1d219243b185aba"
 [[files]]
 file = "config/yosbr/config/clientsidenoteblocks.json"
 hash = "009b6f7f69ed240c38d1a70ef7370f2c21a0b81c3254f689534debfbeeacf616"
-
-[[files]]
-file = "config/yosbr/config/concentration.json"
-hash = "d5b574951774c5cab441fe4fadf6d8a2068d94eade834d3c446d2099347ecbc7"
 
 [[files]]
 file = "config/yosbr/config/continuity.json"
@@ -153,38 +145,6 @@ file = "config/yosbr/config/jade/sort-order.json"
 hash = "c502ee311117ae1450eda6e42f6907b9d62048c5377801442f8dabc4fe2b7426"
 
 [[files]]
-file = "config/yosbr/config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/yosbr/config/jei/ingredient-list-mod-sort-order.ini"
-hash = "859930e5e77f33badddd34c5ad6d220330e6e997793eabe12280fff73d604228"
-
-[[files]]
-file = "config/yosbr/config/jei/ingredient-list-type-sort-order.ini"
-hash = "5064fb08f3a4af3321de4746ac60fe83ac464732b684a38c68d97ad2c4bce440"
-
-[[files]]
-file = "config/yosbr/config/jei/jei-client.ini"
-hash = "ae69c703794888aa73eb0d53bf61e8f611922bdff4464011838b362ae23f4680"
-
-[[files]]
-file = "config/yosbr/config/jei/jei-colors.ini"
-hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
-
-[[files]]
-file = "config/yosbr/config/jei/jei-debug.ini"
-hash = "fed5a1f6e741725e0946ec0c3f753994ffed14bb7bcbef81e77e1bb960495e31"
-
-[[files]]
-file = "config/yosbr/config/jei/jei-mod-id-format.ini"
-hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
-
-[[files]]
-file = "config/yosbr/config/jei/recipe-category-sort-order.ini"
-hash = "f55952d310ddb4d904241962b30be9e2717ba72f93fc87bfea821a68caa9d10f"
-
-[[files]]
 file = "config/yosbr/config/lighty/base.config"
 hash = "bc8e9db59c1c40f46f86678966490d25c5fe0e62991a292d98431417c8fdcd7c"
 
@@ -213,10 +173,6 @@ file = "config/yosbr/config/notenoughanimations.json"
 hash = "f734f35399f949a79b29328d6d0398027a5e5c4f5ffa15f35a44c8054b54da34"
 
 [[files]]
-file = "config/yosbr/config/peek/peek.properties"
-hash = "8d5dcca82996c67c63dc6d7a28baa1eb172002dd1c42131036e4e83a2209f064"
-
-[[files]]
 file = "config/yosbr/config/petowner.json"
 hash = "f9ae634a8d926decb16d47b18096f7cc57a6e8f1da9e047a7e6e76ca18d5e139"
 
@@ -231,10 +187,6 @@ hash = "455381dc7f7a45e8f72fb574edac56d87ce1936e924d5a3d5eeb2c76414ae83d"
 [[files]]
 file = "config/yosbr/config/puzzle.json"
 hash = "0846eede858c12e9b1052de67e8242cea33a6e6d3ae33b8c03bff0b17199478c"
-
-[[files]]
-file = "config/yosbr/config/ryoamiclights.toml"
-hash = "c1ad8ae1729457fa6ae93d846888a5fde2cb5f16205a8ff8f4289fa97e6679f9"
 
 [[files]]
 file = "config/yosbr/config/simplehudenhanced.toml"
@@ -267,10 +219,6 @@ hash = "d1778cf97a1811a10ad4d2e19cdd75800f1981fb4150266301b6c12d96c4431e"
 [[files]]
 file = "config/yosbr/config/sound_physics_remastered/soundphysics.properties"
 hash = "c9e79968413b6d27a548872869c347d8006b29878cb05210c9b24b4be5efe45a"
-
-[[files]]
-file = "config/yosbr/config/suggestion-tweaker.json5"
-hash = "0ea371ce7ee40eab9d0b7ee3249aa1c9a84c9159032b0d3ce8d4916da0dbe514"
 
 [[files]]
 file = "config/yosbr/config/voicechat/translations.properties"
@@ -398,7 +346,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "6d511d91e17e09d36b0b0c7065b07eb604146bc9f3df0fbc932948aaf33aa440"
+hash = "d56a650e6a901b9e84052229a90662b507dda74df65285d3d6ae2a8c71fd9975"
 metafile = true
 
 [[files]]
