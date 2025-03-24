@@ -109,7 +109,7 @@ jobs:
         uses: orhun/git-cliff-action@main
         with:
           config: cliff.toml
-          args: -u --tag v${{steps.parse-pack.outputs.pack-version}} --strip all --github-repo ${{ github.repository }}
+          args: -u --tag v${{steps.parse-pack.outputs.pack-version}} --strip header --github-repo ${{ github.repository }}
 
       - name: Create Release
         run: |
