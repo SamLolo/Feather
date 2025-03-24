@@ -493,7 +493,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "5b9d1e1ec60004c0bd38a134b7b8987583250200238abe84180b1f5bea839eae"
+hash = "d603d3af57d7425dd7abf0edea73a792d7d6809e41b8989f4f4a35152bb84c71"
 metafile = true
 
 [[files]]
@@ -548,7 +548,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "fcbd3e38337188c0286a43902899bcc340804a5feba238a409099662139d6520"
+hash = "7bd9071acd4bd490f6f864d7c02db83b1090b0256bbb894cc9288b2d495f10e6"
 metafile = true
 
 [[files]]
@@ -708,7 +708,7 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "c9a745683965df8b1de34a50a5d001ad3e2fa21eda55f9d052ae62495e282d69"
+hash = "9b62a5ee8a1bd96a02c24e69a2ed814e521ca761af7803d81f2acf869ba1e6e3"
 metafile = true
 
 [[files]]
@@ -883,7 +883,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "25422b059194714c09f9dbba860e394d854df23cb4d8232a2d749a837c2883a2"
+hash = "ee61fccbb880019f8a549925e305a1a2ddde508447b977a648d216c7d035f1f4"
 metafile = true
 
 [[files]]

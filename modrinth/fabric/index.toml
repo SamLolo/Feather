@@ -498,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "bb9a29a48b27e7abc0799d4393240ae2cdcf7d64341c9a63347769173f8bda2e"
+hash = "97e7fb0bf5c563366b7c6121fa2decb67597107e5594932c6a098cccc980629e"
 metafile = true
 
 [[files]]
@@ -553,7 +553,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "fdf65254b212f6f7ca9720e7ed140bac478efdd89f4313816557d1dc828e0852"
+hash = "957f570521fb0b9bb3cbfc01e729b80a733cc245016b1e9724f5c9f923b6b3b0"
 metafile = true
 
 [[files]]
@@ -718,12 +718,12 @@ metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
-hash = "ae640e475aa1b1d9a2095ea9995ef9630d1a37a8da73e5429681998399681ee7"
+hash = "53ef658c678f7532ea0b18d1043b86c8ae197212dab1264e650d0e6e2b84f7ff"
 metafile = true
 
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
-hash = "eedefcefb935f2f4526f0f63d3a702a1594e747c34ded51df71bd64e76340e96"
+hash = "dee709ea8dbbb9e75de4d53b1b9e1fd0e535abc0809c1f5aaadf783178cccf21"
 metafile = true
 
 [[files]]
