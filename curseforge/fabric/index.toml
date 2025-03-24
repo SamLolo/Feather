@@ -572,11 +572,6 @@ hash = "da017d71a59bd93121a2995257f3f48f5d232ebb5767ff1beda86f5a59aa8563"
 metafile = true
 
 [[files]]
-file = "mods/indium.pw.toml"
-hash = "9e4c53fb1fda9be64935604adcdd3434a78ca27fefc71111f6dc37e4787ef2a6"
-metafile = true
-
-[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "03faf54148ad161227419e75996beb3e0004f15966d5ec69da0395bcaec445e7"
 metafile = true
