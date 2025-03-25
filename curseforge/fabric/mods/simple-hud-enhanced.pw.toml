@@ -1,13 +1,13 @@
 name = "Simple HUD Enhanced"
-filename = "simple-hud-enhanced+1.21-1.21.1-4.7.4.jar"
+filename = "simple-hud-enhanced+1.21-1.21.1-4.7.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "43866c4f80e2d3437daf917b5ffc25a60af87359"
+hash = "7d40f2997df0cee49981980599476ffa4aa8ea5e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6258546
+file-id = 6342488
 project-id = 866605

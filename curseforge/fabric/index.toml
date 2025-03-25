@@ -296,7 +296,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "b1a8983a29fea4e5e0f369455016c9a70b9a227d9840774489c992fb5d48489a"
+hash = "7036fb63a898da2f8d63017223e9ac294e8189a0f9aed650b654a1f2a2e137a2"
 metafile = true
 
 [[files]]
@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "977a409c979c04d4033d3c844a80329ea67f23c5e9c71e121c728f0053369057"
+hash = "50c960fb62b896b700f0056d80d403428804dc6104544949692826c1693347ad"
 metafile = true
 
 [[files]]
@@ -376,7 +376,7 @@ metafile = true
 
 [[files]]
 file = "mods/craftpresence.pw.toml"
-hash = "92d3197522cd61db9658a6aa36efe6e68b1227395a0163a443a8f7054e378f88"
+hash = "3ead7b553d53f829916e533a25d9d6d1e52faa9b312582470b68843cf1cc9924"
 metafile = true
 
 [[files]]
@@ -406,7 +406,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "6287235c316465e0013815d4a09b2ed135408c63e6138e2e18299a3df90d8d79"
+hash = "eaa325d04c7b2e8457984cda4452aca423d2467d0c3d26d702495122ae4588b8"
 metafile = true
 
 [[files]]
@@ -701,7 +701,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-hud-enhanced.pw.toml"
-hash = "421ff0ee0756d3b0d7cf78dd159faae9c0f9b69d5929e9291a0e00407e6a232c"
+hash = "188aa94b60fa27e9efd499dc5a2a03c51f071f4ec529858f32a70e8a6a2f57bb"
 metafile = true
 
 [[files]]
@@ -746,12 +746,12 @@ metafile = true
 
 [[files]]
 file = "mods/tcdcommons.pw.toml"
-hash = "000ebd05edd1a24e137f45b043114af05db68d846b3a4428cc01ec422c303cdc"
+hash = "fabf45760d3b99280fc669e4d545c51339d65dee508fea3ce8858841d77c5bdd"
 metafile = true
 
 [[files]]
 file = "mods/unilib.pw.toml"
-hash = "e1f175749e5acc90ac2a866d54ab2bfc1aa2e099e35949447ba7a4fecd6a7dca"
+hash = "01128b8ce346e387c69d9f06e19d60e5fdd7a45096a2d39f3704bfdbd761187b"
 metafile = true
 
 [[files]]
@@ -766,7 +766,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "94be9343c0b3d008d0f3101bbef9760a4dc319609bdc625cad0420c0b55de2c3"
+hash = "126fa71535b6eb87249ed32a6573fabad273c23f10fc646e7fff28031bfc0ed6"
 metafile = true
 
 [[files]]
@@ -786,7 +786,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/chat-reporting-helper.pw.toml"
-hash = "cfac97d8763aa519af568ab4d25e56301d87453d76cc2e39883268d78d318ce8"
+hash = "8c235b9b9298b7203a982b9630073da6f9e954f924303d47a523279f397e5dd7"
 metafile = true
 
 [[files]]
@@ -806,7 +806,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fast-better-grass.pw.toml"
-hash = "10319c8d08e157ded40294e3ad1a90732b7bcb18f41d3ae604648a0e84a8d838"
+hash = "48826acb31ea911a6132a9425f3e5e878065d1a62a502fea2f578d676f1455cf"
 metafile = true
 
 [[files]]
@@ -836,7 +836,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/translations-for-sodium.pw.toml"
-hash = "ee61fccbb880019f8a549925e305a1a2ddde508447b977a648d216c7d035f1f4"
+hash = "10184f7c5968a0dbd34a5483f154cecbf6ed3b2341d86c61ec16af4541066a0d"
 metafile = true
 
 [[files]]

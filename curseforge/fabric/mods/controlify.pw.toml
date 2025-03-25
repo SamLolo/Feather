@@ -1,7 +1,6 @@
 name = "Controlify"
 filename = "Controlify-2.0.0-beta.21+1.21-fabric.jar"
 side = "both"
-pin = true
 
 [download]
 hash-format = "sha1"

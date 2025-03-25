@@ -1,7 +1,6 @@
 name = "YetAnotherConfigLib"
 filename = "YetAnotherConfigLib-3.6.2+1.21-fabric.jar"
 side = "both"
-pin = true
 
 [download]
 hash-format = "sha1"
