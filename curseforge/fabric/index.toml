@@ -515,13 +515,18 @@ hash = "da017d71a59bd93121a2995257f3f48f5d232ebb5767ff1beda86f5a59aa8563"
 metafile = true
 
 [[files]]
+file = "mods/indium.pw.toml"
+hash = "9e4c53fb1fda9be64935604adcdd3434a78ca27fefc71111f6dc37e4787ef2a6"
+metafile = true
+
+[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "03faf54148ad161227419e75996beb3e0004f15966d5ec69da0395bcaec445e7"
 metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "b31e45972ba08291e168f9d93ed14d679a8799983b7bce7ca38faa795a85bf3a"
+hash = "010c30a70999d4ac6493b27323b546aefeca1f25fbfdc874c4428662412a9f0a"
 metafile = true
 
 [[files]]
@@ -671,7 +676,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "2494505990ebe04a740fbae936efdf4d24a52071c04d3b73d215b9539e59817b"
+hash = "276e7e0b6cb6d9ec075be10a555361e9c8a0c39e02bbb161e3c726cd29ba19c6"
 metafile = true
 
 [[files]]
@@ -716,17 +721,17 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "c5aff6a4833d5c7d9051fb2656e2e0f3f52f3e7375faa5ce11af9333930acd06"
+hash = "a8a83e9e121d535527abcc02d6c2411ead29904365f4b139191e890ec5ce5b51"
 metafile = true
 
 [[files]]
 file = "mods/sodium-shadowy-path-blocks.pw.toml"
-hash = "d784b4d9ee7f99008808bd6407cb3f402e46712c90f978b4ccfcd5e81eb7f794"
+hash = "5275008c2e7341f305cecaeba73b72323f75223fb8d85e4288e518b62f97e9de"
 metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "c68d45f703662c753fd8e65339fde3ae566672200710e6913bc7598ecfaad90d"
+hash = "b4eee90e0731ffdcd82cda4467f8dbbaaa651c8cbfab9bfa3c8e3066b440f6ba"
 metafile = true
 
 [[files]]
