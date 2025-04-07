@@ -545,11 +545,6 @@ hash = "cafd868ff40b7f9730efd7e9ae8a427916ae4531dbdb78930371e5cfd263435b"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "0c296900a19fa458820b467246a7a69ea5e4b5849a5a411171dcc6e96432408f"
-metafile = true
-
-[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "d26aa418b7b3127eb7f767495cabbf6daf3fee10154f7679e083a33e476eedad"
 metafile = true
@@ -677,6 +672,11 @@ metafile = true
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
 hash = "a01882a8a94bcf77e68f3d03d8a1d3098de9b63ee455d7ee0ee300bc8974b2c7"
+metafile = true
+
+[[files]]
+file = "mods/ryoamiclights.pw.toml"
+hash = "3a09f15c4b59643fa46d8f46747839ee57d84f7d8cd2541f5735abcee347924b"
 metafile = true
 
 [[files]]
