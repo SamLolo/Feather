@@ -22,14 +22,14 @@ jobs:
 
     - name: Check PR merged into main
       if: ${{ github.event.pull_request.merged != true }}
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
             core.setFailed('PR not merged!')
     
     - name: Check PR had release label
       if: ${{ contains(github.event.pull_request.labels.*.name, 'release') != true }}
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: |
             core.setFailed('PR missing release label!')
