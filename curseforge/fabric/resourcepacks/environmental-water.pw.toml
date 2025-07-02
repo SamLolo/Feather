@@ -1,13 +1,13 @@
 name = "Environmental Water"
-filename = "Environmental Water 1.20.2-1.21.4.zip"
+filename = "Environmental Water 1.20.2-1.21.0.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "03bceffbb5f7adb3242a812abcb7e44e3ce1cee4"
+hash = "caa7f1a0f67b17b719781aa400f1a3f59970cec0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6196742
+file-id = 5456633
 project-id = 813415

@@ -1,0 +1,13 @@
+name = "Smoke Signals"
+filename = "smokesignals-1.1+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dbf1044f326be2aebfd1451869c85787efa1794e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5424028
+project-id = 961587
