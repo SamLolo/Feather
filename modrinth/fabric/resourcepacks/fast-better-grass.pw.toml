@@ -3,11 +3,11 @@ filename = "Fast Better Grass.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/dspVZXKP/versions/F1SMzWd8/Fast%20Better%20Grass.zip"
-hash-format = "sha512"
-hash = "0e7ee6f5a89b750349273247a4e782a28d76f17cf9f9a60a3d7e271c94b283a0bfc306d0f8f354b8514f8369400e30ad4fc47c1ca930059a7c8b27fbe9f388cf"
+url = "https://cdn.modrinth.com/data/dspVZXKP/versions/cexf0WMO/Fast%20Better%20Grass.zip"
+hash-format = "sha1"
+hash = "188dc89e001c82138d53217dab0d3a5fa1f0df61"
 
 [update]
 [update.modrinth]
 mod-id = "dspVZXKP"
-version = "F1SMzWd8"
+version = "cexf0WMO"
