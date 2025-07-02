@@ -1,3 +1,6 @@
+
+# Creates a draft release of the modpack when a new pull request is merged to the main branch with the release tag
+
 name: Modpack Release
 run-name: Modpack Release by @${{ github.actor }}
 
@@ -6,17 +9,14 @@ on:
     types:
       - closed
 
-env:
-  pack-file: 'pack.toml'
-  default-release-modrinth: 'true'
-  default-release-curseforge: 'true'
-
-  
 jobs:
 
   verify-pr:
     name: Verify Pull Request
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
     
     steps:
 
@@ -50,9 +50,6 @@ jobs:
       modrinth-packs: ${{ steps.list-modrinth.outputs.modpack-folders }}
     
     steps:
-
-      - name: Check Out Git Repository
-        uses: actions/checkout@v4
 
       - name: List Curseforge Modpacks
         id: list-curse
@@ -94,20 +91,29 @@ jobs:
     if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' && (needs.get-modpacks.outputs.curseforge-packs) != '[]'}}
 
     permissions:
-      contents: read
+      contents: write
 
     outputs:
-      release-tag: V${{steps.get-version.outputs.version}}
+      release-tag: v${{steps.parse-pack.outputs.pack-version}}
 
     steps:
 
-      - name: Get Version
-        id: get-version
-        run: echo "version=$(cat version.txt)" >> $GITHUB_OUTPUT
+      - name: Parse Pack File
+        id: parse-pack
+        uses: ./.github/actions/parse
+        with:
+          directory: curseforge/fabric
+
+      - name: Generate Changelog
+        id: git-cliff
+        uses: orhun/git-cliff-action@main
+        with:
+          config: cliff.toml
+          args: -u --tag v${{steps.parse-pack.outputs.pack-version}} --strip header --github-repo ${{ github.repository }}
 
       - name: Create Release
         run: |
-          gh release create V${{steps.get-version.outputs.version}} --draft
+          gh release create v${{steps.parse-pack.outputs.pack-version}} --draft --title "Version ${{steps.parse-pack.outputs.pack-version}} for MC ${{steps.parse-pack.outputs.game-version}}" --notes ${{steps.git-cliff.outputs.content}}
         shell: bash
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -129,7 +135,7 @@ jobs:
         modpack: ${{ fromJson(needs.get-modpacks.outputs.curseforge-packs) }}
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
 
@@ -166,7 +172,7 @@ jobs:
         modpack: ${{ fromJson(needs.get-modpacks.outputs.modrinth-packs) }}
 
     permissions:
-      contents: read
+      contents: write
 
     steps:
 
