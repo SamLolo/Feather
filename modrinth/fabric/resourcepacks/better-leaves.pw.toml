@@ -1,0 +1,13 @@
+name = "Motschen's Better Leaves"
+filename = "Better-Leaves-9.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uvpymuxq/versions/1lk3J8Ip/Better-Leaves-9.2.zip"
+hash-format = "sha512"
+hash = "5cb3cb074fe11e35719cd080b1850569365c76996a2162df856e35de2daf1d34bee0c58bc10e940b492d12f1501155193ddf3cc285af3d198ee5a0d65ba420a2"
+
+[update]
+[update.modrinth]
+mod-id = "uvpymuxq"
+version = "1lk3J8Ip"

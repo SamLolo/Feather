@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/ncKjyGm3/versions/fOYd9ihS/fadeless-2.0.1.jar"
-hash-format = "sha1"
-hash = "6c3aa8c269c7898ac209a2782b998781deb13eec"
+hash-format = "sha512"
+hash = "54195048220314563458e4941bfbf9b926b7c467a5190701507e3004ce1e5b158c3c7c4282694c96dc7a724b0871be15d9baac06fe41adefe6c7eea05c2a74e3"
 
 [update]
 [update.modrinth]

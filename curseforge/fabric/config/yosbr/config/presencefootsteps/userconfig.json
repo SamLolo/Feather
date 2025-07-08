@@ -9,7 +9,6 @@
   "foliageSoundsVolume": 100,
   "maxSteppingEntities": 50,
   "disabled": false,
-  "firstRun": true,
   "multiplayer": true,
   "global": true,
   "footwear": true,

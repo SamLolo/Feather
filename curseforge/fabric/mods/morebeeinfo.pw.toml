@@ -1,0 +1,13 @@
+name = "MoreBeeInfo"
+filename = "MoreBeeInfo-fabric-1.21-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4ed41c128f24054dc204094a26678dcb27140c16"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6139609
+project-id = 659496

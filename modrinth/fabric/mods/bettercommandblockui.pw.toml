@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/8iQcgjQ2/versions/NvyufuVp/bettercommandblockui-0.5.2a-1.21.jar"
-hash-format = "sha1"
-hash = "165a11a7b2cedf0dcb6a30eeea2e615a1dfce02e"
+hash-format = "sha512"
+hash = "20c60b0f15babdcc313f3ea221c06ac91aac44d234045f8ae8256317dd5be7d1912b73e3ac28af674d6f1c24cc4b980cc17fae5cdfcd3202b441c93306635ff9"
 
 [update]
 [update.modrinth]

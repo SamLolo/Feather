@@ -1,0 +1,13 @@
+name = "Fog Overrides"
+filename = "fogoverrides-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/B1vBJNM4/versions/mS7IGev3/fogoverrides-2.0.0.jar"
+hash-format = "sha512"
+hash = "91de5ea8f008296ed072e687a4362f80ed71bc70cd1f3e72a97b9ed820f56c2383c9d832fe4625053929663d319cc197f59b3ad66e87d774d4bd39fb99213e4d"
+
+[update]
+[update.modrinth]
+mod-id = "B1vBJNM4"
+version = "mS7IGev3"

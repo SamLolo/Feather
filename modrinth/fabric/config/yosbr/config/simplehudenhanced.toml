@@ -14,7 +14,6 @@ textAlignment = "Left"
 Xcords = 0
 Ycords = 0
 toggleLightLevel = false
-toggleBiome = true
 togglePlayerName = false
 togglePing = false
 toggleTPS = false
@@ -37,6 +36,10 @@ toggleColourFPS = false
 togglePlayerSpeed = false
 togglePlayerVerticalSpeed = false
 
+[statusElements.Biome]
+toggleBiome = true
+toggleBiomeLabel = false
+
 [statusElements.gameTime]
 toggleGameTime = false
 toggleGameTime24Hour = false
@@ -47,6 +50,15 @@ toggleSystemTime = false
 textScale = 100
 textBackground = false
 toggleSystemTime24Hour = false
+
+[statusElements.counters]
+toggleEntityCount = false
+toggleParticleCount = false
+
+[statusElements.counters.chunkCount]
+toggleChunkCount = false
+toggleTotal = true
+toggleLoaded = true
 
 [effectsStatus]
 backgroundColor = -2147483648
@@ -68,6 +80,8 @@ toggleSwimmingStatus = true
 
 [paperDoll]
 togglePaperDoll = true
+togglePaperDollTimer = true
+paperDollTimeOut = 3000
 textScale = 100
 paperDollLocationX = 100
 paperDollLocationY = 0

@@ -14,8 +14,8 @@ inputs:
   mc-version:
     description: "The minecraft version the current pack is being built for."
     required: true
-  release-tag:
-    description: "The release tag for the current file under Github releases"
+  type:
+    description: "The type of release taking place"
     required: true
   
   build-modrinth: 
@@ -53,16 +53,23 @@ runs:
       shell: bash
 
 
-    - name: Move to Modpack Directory
-      run: cd ${{ inputs.directory }}
+    - name: Format Filename
+      id: set-filename
+      run: |
+        if [ ${{ inputs.type }} != 'release' ]; then
+          echo "filename=Feather-V${{ inputs.version }}-${{ inputs.loader }}-${{ inputs.type }}"
+        else
+          echo "filename=Feather-V${{ inputs.version }}-${{ inputs.loader }}"
+        fi
+      shell: bash  
 
 
     - name: Build Modrinth Modpack
       if: ${{ inputs.build-modrinth == 'true' }}
       run: |
         packwiz modrinth export
-        mv Feather-${{ inputs.version }}.mrpack Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack
-        echo "Modrinth pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.mrpack'"
+        mv Feather-${{ inputs.version }}.mrpack ${{ steps.set-filename.outputs.filename }}.mrpack
+        echo "Modrinth pack '${{ inputs.directory }}' has been exported as '${{ steps.set-filename.outputs.filename }}.mrpack'"
       shell: bash
       working-directory: ${{ inputs.directory }}
 
@@ -70,7 +77,7 @@ runs:
     - name: Upload Modrinth Modpack to GitHub Releases
       if: ${{ inputs.build-modrinth == 'true' }}
       run: |
-        gh release upload ${{ inputs.release-tag }} *.mrpack --clobber
+        gh release upload v${{ inputs.version }} *.mrpack --clobber
         echo "Modpack ${{ inputs.directory }} has been uploaded to GitHub Releases"
       shell: bash
       env:
@@ -82,8 +89,8 @@ runs:
       if: ${{ inputs.build-curse == 'true' }}
       run: |
         packwiz curseforge export
-        mv Feather-${{ inputs.version }}.zip Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip
-        echo "Curseforge pack '${{ inputs.directory }}' has been exported as 'Feather-${{ inputs.loader }}-${{ inputs.mc-version }}-${{ inputs.version }}.zip'"
+        mv Feather-${{ inputs.version }}.zip ${{ steps.set-filename.outputs.filename }}.zip
+        echo "Curseforge pack '${{ inputs.directory }}' has been exported as '${{ steps.set-filename.outputs.filename }}.zip'"
       shell: bash
       working-directory: ${{ inputs.directory }}
 
@@ -91,7 +98,7 @@ runs:
     - name: Upload Curseforge Modpack to GitHub Releases
       if: ${{ inputs.build-curse == 'true' }}
       run: |
-        gh release upload ${{ inputs.release-tag }} *.zip --clobber
+        gh release upload v${{ inputs.version }} *.zip --clobber
         echo "Modpack ${{ inputs.directory }} has been uploaded to GitHub Releases"
       shell: bash
       env:
