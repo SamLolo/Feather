@@ -23,12 +23,6 @@ on:
           - alpha
 
 
-env:
-  pack-file: 'pack.toml'
-  default-release-modrinth: 'true'
-  default-release-curseforge: 'true'
-
-  
 jobs:
 
   get-modpacks:
@@ -91,19 +85,15 @@ jobs:
     steps:
 
       - name: Create Draft Release
-        run: |
-          gh release create v${{ inputs.version }} --draft --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" --fail-on-no-commits
-        shell: bash
+        run: gh release create v${{ inputs.version }} --draft --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" --fail-on-no-commits
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set As Pre-Release
         if: ${{ inputs.type }} != 'release'
-        run: |
-          gh release edit v${{ inputs.version }} --prerelease
-        shell: bash
+        run: gh release edit v${{ inputs.version }} --prerelease
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Generate Changelog
         id: git-cliff
@@ -113,11 +103,9 @@ jobs:
           args: -u --tag v${{ inputs.version }} --strip header --github-repo ${{ github.repository }}
 
       - name: Add Notes
-        run: |
-          gh release edit v${{ inputs.version }} --notes ${{ steps.git-cliff.outputs.content }}
-        shell: bash
+        run: gh release edit v${{ inputs.version }} --notes ${{ steps.git-cliff.outputs.content }}
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
   build-curseforge:

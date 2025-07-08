@@ -61,7 +61,7 @@ runs:
         else
           echo "filename=Feather-V${{ inputs.version }}-${{ inputs.loader }}"
         fi
-      shell: bash  
+      shell: bash
 
 
     - name: Build Modrinth Modpack
