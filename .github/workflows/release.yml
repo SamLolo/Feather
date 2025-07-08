@@ -85,13 +85,21 @@ jobs:
     steps:
 
       - name: Create Draft Release
-        run: gh release create v${{ inputs.version }} --draft --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" --fail-on-no-commits
+        run: |
+          gh release create v${{ inputs.version }} \
+            --draft \
+            --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" \
+            --fail-on-no-commits \
+            --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set As Pre-Release
         if: ${{ inputs.type }} != 'release'
-        run: gh release edit v${{ inputs.version }} --prerelease
+        run: |
+          gh release edit v${{ inputs.version }} \
+            --prerelease \
+            --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
@@ -103,7 +111,10 @@ jobs:
           args: -u --tag v${{ inputs.version }} --strip header --github-repo ${{ github.repository }}
 
       - name: Add Notes
-        run: gh release edit v${{ inputs.version }} --notes ${{ steps.git-cliff.outputs.content }}
+        run: |
+          gh release edit v${{ inputs.version }} \
+            --notes ${{ steps.git-cliff.outputs.content }} \
+            --repo ${{ github.repository }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
