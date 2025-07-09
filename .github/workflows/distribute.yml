@@ -1,4 +1,4 @@
-name: Distribute Release
+name: Distribute Modpack
 run-name: Modpack uploaded to Curseforge & Modrinth
 
 on:

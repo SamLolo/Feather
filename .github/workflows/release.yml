@@ -1,5 +1,5 @@
 name: Github Release
-run-name: Created Draft Release by @${{ github.actor }}
+run-name: Release v${{ inputs.version }} for MC ${{ inputs.mc-version }} (@${{ github.actor }})
 
 on:
   workflow_dispatch:
@@ -38,7 +38,7 @@ jobs:
     
     steps:
 
-      - name: Check Out Git Repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
       - name: List Curseforge Modpacks
@@ -84,6 +84,11 @@ jobs:
 
     steps:
 
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Create Draft Release
         run: |
           gh release create v${{ inputs.version }} \
@@ -108,7 +113,10 @@ jobs:
         uses: orhun/git-cliff-action@main
         with:
           config: cliff.toml
-          args: -u --tag v${{ inputs.version }} --strip header --github-repo ${{ github.repository }}
+          args: -u --tag v${{ inputs.version }} --strip header
+        env:
+          OUTPUT: docs/CHANGELOG.md
+          GITHUB_REPO: ${{ github.repository }}
 
       - name: Add Notes
         run: |
@@ -141,7 +149,7 @@ jobs:
 
       - name: Parse Pack File
         id: parse
-        uses: ./.github/actions/parse
+        uses: ./.github/actions/parse-pack
         with:
           directory: ${{ matrix.modpack }}
 
@@ -178,7 +186,7 @@ jobs:
 
       - name: Parse Pack File
         id: parse
-        uses: ./.github/actions/parse
+        uses: ./.github/actions/parse-pack
         with:
           directory: ${{ matrix.modpack }}
 
