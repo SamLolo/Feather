@@ -120,15 +120,8 @@ jobs:
       - name: Add Notes
         run: |
           gh release edit v${{ inputs.version }} \
-            --notes "${{ steps.git-cliff.outputs.content }}" \
+            --notes-file docs/CHANGELOG.md \
             --repo ${{ github.repository }}
-
-      - name: Commit Changelog
-        run: |
-          git config --global user.name 'SamLolo'
-          git config --global user.email 'SamLolo@users.noreply.github.com'
-          git commit -am "Updated changelog for V${{ inputs.version }}"
-          git push
   
 
   build-curseforge:
