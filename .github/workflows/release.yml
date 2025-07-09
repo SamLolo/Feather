@@ -24,60 +24,10 @@ on:
 
 
 jobs:
-
-  get-modpacks:
-    name: Parse modpacks to a list
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-
-    outputs:
-      curseforge-packs: ${{ steps.list-curse.outputs.modpack-folders }}
-      modrinth-packs: ${{ steps.list-modrinth.outputs.modpack-folders }}
-    
-    steps:
-
-      - name: Checkout Repo
-        uses: actions/checkout@v4
-
-      - name: List Curseforge Modpacks
-        id: list-curse
-        run: |
-          modpackFolders=()
-          while IFS= read -r -d '' folder; do
-            if [ -e "$folder/pack.toml" ]; then
-              modpackFolders+=("$folder")
-            fi
-          done < <(find curseforge/ -type d -print0)
-            
-          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
-        
-      - name: List Modrinth Modpacks
-        id: list-modrinth
-        run: |
-          modpackFolders=()
-          while IFS= read -r -d '' folder; do
-            if [ -e "$folder/pack.toml" ]; then
-              modpackFolders+=("$folder")
-            fi
-          done < <(find modrinth/ -type d -print0)
-            
-          echo "modpack-folders=$(jq --compact-output --null-input '$ARGS.positional' --args -- "${modpackFolders[@]}")" >> "$GITHUB_OUTPUT"
-  
-      - name: Print Detected Modpacks
-        run: |
-          echo "::notice:: Detected modpacks: \n   Curseforge: ${{ steps.list-curse.outputs.modpack-folders }}\n   Modrinth: ${{ steps.list-modrinth.outputs.modpack-folders }}"
-
   
   create-release:
     name: Create a new draft release
     runs-on: ubuntu-latest
-
-    needs:
-      - get-modpacks
-
-    if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' && (needs.get-modpacks.outputs.curseforge-packs) != '[]'}}
 
     permissions:
       contents: write
@@ -122,77 +72,76 @@ jobs:
           gh release edit v${{ inputs.version }} \
             --notes-file docs/CHANGELOG.md \
             --repo ${{ github.repository }}
-  
 
-  build-curseforge:
-    name: Build files for Curseforge
+  
+  build-artifacts:
+    name: Build & attach modpack files
     runs-on: ubuntu-latest
-
+    
     needs:
-      - get-modpacks
       - create-release
-  
-    if: ${{ (needs.get-modpacks.outputs.curseforge-packs) != '[]' }}
-
-    strategy:
-      fail-fast: false
-      matrix:
-        modpack: ${{ fromJson(needs.get-modpacks.outputs.curseforge-packs) }}
 
     permissions:
       contents: write
 
-    steps:
-
-      - name: Parse Pack File
-        id: parse
-        uses: ./.github/actions/parse-pack
-        with:
-          directory: ${{ matrix.modpack }}
-
-      - name: Build Modpack
-        uses: ./.github/actions/build
-        with:
-          directory: ${{ matrix.modpack }}
-          version: ${{ inputs.version }}
-          loader: ${{ steps.parse.outputs.loader }}
-          mc-version: ${{ inputs.mc-version }}
-          type: ${{ inputs.type }}
-          build-curseforge: 'true'
-
-
-  build-modrinth:
-    name: Build files for Modrinth
-    runs-on: ubuntu-latest
-
-    needs:
-      - get-modpacks
-      - create-release
-  
-    if: ${{ (needs.get-modpacks.outputs.modrinth-packs) != '[]' }}
-
     strategy:
       fail-fast: false
+      max-parallel: 1
       matrix:
-        modpack: ${{ fromJson(needs.get-modpacks.outputs.modrinth-packs) }}
-
-    permissions:
-      contents: write
+        platform: ['curseforge', 'modrinth']
+        loader: ['fabric']
 
     steps:
 
-      - name: Parse Pack File
-        id: parse
-        uses: ./.github/actions/parse-pack
-        with:
-          directory: ${{ matrix.modpack }}
+      - name: Checkout Repo
+        uses: actions/checkout@v4
 
-      - name: Build Modpack
-        uses: ./.github/actions/build
+      - name: Build Go
+        uses: actions/setup-go@v5
         with:
-          directory: ${{ matrix.modpack }}
-          version: ${{ inputs.version }}
-          loader: ${{ steps.parse.outputs.loader }}
-          mc-version: ${{ inputs.mc-version }}
-          type: ${{ inputs.type }}
-          build-modrinth: 'true'
+          go-version: 'stable'
+          check-latest: true
+
+      - name: Build Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+        shell: bash
+
+      - name: Format Filename
+        id: set-filename
+        run: |
+          if [ ${{ inputs.type }} != 'release' ]; then
+            echo "filename=Feather-V${{ inputs.version }}-${{ matrix.loader }}-${{ inputs.type }}"
+          else
+            echo "filename=Feather-V${{ inputs.version }}-${{ matrix.loader }}"
+          fi
+        shell: bash
+      
+      - name: Build Modrinth Modpack
+        if: ${{ matrix.platform == 'modrinth' }}
+        run: |
+          packwiz mr export
+          mv Feather-${{ inputs.version }}.mrpack ${{ steps.set-filename.outputs.filename }}.mrpack
+          echo "FILE=${{ steps.set-filename.outputs.filename }}.mrpack" >> "$GITHUB_ENV"
+          echo "Modrinth pack for ${{ matrix.loader}} has been exported as '${{ steps.set-filename.outputs.filename }}.mrpack'"
+        shell: bash
+        working-directory: ${{matrix.platform}}/${{matrix.loader}}
+  
+      - name: Build Curseforge Modpack
+        if: ${{ matrix.platform == 'curseforge' }}
+        run: |
+          packwiz cf export
+          mv Feather-${{ inputs.version }}.zip ${{ steps.set-filename.outputs.filename }}.zip
+          echo "FILE=${{ steps.set-filename.outputs.filename }}.zip" >> "$GITHUB_ENV"
+          echo "Curseforge pack for ${{ matrix.loader}} has been exported as '${{ steps.set-filename.outputs.filename }}.zip'"
+        shell: bash
+        working-directory: ${{matrix.platform}}/${{matrix.loader}}
+  
+  
+      - name: Upload to Release
+        run: |
+          gh release upload v${{ inputs.version }} $FILE --clobber
+          echo "Modpack $FILE has been uploaded to release V${{ inputs.version }}"
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        working-directory: ${{matrix.platform}}/${{matrix.loader}}
