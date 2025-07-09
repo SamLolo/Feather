@@ -1,5 +1,5 @@
 name: Github Release
-run-name: Release v${{ inputs.version }} for MC ${{ inputs.mc-version }} (@${{ github.actor }})
+run-name: Release V${{ inputs.version }} for MC ${{ inputs.mc-version }} (@${{ github.actor }})
 
 on:
   workflow_dispatch:
@@ -82,6 +82,9 @@ jobs:
     permissions:
       contents: write
 
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
 
       - name: Checkout Repo
@@ -96,8 +99,6 @@ jobs:
             --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" \
             --fail-on-no-commits \
             --repo ${{ github.repository }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set As Pre-Release
         if: ${{ inputs.type }} != 'release'
@@ -105,8 +106,6 @@ jobs:
           gh release edit v${{ inputs.version }} \
             --prerelease \
             --repo ${{ github.repository }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Generate Changelog
         id: git-cliff
@@ -121,11 +120,16 @@ jobs:
       - name: Add Notes
         run: |
           gh release edit v${{ inputs.version }} \
-            --notes ${{ steps.git-cliff.outputs.content }} \
+            --notes "${{ steps.git-cliff.outputs.content }}" \
             --repo ${{ github.repository }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Commit Changelog
+        run: |
+          git config --global user.name 'SamLolo'
+          git config --global user.email 'SamLolo@users.noreply.github.com'
+          git commit -am "Updated changelog for V${{ inputs.version }}"
+          git push
+  
 
   build-curseforge:
     name: Build files for Curseforge
