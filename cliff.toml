@@ -33,34 +33,39 @@ trim = true
 [git]
 # Parse commits according to the conventional commits specification.
 # See https://www.conventionalcommits.org
-conventional_commits = true
+conventional_commits = false
 filter_unconventional = false
 
 # An array of regex based parsers to modify commit messages prior to further processing.
 commit_preprocessors = [
   # Remove issue numbers.
   { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" },
+  # Remove "added" pre-commit
+  { pattern = '^[a|A]dd(?:ed)?:\s', replace = "" },
+  # Remove "remove" pre-commit
+  { pattern = '^[r|R]emove:\s', replace = "" },
+  # Remove "chore" pre-commit
+  { pattern = '^[c|C]hore:\s', replace = "" },
+  # Remove "fix" pre-commit
+  { pattern = '^[f|F]ix:\s', replace = "" },
 ]
+
 # An array of regex based parsers for extracting data from the commit message.
 # Assigns commits to groups.
 # Optionally sets the commit's scope and can decide to exclude commits from further processing.
 commit_parsers = [
   { message = "^[a|A]dd", group = "Added" },
-  { message = "^[s|S]upport", group = "Added" },
   { message = "^[r|R]emove", group = "Removed" },
-  { message = "^.*: add", group = "Added" },
-  { message = "^.*: support", group = "Added" },
-  { message = "^.*: remove", group = "Removed" },
-  { message = "^.*: delete", group = "Removed" },
-  { message = "^test", group = "Fixed" },
-  { message = "^fix", group = "Fixed" },
-  { message = "^.*: fix", group = "Fixed" },
-  { message = "^.*", group = "Changed" },
+  { message = "^[c|C]hore", group = "Changed" },
+  { message = "^[f|F]ix", group = "Changed" },
 ]
+
 # Exclude commits that are not matched by any commit parser.
-filter_commits = false
+filter_commits = true
+
 # Order releases topologically instead of chronologically.
 topo_order = false
+
 # Order of commits in each group/release within the changelog.
 # Allowed values: newest, oldest
 sort_commits = "newest"
