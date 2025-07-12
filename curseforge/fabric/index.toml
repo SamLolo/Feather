@@ -908,10 +908,6 @@ hash = "0b7dfb938f0c29c6a6fd030ee475c9d96babffa85d273aee55b6215fb892587f"
 metafile = true
 
 [[files]]
-file = "mods/world-host-0.5.1+1.21.1-fabric.jar"
-hash = "49b54e7dd3b0b37b505703305db713c8628a0a4daaf3ba6c12de507fa614e6d4"
-
-[[files]]
 file = "mods/world-host.pw.toml"
 hash = "ca4ca6fc933aab9ad45aa292d80ea1bfb47a4b26ad69e447b689c8a8020499c9"
 metafile = true
