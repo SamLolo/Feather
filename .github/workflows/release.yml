@@ -89,7 +89,7 @@ jobs:
       max-parallel: 1
       matrix:
         platform: ['curseforge', 'modrinth']
-        loader: ['fabric']
+        loader: ['fabric', 'quilt']
 
     steps:
 

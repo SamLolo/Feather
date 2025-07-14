@@ -17,7 +17,7 @@ mkdir out
 :: Build Curseforge files
 echo: & echo "Building curseforge files"
 cd curseforge
-FOR %%A IN (fabric) DO (
+FOR %%A IN (fabric, quilt) DO (
     echo "Start build: %%A ->"
     cd %%A
     packwiz cf export
@@ -29,7 +29,7 @@ FOR %%A IN (fabric) DO (
 :: Build Modrinth files
 echo "Building curseforge files"
 cd ../modrinth
-FOR %%A IN (fabric) DO (
+FOR %%A IN (fabric, quilt) DO (
     echo "Start build: %%A ->"
     cd %%A
     packwiz mr export
