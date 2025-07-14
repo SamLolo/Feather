@@ -1,0 +1,13 @@
+name = "UniLib"
+filename = "UniLib-1.1.0+1.21.1-quilt.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2afbf59f3b083ec034370a6482273bb1a98a5702"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6509723
+project-id = 1056812

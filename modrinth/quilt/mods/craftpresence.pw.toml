@@ -1,0 +1,13 @@
+name = "CraftPresence"
+filename = "CraftPresence-2.6.1+1.21.1-quilt.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DFqQfIBR/versions/84mH68w8/CraftPresence-2.6.1%2B1.21.1-quilt.jar"
+hash-format = "sha512"
+hash = "abf543b47f35a7f3cf998a9da3ec2ffc84fbab89819d435c42c373ebc9a611b86d6188cf0b71d2d1aa509351888be1745a7d76e5acb145acb009a709b5dcd4c5"
+
+[update]
+[update.modrinth]
+mod-id = "DFqQfIBR"
+version = "84mH68w8"

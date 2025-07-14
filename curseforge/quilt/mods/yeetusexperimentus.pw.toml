@@ -1,0 +1,13 @@
+name = "Yeetus Experimentus"
+filename = "yeetusexperimentus-fabric-87.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a10cc99fe28fc339d3a5a3a056845d8ed0f8a3b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5444190
+project-id = 635427

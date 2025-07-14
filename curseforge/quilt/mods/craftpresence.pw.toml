@@ -1,0 +1,13 @@
+name = "CraftPresence"
+filename = "CraftPresence-2.6.1+1.21.1-quilt.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "08656fd73a4f7523b7a96693cbea3939f49131de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6511391
+project-id = 297038

@@ -1,0 +1,13 @@
+name = "Fishing Rod Fix"
+filename = "fishingrodfix-1.21-0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/x9ISUf1U/versions/guL7qTMQ/fishingrodfix-1.21-0.3.jar"
+hash-format = "sha512"
+hash = "46446324187c62db4f6cbcd8be30a1306923592bceba4abd35d02cee1ca75edf6285055300d1125d060b5f851158ad5737b882ff39a75416dd2885bd4d1fc340"
+
+[update]
+[update.modrinth]
+mod-id = "x9ISUf1U"
+version = "guL7qTMQ"

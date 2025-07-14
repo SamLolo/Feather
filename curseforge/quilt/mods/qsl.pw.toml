@@ -1,0 +1,13 @@
+name = "Quilted Fabric API (QFAPI) / Quilt Standard Libraries (QSL)"
+filename = "quilted-fabric-api-11.0.0-alpha.3+0.102.0-1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc86fd6c26699b86c9eabfa6bb47a5d21e509c91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5622556
+project-id = 634179
