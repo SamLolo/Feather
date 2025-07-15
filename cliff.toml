@@ -54,10 +54,10 @@ commit_preprocessors = [
 # Assigns commits to groups.
 # Optionally sets the commit's scope and can decide to exclude commits from further processing.
 commit_parsers = [
-  { message = "^[a|A]dd", group = "Added" },
-  { message = "^[r|R]emove", group = "Removed" },
-  { message = "^[c|C]hore", group = "Changed" },
-  { message = "^[f|F]ix", group = "Changed" },
+  { message = '^[a|A]dd:\s', group = "Added" },
+  { message = '^[r|R]emove:\s', group = "Removed" },
+  { message = '^[c|C]hore:\s', group = "Changed" },
+  { message = '^[f|F]ix:\s', group = "Changed" },
 ]
 
 # Exclude commits that are not matched by any commit parser.
