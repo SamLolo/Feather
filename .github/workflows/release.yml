@@ -18,9 +18,9 @@ on:
         default: release
         type: choice
         options:
-          - release
-          - beta
-          - alpha
+          - Release
+          - BETA
+          - ALPHA
 
 
 jobs:
@@ -51,7 +51,7 @@ jobs:
             --repo ${{ github.repository }}
 
       - name: Set As Pre-Release
-        if: ${{ inputs.type }} != 'release'
+        if: ${{ inputs.type }} != 'Release'
         run: |
           gh release edit v${{ inputs.version }} \
             --prerelease \
@@ -106,13 +106,19 @@ jobs:
         run: go install github.com/packwiz/packwiz@latest
         shell: bash
 
+      - name: Capitalise Loader
+        id: capitalise-loader
+        uses: ASzc/change-string-case-action@v6
+        with:
+          string: ${{ matrix.loader }}
+
       - name: Format Filename
         id: set-filename
         run: |
           if [ ${{ inputs.type }} != 'release' ]; then
-            echo "filename=Feather-V${{ inputs.version }}-${{ matrix.loader }}-${{ inputs.type }}" >> "$GITHUB_OUTPUT"
+            echo "filename=Feather-V${{ inputs.version }}-${{ steps.capitalise-loader.outputs.capitalized }}-${{ inputs.type }}" >> "$GITHUB_OUTPUT"
           else
-            echo "filename=Feather-V${{ inputs.version }}-${{ matrix.loader }}" >> "$GITHUB_OUTPUT"
+            echo "filename=Feather-V${{ inputs.version }}-${{ steps.capitalise-loader.outputs.capitalized }}" >> "$GITHUB_OUTPUT"
           fi
         shell: bash
       

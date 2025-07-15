@@ -4,6 +4,7 @@
 @echo OFF
 CLS
 TITLE Modpack Build
+setlocal enabledelayedexpansion
 
 :: Create out directory if it doesn't already exist
 echo "Starting build:"
@@ -21,7 +22,17 @@ FOR %%A IN (fabric, quilt) DO (
     echo "Start build: %%A ->"
     cd %%A
     packwiz cf export
-    move Feather-*.zip ../../out
+    for /R "." %%f in (*.zip) do (
+        set _file=%%~nf
+        set _ver=!_file:~8!
+        IF %%A==fabric (
+            rename Feather-3.1.zip Feather-V!_ver!-Fabric.zip
+            move Feather-V!_ver!-Fabric.zip ../../out
+        ) ELSE IF %%A==quilt (
+            rename Feather-3.1.zip Feather-V!_ver!-Quilt.zip
+            move Feather-V!_ver!-Quilt.zip ../../out
+        )
+    )
     echo "%%A build complete!" & echo:
     cd ..
 )
@@ -33,7 +44,17 @@ FOR %%A IN (fabric, quilt) DO (
     echo "Start build: %%A ->"
     cd %%A
     packwiz mr export
-    move Feather-*.mrpack ../../out
+    for /R "." %%f in (*.mrpack) do (
+        set _file=%%~nf
+        set _ver=!_file:~8!
+        IF %%A==fabric (
+            rename Feather-3.1.mrpack Feather-V!_ver!-Fabric.mrpack
+            move Feather-V!_ver!-Fabric.mrpack ../../out
+        ) ELSE IF %%A==quilt (
+            rename Feather-3.1.mrpack Feather-V!_ver!-Quilt.mrpack
+            move Feather-V!_ver!-Quilt.mrpack ../../out
+        )
+    )
     echo "%%A build complete!" & echo:
     cd ..
 )
