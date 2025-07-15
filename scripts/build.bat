@@ -26,10 +26,10 @@ FOR %%A IN (fabric, quilt) DO (
         set _file=%%~nf
         set _ver=!_file:~8!
         IF %%A==fabric (
-            rename Feather-3.1.zip Feather-V!_ver!-Fabric.zip
+            rename Feather-!_ver!.zip Feather-V!_ver!-Fabric.zip
             move Feather-V!_ver!-Fabric.zip ../../out
         ) ELSE IF %%A==quilt (
-            rename Feather-3.1.zip Feather-V!_ver!-Quilt.zip
+            rename Feather-!_ver!.zip Feather-V!_ver!-Quilt.zip
             move Feather-V!_ver!-Quilt.zip ../../out
         )
     )
@@ -48,10 +48,10 @@ FOR %%A IN (fabric, quilt) DO (
         set _file=%%~nf
         set _ver=!_file:~8!
         IF %%A==fabric (
-            rename Feather-3.1.mrpack Feather-V!_ver!-Fabric.mrpack
+            rename Feather-!_ver!.mrpack Feather-V!_ver!-Fabric.mrpack
             move Feather-V!_ver!-Fabric.mrpack ../../out
         ) ELSE IF %%A==quilt (
-            rename Feather-3.1.mrpack Feather-V!_ver!-Quilt.mrpack
+            rename Feather-!_ver!.mrpack Feather-V!_ver!-Quilt.mrpack
             move Feather-V!_ver!-Quilt.mrpack ../../out
         )
     )
