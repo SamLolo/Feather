@@ -101,6 +101,7 @@ jobs:
         with:
           go-version: 'stable'
           check-latest: true
+          cache: false
 
       - name: Build Packwiz
         run: go install github.com/packwiz/packwiz@latest
