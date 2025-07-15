@@ -115,7 +115,7 @@ jobs:
       - name: Format Filename
         id: set-filename
         run: |
-          if [ ${{ inputs.type }} != 'release' ]; then
+          if [ ${{ inputs.type }} != 'Release' ]; then
             echo "filename=Feather-V${{ inputs.version }}-${{ steps.capitalise-loader.outputs.capitalized }}-${{ inputs.type }}" >> "$GITHUB_OUTPUT"
           else
             echo "filename=Feather-V${{ inputs.version }}-${{ steps.capitalise-loader.outputs.capitalized }}" >> "$GITHUB_OUTPUT"
