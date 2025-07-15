@@ -1,0 +1,14 @@
+{
+	serverIp: "world-host.jemnetworks.com",
+	onlineStatusLocation: "right",
+	enableFriends: true,
+	enableReconnectionToasts: false,
+	UPnP: true,
+	useShortIp: false,
+	showOutdatedWorldHost: false,
+	shareButton: true,
+	allowFriendRequests: true,
+	announceFriendsOnline: false,
+	whitelistJoins: false,
+	requiredSecurityLevel: "secure"
+}
