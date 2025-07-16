@@ -534,7 +534,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlify.pw.toml"
-hash = "2308b4938cf94b72f08ede6d697a63527b5a5b718845e6177c10dc0f0e73f157"
+hash = "50c960fb62b896b700f0056d80d403428804dc6104544949692826c1693347ad"
 metafile = true
 
 [[files]]
@@ -664,7 +664,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "1370f30d338af5dca604765142908fabb6ea987babd7ec1019a22e7247503e62"
+hash = "db1a09248a7824f3641bcf36d60d89e6f75d4a0162ba8e07459c1d933b2e089b"
 metafile = true
 
 [[files]]
@@ -699,7 +699,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "1ef0c577d92b1f11b8d6524e3ae9bbb4cdab274abf0ccb2b8495bbf58fc6b76a"
+hash = "1e5639660c39182857e59fb51a0802e972b2076c46e35bb21ef6d8ad810c0810"
 metafile = true
 
 [[files]]
@@ -799,7 +799,7 @@ metafile = true
 
 [[files]]
 file = "mods/optigui.pw.toml"
-hash = "fd6eb02504e86e4c0691c6d2b4dc852a6d634ebd49cb558005435e1138251f25"
+hash = "7badb7f94af2c7dd2e2e4785e05e1fb192f87a3eb9f156963715978a18fde52d"
 metafile = true
 
 [[files]]
@@ -864,7 +864,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "385af1c300dd99aa90ab0d639a8f88d157cd0d4a8d9bc2cef20c6e7e737d0a35"
+hash = "986d57536cd3eb01fa91b5eafc3181d9b2421c7e53a99a1a129571e3c72a6a5e"
 metafile = true
 
 [[files]]
@@ -879,7 +879,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "a8a83e9e121d535527abcc02d6c2411ead29904365f4b139191e890ec5ce5b51"
+hash = "898e14275dd5cc187dee2b8f8fc83b4f0cdb56430b7fa64a8055e006d0249ce7"
 metafile = true
 
 [[files]]
@@ -929,7 +929,7 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "ed0e142a87ebbae7caa0c8311002a2d4e33766bcccf7ee6637ec5308a42eeb5c"
+hash = "126fa71535b6eb87249ed32a6573fabad273c23f10fc646e7fff28031bfc0ed6"
 metafile = true
 
 [[files]]
