@@ -774,7 +774,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-nether-portal-overlay.pw.toml"
-hash = "5e1bfcc1613d3bd63f15232dd70e00c2f7b8181072ad58a7c5348ad0dd0590fc"
+hash = "ab2fc7131d57b2987affbc61daf36822f2ebad71a873b2bf1ec15d8030d41c48"
 metafile = true
 
 [[files]]

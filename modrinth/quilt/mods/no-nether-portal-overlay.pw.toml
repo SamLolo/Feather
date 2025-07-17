@@ -1,13 +1,13 @@
 name = "No Nether Portal Overlay"
-filename = "no-nether-portal-overlay-1.0.9.jar"
+filename = "no-nether-portal-overlay-1.0.8.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/IHmpzGtW/versions/oZF7xGtg/no-nether-portal-overlay-1.0.9.jar"
+url = "https://cdn.modrinth.com/data/IHmpzGtW/versions/ttpw9CI3/no-nether-portal-overlay-1.0.8.jar"
 hash-format = "sha512"
-hash = "d1482e1426a5a85f8ddcc46fcae88f72f6b65c1ed7de3bfdcebde29b449520b61e33dd32edb502779b80f22e71f36879f8d6dea3f87bc804aa7f6dbc426c80a3"
+hash = "95cc564631ec695e8346a0a33f7f16a9220022c6ba312796d1434bbaf5808f0b40a08cdffd6567bb04886120ff55db8936b2daabab0f4ac6a30bd9e25a9e5eed"
 
 [update]
 [update.modrinth]
 mod-id = "IHmpzGtW"
-version = "oZF7xGtg"
+version = "ttpw9CI3"
