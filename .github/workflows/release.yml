@@ -51,7 +51,7 @@ jobs:
             --repo ${{ github.repository }}
 
       - name: Set As Pre-Release
-        if: ${{ inputs.type }} != 'Release'
+        if: inputs.type != 'Release'
         run: |
           gh release edit v${{ inputs.version }} \
             --prerelease \
@@ -62,7 +62,7 @@ jobs:
         uses: orhun/git-cliff-action@main
         with:
           config: cliff.toml
-          args: -u --tag v${{ inputs.version }} --strip header
+          args: -u --tag v${{ inputs.version }}
         env:
           OUTPUT: docs/CHANGELOG.md
           GITHUB_REPO: ${{ github.repository }}
@@ -73,7 +73,7 @@ jobs:
             --notes-file docs/CHANGELOG.md \
             --repo ${{ github.repository }}
 
-  
+
   build-artifacts:
     name: Build & add files
     runs-on: ubuntu-latest
