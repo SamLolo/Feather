@@ -5,16 +5,13 @@
 # A Tera template to be rendered as the changelog.
 # See https://keats.github.io/tera/docs/#introduction
 header = """
-# Changelog\n
-See what's new in the world of Feather!\n
+## What's New?
 """
 
 body = """
 {%- macro remote_url() -%}
   https://github.com/{{ remote.github.owner }}/{{ remote.github.repo }}
 {%- endmacro -%}
-
-## What's New?
 
 {% for group, commits in commits | group_by(attribute="group") %}
     ### {{ group | upper_first }}
@@ -33,21 +30,13 @@ trim = true
 [git]
 # Parse commits according to the conventional commits specification.
 # See https://www.conventionalcommits.org
-conventional_commits = false
-filter_unconventional = false
+conventional_commits = true
+filter_unconventional = true
 
 # An array of regex based parsers to modify commit messages prior to further processing.
 commit_preprocessors = [
   # Remove issue numbers.
   { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "" },
-  # Remove "added" pre-commit
-  { pattern = '^[a|A]dd(?:ed)?:\s', replace = "" },
-  # Remove "remove" pre-commit
-  { pattern = '^[r|R]emove:\s', replace = "" },
-  # Remove "chore" pre-commit
-  { pattern = '^[c|C]hore:\s', replace = "" },
-  # Remove "fix" pre-commit
-  { pattern = '^[f|F]ix:\s', replace = "" },
 ]
 
 # An array of regex based parsers for extracting data from the commit message.
@@ -69,3 +58,8 @@ topo_order = false
 # Order of commits in each group/release within the changelog.
 # Allowed values: newest, oldest
 sort_commits = "newest"
+
+[remote.github]
+# Contains Git remote relatedd configuration
+owner = "SamLolo"
+repo = "Feather"
