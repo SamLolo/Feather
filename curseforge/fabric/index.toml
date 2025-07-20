@@ -788,11 +788,6 @@ hash = "46542fddcdd659499e4c61f9ddf42cddad3701e9314299a7d80911f7d752af31"
 metafile = true
 
 [[files]]
-file = "mods/nuit.pw.toml"
-hash = "1b10025a4c4a6fee3e7bc43d8429fe3618e2f921b347cb8b0a2eb884fb83b217"
-metafile = true
-
-[[files]]
 file = "mods/obsidianui.pw.toml"
 hash = "555a08d0eaeab5ec6495d99258c041978a597e9437b218512079b8c19872ded5"
 metafile = true
