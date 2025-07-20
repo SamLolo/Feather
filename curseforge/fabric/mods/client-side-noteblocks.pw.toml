@@ -1,13 +1,13 @@
 name = "Client Side Noteblocks"
-filename = "clientsidenoteblocks-2.8.jar"
+filename = "clientsidenoteblocks-2.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0feafe1e2d13bf169a49462f3bc79efb7392f0ed"
+hash = "107e32cc014a65860a76d70ed7f883ed83311eaa"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5619751
+file-id = 5854386
 project-id = 473175

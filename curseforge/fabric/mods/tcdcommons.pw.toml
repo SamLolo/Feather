@@ -1,13 +1,13 @@
 name = "TCDCommons API"
-filename = "tcdcommons-3.12.7+fabric-1.21.jar"
+filename = "tcdcommons-3.12.7+fabric-1.21.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e69155938134ad13b9d37706865f01babc7a0861"
+hash = "36c0ee6af4c2557aee5f5c2fe2843d32829d4217"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6347540
+file-id = 6347542
 project-id = 711539

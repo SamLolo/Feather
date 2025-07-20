@@ -1,13 +1,13 @@
 name = "Environmental Water"
-filename = "Environmental Water 1.20.2-1.21.7.zip"
+filename = "Environmental Water 1.20.2-1.21.8.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/5QsxmK1S/versions/8vyld1Ot/Environmental%20Water%201.20.2-1.21.7.zip"
+url = "https://cdn.modrinth.com/data/5QsxmK1S/versions/e51T5DR4/Environmental%20Water%201.20.2-1.21.8.zip"
 hash-format = "sha512"
 hash = "8a7c27c5eb568e17c5203ba1b90126fa5d868e19c4c9cf07a12905bc5afe4af1ae4018dd97f296d2535a97b1cb1aa1767d67698882cb4ccf0cf2ec0589dbed42"
 
 [update]
 [update.modrinth]
 mod-id = "5QsxmK1S"
-version = "8vyld1Ot"
+version = "e51T5DR4"

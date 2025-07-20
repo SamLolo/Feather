@@ -1,13 +1,13 @@
 name = " Client Side Noteblocks"
-filename = "clientsidenoteblocks-2.8.jar"
+filename = "clientsidenoteblocks-2.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/flmhXQgb/versions/z0sVJeRi/clientsidenoteblocks-2.8.jar"
+url = "https://cdn.modrinth.com/data/flmhXQgb/versions/Kkwl45dm/clientsidenoteblocks-2.10.jar"
 hash-format = "sha512"
-hash = "a2f39644d77555dc17432c06fa354946b30c7035acbb343c3099e1cd869fdbf33f58ab091b066a5cb0cfaab16bde620b8945910541853324a4c190ee0b143424"
+hash = "bcb2608de1471e8ef33d9ea18d80fd2d10a83bba94f6d1c0e97a0fbea801564d81230f4af070398bcbe00b90bf3234f9056e3d83f64a57b951307ea6d3f3592b"
 
 [update]
 [update.modrinth]
 mod-id = "flmhXQgb"
-version = "z0sVJeRi"
+version = "Kkwl45dm"

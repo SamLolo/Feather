@@ -1,13 +1,13 @@
 name = "Map Tooltip"
-filename = "maptooltip-fabric-1.21-4.0.1.jar"
+filename = "maptooltip-fabric-1.21.4-4.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/GNtptqqU/versions/bmowRRFT/maptooltip-fabric-1.21-4.0.1.jar"
+url = "https://cdn.modrinth.com/data/GNtptqqU/versions/gkuxsXM0/maptooltip-fabric-1.21.4-4.1.jar"
 hash-format = "sha512"
-hash = "a9acf0ca57ec6027f6c2201b6b54e0c533924a3375f5fa36a56550b987fca93a699a06c608713096cbbac99fd837226b633064dacc6bb0b99091da9da48bca11"
+hash = "31af895645138e05aa50b3def52a0611d59bca9548afcb9dddf37f88a93e9747922ede4738faf70920955aa3bd247b6528dc7aaa9381186ff8e5ccf38c00cb72"
 
 [update]
 [update.modrinth]
 mod-id = "GNtptqqU"
-version = "bmowRRFT"
+version = "gkuxsXM0"
