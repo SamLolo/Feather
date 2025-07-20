@@ -653,11 +653,6 @@ hash = "2556b7562df149e51866d07f97e29909dc98d1528fb656ad2cc64fe4ee60091b"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "696b2229323b8d1dd7e98fa89c3a6bec55b916b6ee70762e543d8382f0c9e888"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "743e2829fd76c27c711c54b045880f64f9e67444c78476096fec18879c441764"
 metafile = true
@@ -685,11 +680,6 @@ metafile = true
 [[files]]
 file = "mods/language-reload.pw.toml"
 hash = "be90b14894e992cea33ea17e351f5b05f1d29d9c76e087f7f75f527ca2e3f9b9"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "bcc572cfc7f9d5fbf2b5cb027c08b079348be73f56e3a34bf8b7fafa12b69d0e"
 metafile = true
 
 [[files]]
