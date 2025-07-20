@@ -788,11 +788,6 @@ hash = "842f2dd65e5a0a71c72ee9ed102e52a10b5c8f03ce0a041e19445da96228575b"
 metafile = true
 
 [[files]]
-file = "mods/not-enough-animations.pw.toml"
-hash = "73b09b7cc7449f89bdb44f3cc2fd09b5e31f0a31dd0d2313573b22f3ad1b389c"
-metafile = true
-
-[[files]]
 file = "mods/nuit-interop.pw.toml"
 hash = "46542fddcdd659499e4c61f9ddf42cddad3701e9314299a7d80911f7d752af31"
 metafile = true
