@@ -798,11 +798,6 @@ hash = "afbc156d59465597fc58d37a67c736e5a5a1fd5a391df4584037324296c86d79"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "a85ed2bdbab01da767092d14bbff56f824cc18df6730120ca9cc3d72f8696005"
-metafile = true
-
-[[files]]
 file = "mods/smooth-scrolling-refurbished.pw.toml"
 hash = "3261491063682a802a2fe3a9525ac88b7c4a0d1884df699e7fa2984b7a0ba49d"
 metafile = true

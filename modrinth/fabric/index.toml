@@ -413,11 +413,6 @@ file = "config/yosbr/options.txt"
 hash = "d70a5931e61719f227ec1d1c0c8a9452536702798cbdc13aab7d8fee7ecc3ca3"
 
 [[files]]
-file = "mods/3dskinlayers.pw.toml"
-hash = "a8a66453b1723d1daf27b49a9902a32a1fea0335dd49862be2be70777c5ecfc3"
-metafile = true
-
-[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "c91b42054112616b32ecc4e812ca84a2acf939d4f91814a28a8385cdc9427e6d"
 metafile = true
