@@ -428,11 +428,6 @@ hash = "34e84fe06c202a2f3a9c19e8a21d394532d8f7ecf6b91c4a2074fbebefb359da"
 metafile = true
 
 [[files]]
-file = "mods/auth-me.pw.toml"
-hash = "424b579f2216c3ae3b2f64020635230e5493cdd8950635c9ba905c0487f6ecee"
-metafile = true
-
-[[files]]
 file = "mods/bad-horse-fix.pw.toml"
 hash = "bee677fe5618c54aea213b9042c345f109de8bef3bc3bfc7ef4c333f39eec88e"
 metafile = true
