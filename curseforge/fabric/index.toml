@@ -908,11 +908,6 @@ hash = "62f3d837ab0235e4a185df6d81ff7f06e2c5a7e440c2935696a4e18178ca20d8"
 metafile = true
 
 [[files]]
-file = "mods/waveycapes.pw.toml"
-hash = "839dffc1af1c38f7a84f64175dc0ea177db214ca696325e8e00a95ab41a85280"
-metafile = true
-
-[[files]]
 file = "mods/world-host.pw.toml"
 hash = "b0a2c0ffde1b31bd72600f5adb61026062158f6531d40e210d71bdef69a78299"
 metafile = true
