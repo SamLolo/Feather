@@ -673,11 +673,6 @@ hash = "da82ef9cb9353b9ff2701172e56618a60a357bfee92d1c97a875a5d835a6cdc9"
 metafile = true
 
 [[files]]
-file = "mods/loading-backgrounds.pw.toml"
-hash = "371b718945ee9adc3dc7bf3510d82ec0ed2f16e6944f6c8afd99409efa7009bf"
-metafile = true
-
-[[files]]
 file = "mods/macos-input-fixes.pw.toml"
 hash = "e4562622be1286bf8f2c8af9e3fc4e6052c9cd51c67c70f2bfce0fd9d26c31bb"
 metafile = true
@@ -875,11 +870,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "8a9f38930714c828285ac7c422302380d939d80384a90ed1148d6d26e8863870"
-metafile = true
-
-[[files]]
-file = "resourcepacks/loading-backgrounds-loading-images.pw.toml"
-hash = "4472d287532ead65b7b0e089bc21449116c182536a702122b1cd9e31931c380a"
 metafile = true
 
 [[files]]
