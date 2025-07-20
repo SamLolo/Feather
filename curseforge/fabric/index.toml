@@ -753,11 +753,6 @@ hash = "1c34733124a0547e2262da006c2e907fc5a02af1098f67f8e975becc8e8ecb1d"
 metafile = true
 
 [[files]]
-file = "mods/paginated-advancements.pw.toml"
-hash = "b5b40e88faaa593751d4dd7d2979b89f4e8d572135c072106a82ae5757c46070"
-metafile = true
-
-[[files]]
 file = "mods/pet-owner.pw.toml"
 hash = "012a720388b154a1d43a0f5fd88c2281fef037a1c88fa8799278b11fc9a79afa"
 metafile = true

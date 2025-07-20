@@ -758,11 +758,6 @@ hash = "f59ab3633f781c5b5af3234f694da4c4d5195c9211b1ece7e410b54ec1a183eb"
 metafile = true
 
 [[files]]
-file = "mods/paginatedadvancements.pw.toml"
-hash = "110132a70b524eaadb750bc110c9344d84432da97a5434ae185e815d778d21f0"
-metafile = true
-
-[[files]]
 file = "mods/petowner.pw.toml"
 hash = "820b3e52e23a982a426daa60114b8e85ec3195ea51d18bea029eb98fcb85ea9c"
 metafile = true
