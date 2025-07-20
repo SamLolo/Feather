@@ -818,11 +818,6 @@ hash = "211fc4d00ccaa627d833584e6c0784cde838181208805a7226dbe4cd3eebbb36"
 metafile = true
 
 [[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "451528c04bdf2ae99cad9d59fd9932a3c175855ec2fbedfd9a27f5af708ce391"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "c702e025298d58a90705f502abad07bb03e1dcc22733c95e1379665aa149918e"
 metafile = true
