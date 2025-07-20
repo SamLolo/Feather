@@ -628,11 +628,6 @@ hash = "94deca957d61f33598c7132dbb106bda29ea02ef27df5cd394bd31d5e27dc67b"
 metafile = true
 
 [[files]]
-file = "mods/feytweaks.pw.toml"
-hash = "c000a1bb7a7a3381cadc48a5241fe57a397496aad5730f8168b1c4263bb5d1c9"
-metafile = true
-
-[[files]]
 file = "mods/fishing-rod-fix.pw.toml"
 hash = "489a39ce61e055351c269d2039014f6fcb734360bb0d4b9572f8bcbd5f33d678"
 metafile = true
