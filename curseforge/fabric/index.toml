@@ -523,11 +523,6 @@ hash = "ca43068362e583f873dd90bb182d50b14ed9a9ebf8ece3260a90b0e429a3530e"
 metafile = true
 
 [[files]]
-file = "mods/continuity.pw.toml"
-hash = "b50378ddd8de5877ce51ded7616ebbf3ad0a5e18af8125a473411fbabc6c37cd"
-metafile = true
-
-[[files]]
 file = "mods/controlify.pw.toml"
 hash = "1b7168013faf8689040148e2ff144b7c17b51fe1ea62191f4c1dbd2ede5e9ad0"
 metafile = true
