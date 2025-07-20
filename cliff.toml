@@ -16,7 +16,11 @@ body = """
 {% for group, commits in commits | group_by(attribute="group") %}
     ### {{ group | upper_first }}
     {%- for commit in commits %}
-        - {{ commit.message | split(pat="\n") | first | upper_first | trim }}
+        {% if commit.scope == "temp" %}
+          - {{ commit.message | split(pat="\n") | first | upper_first | trim }} [TEMP]
+        {% else %}
+          - {{ commit.message | split(pat="\n") | first | upper_first | trim }}
+        {% endif %}
     {%- endfor %}
 {% endfor %}\n
 """
