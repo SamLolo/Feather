@@ -633,11 +633,6 @@ hash = "94deca957d61f33598c7132dbb106bda29ea02ef27df5cd394bd31d5e27dc67b"
 metafile = true
 
 [[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "9fb4d588bd578e2f16a9605ff6303872130b36ccb0fdfff98bd7274da94f91b9"
-metafile = true
-
-[[files]]
 file = "mods/feytweaks.pw.toml"
 hash = "c000a1bb7a7a3381cadc48a5241fe57a397496aad5730f8168b1c4263bb5d1c9"
 metafile = true

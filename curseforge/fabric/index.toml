@@ -628,11 +628,6 @@ hash = "89a7d34ebb362cf8de39941a37905d48f133ca0a39cd59deeb1a6f881575bb2a"
 metafile = true
 
 [[files]]
-file = "mods/ferritecore-fabric.pw.toml"
-hash = "1bcebf42f650151bf068b968e2b27b05c4b278bb9a31f2c0b64c4a462d3ff787"
-metafile = true
-
-[[files]]
 file = "mods/feytweaks.pw.toml"
 hash = "84f4929e32f88e849749d24c37947ea664a1e3a06348ccc1ca3b8177ffdeaca2"
 metafile = true
