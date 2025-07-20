@@ -413,11 +413,6 @@ file = "config/yosbr/options.txt"
 hash = "d70a5931e61719f227ec1d1c0c8a9452536702798cbdc13aab7d8fee7ecc3ca3"
 
 [[files]]
-file = "mods/ambientsounds.pw.toml"
-hash = "7a0dc6bcd5f8a1fdaa28228037b7acb9fc0fb9c70189a1cad8514e8d98e3d641"
-metafile = true
-
-[[files]]
 file = "mods/animatica.pw.toml"
 hash = "9adc1fe5704032453cbd3d9a1b0a6627915bc9c158fb1d9a036b58f5dbd9c74e"
 metafile = true
