@@ -758,11 +758,6 @@ hash = "525591767417842447902add4b1d2abd141c1d5cebf7c3e21866a77d9ee0ed8f"
 metafile = true
 
 [[files]]
-file = "mods/mouse-tweaks.pw.toml"
-hash = "3cd8155341a4233955ff9892a3b7b5da6dc6d8d892863b2f544328f2731f7f03"
-metafile = true
-
-[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "d8a7f4537e7a8d0621618f44cb596d084c4ee26e573c56846e72248d6bb65aa7"
 metafile = true
