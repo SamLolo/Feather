@@ -85,10 +85,6 @@ file = "config/yosbr/config/chatpatches.json"
 hash = "03dc5ca8482d1ed8c9874be6e55a9d51027043fe188dd6b093a7031e8c15cb2c"
 
 [[files]]
-file = "config/yosbr/config/citresewn.json"
-hash = "1ea03400477ac2075d61ae58cfc573bc78ce954507d090ab69547de279918656"
-
-[[files]]
 file = "config/yosbr/config/clientsidenoteblocks.json"
 hash = "009b6f7f69ed240c38d1a70ef7370f2c21a0b81c3254f689534debfbeeacf616"
 
@@ -153,10 +149,6 @@ file = "config/yosbr/config/etf_warnings.json"
 hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
-file = "config/yosbr/config/fabricskyboxes-config.json"
-hash = "582b93ab2b24e82e6d904f7030d95269d7b0326495d19017b63d58ebea2ac15b"
-
-[[files]]
 file = "config/yosbr/config/fabrishot.properties"
 hash = "4729a884a54915833cebb65320acc78642e193f33c2bfc559437361d32d7f3ba"
 
@@ -173,16 +165,8 @@ file = "config/yosbr/config/ferritecore.mixin.properties"
 hash = "a2091a291309db8920c8a80e913ed31c24c29687d8cd25ac18076ad85a90ddb8"
 
 [[files]]
-file = "config/yosbr/config/feytweaks.json"
-hash = "5ccc254de771cba697dada7b3c32bf48c2ec12d3b9970d6fa0539f46c0b6d5d0"
-
-[[files]]
 file = "config/yosbr/config/fogoverrides.properties"
 hash = "8b665043f847b5cdba31089270eefe78f50028f7cedc276ac5e9b854d7a91a88"
-
-[[files]]
-file = "config/yosbr/config/fsb-interop.json"
-hash = "aade7311c58b5a57ef1f22a1a0c668eafc5b6d22e5dd8787a0e9582bb2d811c8"
 
 [[files]]
 file = "config/yosbr/config/gamma_utils.json5"
@@ -265,20 +249,12 @@ file = "config/yosbr/config/lithium.properties"
 hash = "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e"
 
 [[files]]
-file = "config/yosbr/config/loadingbackgrounds-config.json"
-hash = "7bb37f7505bf86ce005986b024eb85b9e8a47d15b7d5820ce3def023c7605216"
-
-[[files]]
 file = "config/yosbr/config/midnightlib.json"
 hash = "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444"
 
 [[files]]
 file = "config/yosbr/config/modelfix-client.json"
 hash = "b55936928438ab49ebc8086579cd2218faf14d777fd15ec6eee895dbcadb667d"
-
-[[files]]
-file = "config/yosbr/config/modernfix-mixins.properties"
-hash = "5a122e49bd4ec4e51b51f67cc82b8ce8a6925dfc777cf2db43d294bb14fd20c0"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
@@ -410,7 +386,7 @@ hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "d70a5931e61719f227ec1d1c0c8a9452536702798cbdc13aab7d8fee7ecc3ca3"
+hash = "23b593c5560823b692f55ca127027a040bf255912415c621e46478d25dbb8cb9"
 
 [[files]]
 file = "mods/animatica.pw.toml"

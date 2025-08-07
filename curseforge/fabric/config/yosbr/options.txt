@@ -50,7 +50,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","file/TrickyTrials.zip","file/Chat Reporting Helper.zip","black_icons","file/Slightly-Improved-Font-1.1.5.zip","file/Default-Dark-Mode-1.20.2+-2025.5.0.zip","file/Better-Leaves-9.2.zip","file/Environmental Water 1.20.2-1.21.7.zip","file/better_flame_particles-v2.2-mc1.14x-1.21x-resourcepack.zip","file/Fast Better Grass.zip"]
+resourcePacks:["vanilla","fabric","file/TrickyTrials.zip","file/Chat Reporting Helper.zip","black_icons","file/Slightly-Improved-Font-1.1.5.zip","file/Default-Dark-Mode-1.20.2+-2025.5.0.zip","file/Better-Leaves-9.2.zip","file/better_flame_particles-v2.2-mc1.14x-1.21x-resourcepack.zip","file/LowOnFire 1.21.3.zip","file/Environmental Water 1.20.2-1.21.8.zip","file/FreshAnimations_v1.9.3.zip","file/Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
