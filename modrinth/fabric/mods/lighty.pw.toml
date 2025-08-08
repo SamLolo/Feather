@@ -1,0 +1,13 @@
+name = "Lighty"
+filename = "lighty-fabric-3.0.0-beta.8+1.21.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yjvKidNM/versions/rE8HyzWK/lighty-fabric-3.0.0-beta.8%2B1.21.3.jar"
+hash-format = "sha512"
+hash = "a347b30ca3d995eb51e7816d0d91678b31dc34ddbbce78eafcc82daa96ebcc3f19ebe579c3b48c56823bf22d0f437546477522a9e2737c7b28f4c6bc801f3197"
+
+[update]
+[update.modrinth]
+mod-id = "yjvKidNM"
+version = "rE8HyzWK"

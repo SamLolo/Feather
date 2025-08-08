@@ -1,0 +1,13 @@
+name = "Pet Owner"
+filename = "PetOwner-1.8.8-1.21.3+.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IxUlAAFe/versions/OWTz0FON/PetOwner-1.8.8-1.21.3%2B.jar"
+hash-format = "sha512"
+hash = "3fcaa3da6587b46463781ad9cc58d463482b4664d885db7b0ed94e0e546053adcdb4f37d92129cd6faa14c0434621212632133abb6f8a7d89f34fe7b8e4e8b9f"
+
+[update]
+[update.modrinth]
+mod-id = "IxUlAAFe"
+version = "OWTz0FON"

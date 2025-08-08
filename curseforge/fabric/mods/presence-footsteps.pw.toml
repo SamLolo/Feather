@@ -1,0 +1,13 @@
+name = "Presence Footsteps"
+filename = "PresenceFootsteps-1.10.2+1.21.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9aa071bb53fa477f6c21a99e94b9bc60668a5aee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5956113
+project-id = 334259

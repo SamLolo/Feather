@@ -1,0 +1,13 @@
+name = "Wavey Capes"
+filename = "waveycapes-fabric-1.6.2-mc1.21.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eed0b9540f4de98c9086534240822bd41624090e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6860150
+project-id = 521594

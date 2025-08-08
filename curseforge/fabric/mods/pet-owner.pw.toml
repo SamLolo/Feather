@@ -1,0 +1,13 @@
+name = "Pet Owner"
+filename = "PetOwner-1.8.8-1.21.3+.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8df17bbe75afc5102ea5ad895ae49a4b3fd0dc3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5923448
+project-id = 401859
