@@ -15,13 +15,13 @@ body = """
 
 {% for group, commits in commits | group_by(attribute="group") %}
     ### {{ group | upper_first }}
-    {%- for commit in commits %}
+    {% for commit in commits %}
         {% if commit.scope == "temp" %}
           - {{ commit.message | split(pat="\n") | first | upper_first | trim }} [TEMP]
         {% else %}
           - {{ commit.message | split(pat="\n") | first | upper_first | trim }}
         {% endif %}
-    {%- endfor %}
+    {% endfor %}
 {% endfor %}\n
 """
 
@@ -47,10 +47,10 @@ commit_preprocessors = [
 # Assigns commits to groups.
 # Optionally sets the commit's scope and can decide to exclude commits from further processing.
 commit_parsers = [
-  { message = '^[a|A]dd:\s', group = "Added" },
-  { message = '^[r|R]emove:\s', group = "Removed" },
-  { message = '^[c|C]hore:\s', group = "Changed" },
-  { message = '^[f|F]ix:\s', group = "Changed" },
+  { message = '^[a|A]dd(?:\(.+\))?:\s', group = "Added" },
+  { message = '^[r|R]emove(?:\(.+\))?:\s', group = "Removed" },
+  { message = '^[c|C]hore(?:\(.+\))?:\s', group = "Changed" },
+  { message = '^[f|F]ix(?:\(.+\))?:\s', group = "Changed" },
 ]
 
 # Exclude commits that are not matched by any commit parser.
