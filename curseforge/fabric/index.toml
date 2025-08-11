@@ -386,7 +386,7 @@ hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "23b593c5560823b692f55ca127027a040bf255912415c621e46478d25dbb8cb9"
+hash = "3bae81ddabe03b526d73bb5325243dbc873743d0b30a0ee7999926b8d928951f"
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
