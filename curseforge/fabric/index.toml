@@ -484,11 +484,6 @@ hash = "3a7332eb8472378d8577c10a23bde07cc234005e92e4f4627e76860e29ac2bc0"
 metafile = true
 
 [[files]]
-file = "mods/cherished-worlds.pw.toml"
-hash = "17935c045991f1d499aeb9e7fd7b613bc0550d5d2bdbfde54a326671586cb6e1"
-metafile = true
-
-[[files]]
 file = "mods/client-side-noteblocks.pw.toml"
 hash = "02ef5b9cb8c7fea8ab078bdc9b24c7c97ba441151fa67b7aa86db85ac5229684"
 metafile = true
