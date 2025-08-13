@@ -545,7 +545,7 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-block-entities.pw.toml"
-hash = "2c1d05da2179691fc1c27b53eaf942c32ff1528739a9be5e3a34dd2a92105696"
+hash = "8d6b6dac2cc395f9c45d90f7b7e69e155737e49bf2bb914dab62810c558fc513"
 metafile = true
 
 [[files]]
