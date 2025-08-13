@@ -35,6 +35,9 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    outputs:
+      tag: ${{ steps.set-tag.outputs.tag }}
+
     steps:
 
       - name: Checkout Repo
@@ -42,9 +45,13 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set Tag
+        id: set-tag
+        run: echo "tag=v${{ inputs.version }}-${{ inputs.mc-version }}" >> "$GITHUB_OUTPUT"
+
       - name: Create Draft Release
         run: |
-          gh release create v${{ inputs.version }} \
+          gh release create ${{ steps.set-tag.outputs.tag }} \
             --draft \
             --title "Version ${{ inputs.version }} for MC ${{ inputs.mc-version }}" \
             --fail-on-no-commits \
@@ -53,7 +60,7 @@ jobs:
       - name: Set As Pre-Release
         if: inputs.type != 'Release'
         run: |
-          gh release edit v${{ inputs.version }} \
+          gh release edit ${{ steps.set-tag.outputs.tag }} \
             --prerelease \
             --repo ${{ github.repository }}
       
@@ -62,14 +69,14 @@ jobs:
         uses: orhun/git-cliff-action@main
         with:
           config: cliff.toml
-          args: -u --tag v${{ inputs.version }}
+          args: -u --tag ${{ steps.set-tag.outputs.tag }}
         env:
           OUTPUT: docs/CHANGELOG.md
           GITHUB_REPO: ${{ github.repository }}
 
       - name: Add Notes
         run: |
-          gh release edit v${{ inputs.version }} \
+          gh release edit ${{ steps.set-tag.outputs.tag }} \
             --notes-file docs/CHANGELOG.md \
             --repo ${{ github.repository }}
 
@@ -146,7 +153,7 @@ jobs:
   
       - name: Upload to Release
         run: |
-          gh release upload v${{ inputs.version }} $FILE --clobber
+          gh release upload ${{ needs.create-release.outputs.tag }} $FILE --clobber
           echo "Modpack $FILE has been uploaded to release V${{ inputs.version }}"
         shell: bash
         env:
