@@ -714,11 +714,6 @@ hash = "d51f560508eb7bfa502a445472370134d78f8c8ddc2dd79f9a0dc303f35f810f"
 metafile = true
 
 [[files]]
-file = "mods/morebeeinfo.pw.toml"
-hash = "b8eae285831de3b30955206499138d06cc460fb2298b9cf3078b3f4f7ee34afa"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "4aef3c4dbc01c945f4a30f63c03607aad77d16ab194983510c10ce516312e258"
 metafile = true
