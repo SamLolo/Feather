@@ -1,13 +1,13 @@
 name = "Presence Footsteps"
-filename = "PresenceFootsteps-1.10.2+1.21.3.jar"
-side = "both"
+filename = "PresenceFootsteps-1.11.2+1.21.4.jar"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "9aa071bb53fa477f6c21a99e94b9bc60668a5aee"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rcTfTZr3/versions/TUw5heup/PresenceFootsteps-1.11.2%2B1.21.4.jar"
+hash-format = "sha512"
+hash = "3688807c1a62fbf143344537d04be20c7eed8e444ee7b4119420c9e15086be9f598eea7c8a59a6e2886718cbd0e8f80dd9764b88a721af368b1eb16ff18e1db3"
 
 [update]
-[update.curseforge]
-file-id = 5956113
-project-id = 334259
+[update.modrinth]
+mod-id = "rcTfTZr3"
+version = "TUw5heup"

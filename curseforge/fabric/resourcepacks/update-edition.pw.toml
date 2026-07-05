@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "TrickyTrials.zip"
+filename = "TheGardenAwakens.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2ab2a4c5857ab8b19f9e3d4ffebd2e089548e3ab"
+hash = "8811d74099ff0f3df5333f6163394077b1997440"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5834300
+file-id = 5971033
 project-id = 392048

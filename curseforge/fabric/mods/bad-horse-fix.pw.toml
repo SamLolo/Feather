@@ -1,13 +1,13 @@
 name = "Bad Horse Fix"
-filename = "badhorsefix-fabric-3.0.0.jar"
+filename = "badhorsefix-fabric-3.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "da3176784ce95babe9f7961de84a3b75176572c5"
+hash = "66455d700a04a22f1c78392689e621dfbc79b41a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6563557
+file-id = 6910118
 project-id = 999835

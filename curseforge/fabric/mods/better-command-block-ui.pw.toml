@@ -1,13 +1,13 @@
 name = "Better Command Block UI"
-filename = "bettercommandblockui-0.5.2a-1.21.3.jar"
+filename = "bettercommandblockui-0.5.3-1.21.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e923af608c8ecef1011ca237c0678105ac1813bd"
+hash = "053ec9485a09a827040fbd24a74bd4e8fc8a6dcb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5865878
+file-id = 6355263
 project-id = 661892

@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "TrickyTrials.zip"
+filename = "TheGardenAwakens.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/Fp0N3xuz/TrickyTrials.zip"
+url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/OlEIDoIZ/TheGardenAwakens.zip"
 hash-format = "sha512"
-hash = "29b03f270aa915782d8e89dcd578f184af6538b8b8c22f93fe110f0db1b5ec8bcc22982c9d075e49ae7f298c829feb7a568ba8481356ad17d848df334ac002cc"
+hash = "8770d6c12d933a379fcbff297111c92b59f1078132435dc30a19cef3bedfde704e81aa2c8524f971da24e221e9bb0547f39e22f95c1661e4704b2d16e01b8a65"
 
 [update]
 [update.modrinth]
 mod-id = "2OpJ6qTh"
-version = "Fp0N3xuz"
+version = "OlEIDoIZ"

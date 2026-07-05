@@ -1,13 +1,13 @@
 name = "Fog Overrides"
-filename = "fogoverrides-1.21.3-2.0.1.jar"
+filename = "fogoverrides-1.21.4-2.2.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/B1vBJNM4/versions/HHjwWmSU/fogoverrides-1.21.3-2.0.1.jar"
+url = "https://cdn.modrinth.com/data/B1vBJNM4/versions/tMVpiCUL/fogoverrides-1.21.4-2.2.1.jar"
 hash-format = "sha512"
-hash = "c2aaada73a7ddbff5f2103a21e91066adb0c6031e145e163d5722e5727f054603fbe04cab08fd4d460d670f77e1cfc3c410e62856715f69589975ddb9e95bed1"
+hash = "9750644fc0c219e0d3fe979a324edf53b324391f82d3d4d937cbfc6b0cded1d4057d4b1ce037710ed972616a8287582ba20443293d42025682eb84a0d1a7ff78"
 
 [update]
 [update.modrinth]
 mod-id = "B1vBJNM4"
-version = "HHjwWmSU"
+version = "tMVpiCUL"

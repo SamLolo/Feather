@@ -1,6 +1,7 @@
 name = "MixinTrace"
 filename = "mixintrace-1.1.1+1.17.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

@@ -1,13 +1,13 @@
 name = "MoreBeeInfo"
-filename = "MoreBeeInfo-fabric-1.21-1.4.jar"
+filename = "MoreBeeInfo-fabric-1.21-2.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4ed41c128f24054dc204094a26678dcb27140c16"
+hash = "8d56c782086c17e32457a2513f2096466aeb28a2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6139609
+file-id = 8102014
 project-id = 659496

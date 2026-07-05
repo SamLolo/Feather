@@ -1,13 +1,13 @@
 name = "Fadeless"
-filename = "fadeless-2.0.1.jar"
+filename = "fadeless-2.0.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6c3aa8c269c7898ac209a2782b998781deb13eec"
+hash = "bcb591ebbec33dbd589247ff7fdab963fc3ff3b5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5832436
+file-id = 6351562
 project-id = 861310

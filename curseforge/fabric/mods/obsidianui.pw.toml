@@ -1,13 +1,13 @@
 name = "ObsidianUI"
-filename = "ObsidianUI-fabric-0.2.10+mc1.21.3.jar"
+filename = "ObsidianUI-fabric-0.2.11+mc1.21.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4ef2d8e5e82d1eb04786ac2afdc64b09aa4b0a56"
+hash = "e45f1f55f2efa5f6b82e455d9dcf1b4ff740a5cb"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5930217
+file-id = 6358815
 project-id = 684718

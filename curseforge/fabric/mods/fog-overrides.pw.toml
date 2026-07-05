@@ -1,13 +1,13 @@
 name = "Fog Overrides"
-filename = "fogoverrides-1.21.3-2.0.1.jar"
+filename = "fogoverrides-1.21.4-2.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "12241394ba7500d564d3e42fb52ead0ec6eb014f"
+hash = "544bc3aaacf50ea21ccc557179c3b3ad25934e5a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5985740
+file-id = 6422884
 project-id = 398134

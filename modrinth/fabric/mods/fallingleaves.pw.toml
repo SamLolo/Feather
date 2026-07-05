@@ -1,13 +1,13 @@
 name = "Falling Leaves"
-filename = "fallingleaves-1.16.4+1.21.2.jar"
+filename = "fallingleaves-1.17.0+1.21.4.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/WhbRG4iK/versions/TCCuyvLw/fallingleaves-1.16.4%2B1.21.2.jar"
+url = "https://cdn.modrinth.com/data/WhbRG4iK/versions/TfbakxnW/fallingleaves-1.17.0%2B1.21.4.jar"
 hash-format = "sha512"
-hash = "e97a23fcb62185b41e2a9ee906b28f85a50ce87654bdf0c399af8344c2ba10a80112ccc014d7a7d52bf46e48ec77fc96247befe43b14b4567b44083d4091c15c"
+hash = "be673c9813100962d352752a5877599022dff9923c94fb21cd5dc5118ffded7f5e2b10ca45287cf904c6a08072f3a49e0d16699ee99a9ea5c0c21ce154909ff6"
 
 [update]
 [update.modrinth]
 mod-id = "WhbRG4iK"
-version = "TCCuyvLw"
+version = "TfbakxnW"

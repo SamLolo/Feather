@@ -1,6 +1,7 @@
 name = "Screenshot to Clipboard (Fabric)"
 filename = "screenshot-to-clipboard-fabric-1.0.10.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
