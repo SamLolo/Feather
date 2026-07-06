@@ -798,11 +798,6 @@ hash = "f04be730a6dde5e7e3ce302260bc1a456a4e0fd57a00755d3992f9c0daafd21d"
 metafile = true
 
 [[files]]
-file = "mods/screenshot-to-clipboard.pw.toml"
-hash = "e7b312c8a471f3700ee5b0289c1eaa0f6ca68485242ce72113ae2df444d219eb"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "fb3c7d111d903d281119cb66dcfd6e773f9b9a6a8e08d0796d7ee2b8162f6f71"
 metafile = true

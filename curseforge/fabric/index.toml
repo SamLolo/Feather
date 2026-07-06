@@ -788,11 +788,6 @@ hash = "c591931a65def7a137ff893302f2e77bbfdcaddb9b04471ba0fec05d78340445"
 metafile = true
 
 [[files]]
-file = "mods/screenshot-to-clipboard-fabric.pw.toml"
-hash = "df54917292777a80a75c3649b50ced2ca104c95b68b208ff7e52f04d91fbcd0f"
-metafile = true
-
-[[files]]
 file = "mods/searchables.pw.toml"
 hash = "7218273e8c94a936e046da3a54ce01cfd826c5cc48c648c06ee0a409ad0fabc4"
 metafile = true
