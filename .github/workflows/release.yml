@@ -116,7 +116,7 @@ jobs:
 
       - name: Capitalise Loader
         id: capitalise-loader
-        uses: ASzc/change-string-case-action@v6
+        uses: ASzc/change-string-case-action@v8
         with:
           string: ${{ matrix.loader }}
 
