@@ -493,11 +493,6 @@ hash = "ba5fbaf3290d3173942515b8b59fabc24c13338504dc8ae99645717164b6b860"
 metafile = true
 
 [[files]]
-file = "mods/client-side-noteblocks.pw.toml"
-hash = "02ef5b9cb8c7fea8ab078bdc9b24c7c97ba441151fa67b7aa86db85ac5229684"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "287209b1b1b7c27f11f59ef3eda5fb5f4431aa6b51701870a426c0b39da74fce"
 metafile = true
