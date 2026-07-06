@@ -1,13 +1,13 @@
 name = "Better Ping Display [Fabric]"
-filename = "BetterPingDisplay-Fabric-1.21.4-1.1.1.jar"
+filename = "BetterPingDisplay-Fabric-1.21.5-1.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7ffd6268b82f61938792a1bb4b09b6a4110376ae"
+hash = "12a5c27cfb3529f6a4899c72194c3afab020a760"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6038858
+file-id = 6507455
 project-id = 406343

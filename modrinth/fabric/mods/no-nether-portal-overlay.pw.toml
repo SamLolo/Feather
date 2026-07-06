@@ -1,13 +1,13 @@
 name = "No Nether Portal Overlay"
-filename = "no-nether-portal-overlay-1.0.12.jar"
+filename = "no-nether-portal-overlay-1.0.13.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/IHmpzGtW/versions/y1YbYxww/no-nether-portal-overlay-1.0.12.jar"
+url = "https://cdn.modrinth.com/data/IHmpzGtW/versions/zqORGsyO/no-nether-portal-overlay-1.0.13.jar"
 hash-format = "sha512"
-hash = "1944a0669dd8387b50df78e0c86541daa3f9a3867e6919aed10a75f65d839fe6530eae7c28edf17cc7a39b89b8801d596b57d7f4648e070cf0d95e8fe3f29ff3"
+hash = "98988ab0bad2c88ab2d0cae560c6b9b908a6de4f4595a0ca2c28ebefa585c9e2e9fed6af1fe902dd7a9d39553212a7b5089a3414cff07cee16d851aeab86de08"
 
 [update]
 [update.modrinth]
 mod-id = "IHmpzGtW"
-version = "y1YbYxww"
+version = "zqORGsyO"

@@ -1,13 +1,13 @@
 name = "Fishing Rod Fix"
-filename = "fishingrodfix-1.21.4-0.3.jar"
+filename = "fishingrodfix-1.21.5-v0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "21ba0625d7387b2d750658b802383a8cbab1c8e1"
+hash = "2bb930611484c94555e2d00546239ca7fade557e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6023052
+file-id = 8342218
 project-id = 1018847

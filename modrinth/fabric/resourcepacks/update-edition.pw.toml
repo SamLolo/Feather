@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "TheGardenAwakens.zip"
+filename = "SpringToLife.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/OlEIDoIZ/TheGardenAwakens.zip"
+url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/t5DlLL7v/SpringToLife.zip"
 hash-format = "sha512"
-hash = "8770d6c12d933a379fcbff297111c92b59f1078132435dc30a19cef3bedfde704e81aa2c8524f971da24e221e9bb0547f39e22f95c1661e4704b2d16e01b8a65"
+hash = "c83ef3bf4e9309a5e6028230b5e81c7289dc5efb55818842579ae56d0ca331265a4bedbec553f89ca316011b99425f1341da5c64c8c0c73c447fe7a58e196c36"
 
 [update]
 [update.modrinth]
 mod-id = "2OpJ6qTh"
-version = "OlEIDoIZ"
+version = "t5DlLL7v"

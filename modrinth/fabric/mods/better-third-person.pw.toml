@@ -1,13 +1,13 @@
 name = "Better Third Person"
-filename = "BetterThirdPerson-fabric-1.9.0.jar"
+filename = "BetterThirdPerson-fabric-1.21.5-1.9.0.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/G1s2WpNo/versions/7eoMiIt3/BetterThirdPerson-fabric-1.9.0.jar"
+url = "https://cdn.modrinth.com/data/G1s2WpNo/versions/Ibeh65i3/BetterThirdPerson-fabric-1.21.5-1.9.0.jar"
 hash-format = "sha512"
-hash = "14bdae39a9f1956d87cbf3fc24b696c9dceb42c2278e047d814abf16d2216741d9c56a4651709d18ff85a8790b1b5af07971a25788b16aa94dd79b8d40b488c6"
+hash = "fb979b833a56e6b83eedc602aa9090d8def6867a2e4fffd71034498f74a8ca5cd8eb15f637e0dfbbd9618b8f8d1138ef4f5eee88683f8636748791f5566f0c59"
 
 [update]
 [update.modrinth]
 mod-id = "G1s2WpNo"
-version = "7eoMiIt3"
+version = "Ibeh65i3"

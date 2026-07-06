@@ -1,13 +1,13 @@
 name = "Cherished Worlds"
-filename = "cherishedworlds-fabric-11.0.0+1.21.4.jar"
+filename = "cherishedworlds-fabric-12.0.0+1.21.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "768a429221d864479cad3621f716bd390108be44"
+hash = "cab5f69ed336383cef52a9c2eb067e0376308bdf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6354644
+file-id = 6354676
 project-id = 308240

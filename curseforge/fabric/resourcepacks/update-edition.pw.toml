@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "TheGardenAwakens.zip"
+filename = "SpringToLife.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8811d74099ff0f3df5333f6163394077b1997440"
+hash = "c8517079cd53903323915ee3671baca198e9333b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5971033
+file-id = 6347046
 project-id = 392048

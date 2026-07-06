@@ -1,13 +1,13 @@
 name = "Paginated Advancements & Custom Frames"
-filename = "paginatedadvancements-2.6.1+1.21.4.jar"
+filename = "paginatedadvancements-2.7.0+1.21.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4a51479eec48b93de40b568231b084fb39eb6091"
+hash = "d01c408ddf0cd96e28050dccff52c5c1af879bc1"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6004995
+file-id = 6396377
 project-id = 618770

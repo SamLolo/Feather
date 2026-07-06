@@ -1,13 +1,13 @@
 name = "Fast IP Ping"
-filename = "fast-ip-ping-v1.0.11-mc1.21.4-fabric.jar"
+filename = "fast-ip-ping-v1.0.11-mc1.21.5-fabric.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/2AEYZHSA/fast-ip-ping-v1.0.11-mc1.21.4-fabric.jar"
+url = "https://cdn.modrinth.com/data/9mtu0sUO/versions/7japr3eW/fast-ip-ping-v1.0.11-mc1.21.5-fabric.jar"
 hash-format = "sha512"
-hash = "899b8bcb81bd916802c8c3e9ddeb5d5243b5da84ced0e0b6ca7952636fa016a232cb9ea52d770da1cd95f8e086cd161c5506932f5adb7c4e4c55144259e5587e"
+hash = "05e91cc6a4c703c0ca4920ea059b682b71298272a4ed5692653df451763901d283495bb35f464dd06cc79957b904d25109bc89000c650d5af5aa07e22ff90108"
 
 [update]
 [update.modrinth]
 mod-id = "9mtu0sUO"
-version = "2AEYZHSA"
+version = "7japr3eW"

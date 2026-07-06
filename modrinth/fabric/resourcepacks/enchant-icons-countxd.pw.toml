@@ -1,13 +1,13 @@
 name = "Enchant Icons"
-filename = "enchant icons 1.21.4 v1.3.zip"
+filename = "enchant-icons-1.21.5-v1.3.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/6vhHOIKw/versions/Vata5Out/enchant%20icons%201.21.4%20v1.3.zip"
+url = "https://cdn.modrinth.com/data/6vhHOIKw/versions/oOFVZ8LQ/enchant-icons-1.21.5-v1.3.zip"
 hash-format = "sha512"
-hash = "2ca2ad782ead9506c6903eae74e2af8b84c2301bf7affe1bbdba87c0bfd2fc058a530064ca8c75a5dff34ee9b5ae131e96bf710c167034aa2f60cfe10b1c27e1"
+hash = "3c1c310349c9005f9c1491b4315892ae4e8c7feededa8ba97f62a39d84e3c94fdaecd3371e4e3e421cc592734b0974386932e1748a7cf2eab4aa97dfca96c548"
 
 [update]
 [update.modrinth]
 mod-id = "6vhHOIKw"
-version = "Vata5Out"
+version = "oOFVZ8LQ"
