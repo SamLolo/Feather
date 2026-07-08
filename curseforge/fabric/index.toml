@@ -548,11 +548,6 @@ hash = "7f9e77bae584b88a2c24de96397103aa9af5cea78db8e0f011eb4d903ca30c9d"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-block-entities.pw.toml"
-hash = "faf2b5f96b2388c18aacab52b618baedb43c8b5b79a8d29b3469634ff11a13c2"
-metafile = true
-
-[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "eba6aa72bc139f3275ec2df7abf8214f1a321e85df57efcdf10bf17dadd12005"
 metafile = true
