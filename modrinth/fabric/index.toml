@@ -428,11 +428,6 @@ hash = "9f12ada529ac9c05c4307aadadb39b9de12c213e51c600421bc0bcdcb73761b0"
 metafile = true
 
 [[files]]
-file = "mods/bad-horse-fix.pw.toml"
-hash = "1356ce7bd35674912cd4a789d35b525354f9769aaabb7c92fbb5e5f537d71cd5"
-metafile = true
-
-[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "cea71ad36ac75bfd1c23bd2f0d6ec4cc84c857b8483a122eabe051492c775586"
 metafile = true
