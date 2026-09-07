@@ -1,0 +1,13 @@
+name = "Screencopy (Fabric/Forge)"
+filename = "screenshotcopy-fabric-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3db52ccd7ba4820af399259f76932bea9cf71efa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6930523
+project-id = 574902

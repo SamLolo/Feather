@@ -768,6 +768,11 @@ hash = "c30abb741af8bcf3b29d000736aa2ae1730f0c551c17266e15b3c5c2183d0354"
 metafile = true
 
 [[files]]
+file = "mods/screencopy.pw.toml"
+hash = "f316a724cd4c3536d386a40387942f133954f3c57a871493fb8755e78e4546f4"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "07e4e012271db2e2001c6015cc5a9355a16b54387fbb4aa1fd1a9e930ada21e8"
 metafile = true
