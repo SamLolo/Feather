@@ -1,13 +1,13 @@
 name = "Default Dark Mode"
-filename = "Default-Dark-Mode-1.21.4+-2025.5.1.zip"
+filename = "Default-Dark-Mode-1.21.11-2026.4.0.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4ae1477284496ccbe924d50c1873fe435cb15f7b"
+hash = "fb44a18556bd2954b7ac566b677ed13b9b30f42b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6588448
+file-id = 7858238
 project-id = 349116

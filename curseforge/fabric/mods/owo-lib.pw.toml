@@ -1,13 +1,13 @@
 name = "oωo (owo-lib)"
-filename = "owo-lib-0.12.21+1.21.5.jar"
+filename = "owo-lib-0.12.23+1.21.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a0d0f5ba69fe67524931009bd72f4941d5f5d1b0"
+hash = "952f0a6edaa0745267274d1a95915661d5a591ca"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6520970
+file-id = 7088335
 project-id = 532610

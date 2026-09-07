@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "SpringToLife.zip"
+filename = "ChaseTheSkies.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/t5DlLL7v/SpringToLife.zip"
+url = "https://cdn.modrinth.com/data/2OpJ6qTh/versions/OPOoiui4/ChaseTheSkies.zip"
 hash-format = "sha512"
-hash = "c83ef3bf4e9309a5e6028230b5e81c7289dc5efb55818842579ae56d0ca331265a4bedbec553f89ca316011b99425f1341da5c64c8c0c73c447fe7a58e196c36"
+hash = "7b295a497169c707b9398681d4931ec9c3d7b0819fd14a811c97d3afe82777098be80ff87245e3ac7ad0ad4d37abf74207af8c69b8ea39954a62fb757bc6c9a5"
 
 [update]
 [update.modrinth]
 mod-id = "2OpJ6qTh"
-version = "t5DlLL7v"
+version = "OPOoiui4"

@@ -1,13 +1,13 @@
 name = "Anvian's Lib"
-filename = "anvianslib-fabric-1.21-1.4.2.jar"
+filename = "anvianslib-fabric-1.21.6-1.4.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "61e56cab25eaec0ef53b011922b26344e06d2fe6"
+hash = "8c812a08c4503685ec2bf57c9925ad8e397e3913"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7180780
+file-id = 8175906
 project-id = 1168509

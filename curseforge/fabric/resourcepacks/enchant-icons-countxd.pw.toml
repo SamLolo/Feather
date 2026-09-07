@@ -1,13 +1,13 @@
 name = "Enchant Icons"
-filename = "enchant icons 1.21.5 v1.3.zip"
+filename = "enchant-icons-1.21.6-v1.3.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ba41d2ce1da430ed791b11ed5f2f6ff43b8a8702"
+hash = "748c5fedbabdebbeba868888be248f679e991dd8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6475331
+file-id = 7557909
 project-id = 861241

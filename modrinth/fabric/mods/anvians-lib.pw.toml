@@ -1,13 +1,13 @@
 name = "Anvian's Lib"
-filename = "anvianslib-fabric-1.21-1.4.2.jar"
+filename = "anvianslib-fabric-1.21.6-1.4.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PuTjrq4T/versions/AqotrEdS/anvianslib-fabric-1.21-1.4.2.jar"
+url = "https://cdn.modrinth.com/data/PuTjrq4T/versions/IBBt0rDH/anvianslib-fabric-1.21.6-1.4.2.jar"
 hash-format = "sha512"
-hash = "356e728a9f3825015f2fb346ebf622253970951790499b800dc5db4f4d18708e07e99668238d30ddbde8e722d033569ca73a54368018f024ae09b1b0b9de594b"
+hash = "52597b899789859c5802b0d0bbb718a55d934be0018227e7fc2ff42e923a31520e46f26f8bf8bf7c2142814857e0bd4edccbdcefc6dca850a116c38d56e30faf"
 
 [update]
 [update.modrinth]
 mod-id = "PuTjrq4T"
-version = "AqotrEdS"
+version = "IBBt0rDH"

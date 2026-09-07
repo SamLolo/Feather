@@ -1,13 +1,13 @@
 name = "Update Edition"
-filename = "SpringToLife.zip"
+filename = "ChaseTheSkies.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c8517079cd53903323915ee3671baca198e9333b"
+hash = "d7256397310502bcb604c74592152b20f8247a5a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6347046
+file-id = 6650454
 project-id = 392048
