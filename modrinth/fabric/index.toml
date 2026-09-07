@@ -438,6 +438,11 @@ hash = "0cd41edda7541ac376fcdf911aa7dfc7dec3448505b6c24059836fd6c284c3e0"
 metafile = true
 
 [[files]]
+file = "mods/better-mount-hud.pw.toml"
+hash = "6ef53c2c4e506e111b4bd7c1bc8804a5a7dcb2f6e3b79054575e73f6ce61ee94"
+metafile = true
+
+[[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
 hash = "ef7e088d5c4bdb65f8d77922ce5deb0facb9f7c4d762ef45eac90a8cdc35d726"
 metafile = true
