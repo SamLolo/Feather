@@ -823,6 +823,11 @@ hash = "4f55b1a2ba7045c22027af34c2ea7850724c54dcd030471fdaaae4003f624053"
 metafile = true
 
 [[files]]
+file = "mods/skyboxify.pw.toml"
+hash = "6a052b5bd8aeaecf316b49f426ebbdc7b2fa76b5ef7b8c90e8de64cedda3f9cb"
+metafile = true
+
+[[files]]
 file = "mods/smooth-scrolling-refurbished.pw.toml"
 hash = "83790b4195fd95df491a3d5def736812a0dbee50117f12bce6b4bedc77f166f1"
 metafile = true
