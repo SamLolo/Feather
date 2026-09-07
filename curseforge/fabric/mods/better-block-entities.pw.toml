@@ -1,0 +1,13 @@
+name = "Better Block Entities"
+filename = "bbe-1.2.0+1.21.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac3a7d05b5496bc757a73ec0958c4cd1b4f8ae47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7478112
+project-id = 1434533

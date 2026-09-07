@@ -433,6 +433,11 @@ hash = "cea71ad36ac75bfd1c23bd2f0d6ec4cc84c857b8483a122eabe051492c775586"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "0cd41edda7541ac376fcdf911aa7dfc7dec3448505b6c24059836fd6c284c3e0"
+metafile = true
+
+[[files]]
 file = "mods/better-ping-display-fabric.pw.toml"
 hash = "ef7e088d5c4bdb65f8d77922ce5deb0facb9f7c4d762ef45eac90a8cdc35d726"
 metafile = true

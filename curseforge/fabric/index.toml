@@ -428,6 +428,11 @@ hash = "177df578f177b18dcbdc6dca4ea74931903443cd8afbbc11d879a48bf07d5264"
 metafile = true
 
 [[files]]
+file = "mods/better-block-entities.pw.toml"
+hash = "8c902ccc3eefd8d85e3f5b24f2ee281e0368fe123b458c6bd677d8ce60b32101"
+metafile = true
+
+[[files]]
 file = "mods/better-command-block-ui.pw.toml"
 hash = "e6739f0fce0e1f928f9a75cbc72b2be84bb9bbb9a971a9f289fc5eacd9c69b07"
 metafile = true
