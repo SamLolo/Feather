@@ -743,11 +743,6 @@ hash = "a3d8f556cae0e5922043be6613c122fc586f99275c339c5900e09cd86d5e9781"
 metafile = true
 
 [[files]]
-file = "mods/petowner.pw.toml"
-hash = "5ed6db1762a8f2e2b4131e1412e23ffb047e6c271436e4cfbd41f54d4e652aa0"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "0993352e081593fca386a8a4e6473ece541a27e018c8384239f27f79d73133a0"
 metafile = true

@@ -738,11 +738,6 @@ hash = "86fdb4b5144dd04fb3b21746e30581c2cf968c79649cd7d202e995f2c6d0d586"
 metafile = true
 
 [[files]]
-file = "mods/pet-owner.pw.toml"
-hash = "dc5bda880eb96e2c46443c75d90ac9caddab10d1c4621c060c1b3ac872b19e32"
-metafile = true
-
-[[files]]
 file = "mods/polytone.pw.toml"
 hash = "400d19f4781b995666c94e5a76450780875a5071e9b5e2c6c02d9278d97b06db"
 metafile = true
