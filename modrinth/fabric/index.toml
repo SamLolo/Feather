@@ -473,11 +473,6 @@ hash = "bfa3ef713975bd287cdddd1afb713ed0f16326427cf2d78af4030f8b21b95be3"
 metafile = true
 
 [[files]]
-file = "mods/cat_jam.pw.toml"
-hash = "46886c1a213a1ca7d065c24dc2b553b4d234ec30e473832a0051fd811fc34ae2"
-metafile = true
-
-[[files]]
 file = "mods/chatpatches.pw.toml"
 hash = "b37b72d11e74f05b4ac076eab93a91631e0c8b74fd645b3196bdcd869fd83c39"
 metafile = true
