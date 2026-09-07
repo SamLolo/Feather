@@ -543,6 +543,11 @@ hash = "cfb47a09118cfaeb187f83f784fc90d14623d4a1431d53e471b8582987fc8866"
 metafile = true
 
 [[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "2c5b6db6a338f7dd773f96ce531baa5464dcab9fd2b00e8c495d0aa56e2ea2fa"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "7a978fd7ca0d7b9e2e54e54e9875c5ec26bb71568ccac5f8117a2f4351543143"
 metafile = true
@@ -755,6 +760,11 @@ metafile = true
 [[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "7dfcf8de0c60f5f8d6a3291d4037c3f1ebbca7497d4a8d9833b1dfe0801f76b6"
+metafile = true
+
+[[files]]
+file = "mods/prickle.pw.toml"
+hash = "6dc4267b5a7f039022b1b811a1c3f8d9fbc515e1d710877c84be7c163612296f"
 metafile = true
 
 [[files]]
