@@ -603,11 +603,6 @@ hash = "e3d00ba5bb65702b984da8ee63dd6f87a1d0c2b818d0fb1d21e4197a591db73b"
 metafile = true
 
 [[files]]
-file = "mods/fishing-rod-fix.pw.toml"
-hash = "1c220188e11c71127af1ab7fcd2c25d0746767467a8ebfa08d9bc3c33f47c9fc"
-metafile = true
-
-[[files]]
 file = "mods/fog-overrides.pw.toml"
 hash = "9fd094624f285b5fb7403451d6ac2045d3b6017a90bf05863b563cd8fc1a1678"
 metafile = true
